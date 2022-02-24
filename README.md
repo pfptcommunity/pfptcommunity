@@ -1,6 +1,6 @@
 ![proofpoint](https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Proofpoint_R_Logo.png/220px-Proofpoint_R_Logo.png)
 
-# Proofpoint API 
+# API code snippets
 
 Proofpoint APIs can be used to manage and gather information from the Proofpoint
 solutions. Below code snippets and reference help you get started with the APIS.
