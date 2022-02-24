@@ -23,7 +23,8 @@ Authenticate and request the VAPs from people endpoint
 
 
 **NPRE**
-Nexus People Risk Explorer allows you to download a csv file usingusing an API call. 
+
+The Nexus People Risk Explorer API allows you to download a csv file usingusing an API call. 
 The API is documented in the NPRE Admin Guide that can be found on the communite website.
 
 | File  | Language | 
