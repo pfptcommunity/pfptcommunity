@@ -1,6 +1,4 @@
-![proofpoint](https://media-exp1.licdn.com/dms/image/C560BAQH26zFqmfgFTA/company-logo_200_200/0/1585245509760?e=1653523200&v=beta&t=RY_h1xtfpYzAujg3_XTnAFykIOjnAhOWW-IS78DqJKo)
-
-# API code snippets
+# Proofpoint API code snippets
 
 Proofpoint APIs can be used to manage and gather information from the Proofpoint
 solutions. Below code snippets and reference help you get started with the APIS.
