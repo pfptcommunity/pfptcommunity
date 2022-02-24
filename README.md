@@ -34,7 +34,7 @@ The API is documented in the NPRE Admin Guide that can be found on the communite
 | ------------- | ------------- | 
 | [npre_api_csv.js](https://github.com/pfptcommunity/api/blob/main/nprs_api_csv.js) | Javascript / Node.js (MMeollor?) |
 | [npre_api_csv.gs](https://github.com/pfptcommunity/api/blob/main/nprs_api_csv.gs) | Google Apps Script |
-| [npre_api_csv.py](https://github.com/pfptcommunity/api/blob/main/nprs_api_csv.gs) | Python |
+| [npre_api_csv.py](https://github.com/pfptcommunity/api/blob/main/nprs_api_csv.py) | Python |
 
 
 
