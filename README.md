@@ -9,7 +9,8 @@ Please **★ Star** on the top of this page if you like this page and you want t
 
 <br>
 
-**TAP**
+**TAP API**
+
 Targeted Attack Protection (TAP) documentation is available 
 on the following url: https://help.proofpoint.com/Threat_Insight_Dashboard/API_Documentation
 
@@ -24,7 +25,7 @@ Authenticate and request the VAPs from people endpoint
 <br>
 
 
-**NPRE**
+**NPRE API**
 
 The Nexus People Risk Explorer API allows you to download a csv file usingusing an API call. 
 The API is documented in the NPRE Admin Guide that can be found on the communite website.
@@ -39,14 +40,14 @@ The API is documented in the NPRE Admin Guide that can be found on the communite
 
 <br>
 
-**PSAT  (todo)**
-Nexus People Risk Explorer allows you to download a csv file usingusing an API call. 
-The API is documented in the NPRE Admin Guide that can be found on the communite website.
+**PSAT API**
+
+Todoite.
 
 
 <br>
 
-**Emerging Threats**
+**Emerging Threats API**
 
 Emerging Threats API documentation is available from this URL:
 http://apidocs.emergingthreats.net
