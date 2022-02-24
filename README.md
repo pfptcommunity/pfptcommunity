@@ -42,7 +42,7 @@ The API is documented in the NPRE Admin Guide that can be found on the communite
 
 **PSAT API**
 
-Todoite.
+Todo
 
 
 <br>
