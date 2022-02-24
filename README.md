@@ -49,7 +49,7 @@ Todoite.
 
 **Emerging Threats (ET) Intelligence API**
 
-Emerging Threats (ET) Intelligence API documentation is available from this URL:
+ET Intelligence API documentation is available from this URL:
 http://apidocs.emergingthreats.net
 
 A datasheet for Emerging Threats is available from this URL:
