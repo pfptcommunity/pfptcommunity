@@ -57,9 +57,9 @@ https://www.proofpoint.com/us/products/et-intelligence
 
 | File  | Language | 
 | ------------- | ------------- | 
-| [eti_api_csv.js](https://github.com/pfptcommunity/api/blob/main/eti_api_csv.js) | Javascript / Node.js (todo) |
-| [eti_api_csv.gs](https://github.com/pfptcommunity/api/blob/main/eti_api_csv.gs) | Google Apps Script |
-| [eti_api_csv.py](https://github.com/pfptcommunity/api/blob/main/eti_api_csv.py) | Python (todo) |
+| [eti_api.js](https://github.com/pfptcommunity/api/blob/main/eti_api.js) | Javascript / Node.js (todo) |
+| [eti_api.gs](https://github.com/pfptcommunity/api/blob/main/eti_api.gs) | Google Apps Script |
+| [eti_api.py](https://github.com/pfptcommunity/api/blob/main/eti_api.py) | Python (todo) |
 
 
 <br>
