@@ -68,6 +68,8 @@ https://www.proofpoint.com/us/products/et-intelligence
 The Proofpoint PoD Logging API documentation is available from this URL:
 https://proofpointcommunities.force.com/community/s/article/Proofpoint-on-Demand-Pod-Log-API
 
+javascript / node.js client
+https://github.com/lambdac0de/node-proofpoint-podclient/blob/master/client.js
 
 <br>
 
