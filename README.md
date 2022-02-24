@@ -1,3 +1,5 @@
+![proofpoint](https://www.proofpoint.com/themes/custom/proofpoint/dist/app-drupal/assets/logo-reg.svg)
+
 # Proofpoint API 
 
 Proofpoint APIs can be used to manage and gather information from the Proofpoint
