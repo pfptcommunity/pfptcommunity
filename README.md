@@ -7,12 +7,13 @@ solutions.
 Targeted Attack Protection (TAP) documentation is available 
 on the following url: https://help.proofpoint.com/Threat_Insight_Dashboard/API_Documentation
 
+Authenticate and request the VAPs from people endpoint
 | File  | Description | Language |
 | ------------- | ------------- | ------------- |
-| [tap_api_private.gs](https://github.com/pfptcommunity/api/blob/main/tap_api_private.gs) | Authenticate and request the VAPs from people endpoint | Google Apps Script |
-| [tap_api_private.js](https://github.com/pfptcommunity/api/blob/main/tap_api_private.js) | Authenticate and request the VAPs from people endpoint | Javascript / Node.js |
-| [tap_api_private.py](https://github.com/moosylog/proofpoint/blob/main/tap_api_private.js) | Ask MPouw | Python |
-| [tap_api_private.py](https://github.com/moosylog/proofpoint/blob/main/tap_api_private.js) | Todo | C# |
+| [tap_api_private.gs](https://github.com/pfptcommunity/api/blob/main/tap_api_private.gs) | Google Apps Script |
+| [tap_api_private.js](https://github.com/pfptcommunity/api/blob/main/tap_api_private.js) | Javascript / Node.js |
+| [tap_api_private.py](https://github.com/moosylog/proofpoint/blob/main/tap_api_private.js) | Python (ask Pouw) |
+| [tap_api_private.py](https://github.com/moosylog/proofpoint/blob/main/tap_api_private.js) | C# todo |
 
 
 <br>
