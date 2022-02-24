@@ -10,7 +10,9 @@ on the following url: https://help.proofpoint.com/Threat_Insight_Dashboard/API_D
 | File  | Description | Language |
 | ------------- | ------------- | ------------- |
 | [tap_api_private.gs](https://github.com/moosylog/proofpoint/blob/main/tap_api_private.gs) | Authenticate and request the VAPs from people endpoint | Google Apps Script |
-| [tap_api_private.js](https://github.com/moosylog/proofpoint/blob/main/tap_api_private.js) | Authenticate and request the VAPs from people endpoint | Javascript |
+| [tap_api_private.js](https://github.com/moosylog/proofpoint/blob/main/tap_api_private.js) | Authenticate and request the VAPs from people endpoint | Javascript / Node.js |
+| [tap_api_private.py](https://github.com/moosylog/proofpoint/blob/main/tap_api_private.js) | Todo | Python |
+| [tap_api_private.py](https://github.com/moosylog/proofpoint/blob/main/tap_api_private.js) | Todo | C# |
 
 
 <br>
@@ -23,9 +25,21 @@ The API is documented in the NPRE Admin Guide that can be found on the communite
 | File  | Language | Description |
 | ------------- | ------------- | ------------- |
 | [npre_api_csv.gs](https://github.com/moosylog/proofpoint/blob/main/npre_api_csv.gs) | Request and CV file from the endpoint | Google Apps Script |
+| [npre_api_csv.js](https://github.com/moosylog/proofpoint/blob/main/npre_api_csv.gs) | Request and CV file from the endpoint | Google Apps Script |
 
 
 <br>
+
+**PSAT**
+Nexus People Risk Explorer allows you to download a csv file usingusing an API call. 
+The API is documented in the NPRE Admin Guide that can be found on the communite website.
+
+| File  | Language | Description |
+| ------------- | ------------- | ------------- |
+| [npre_api_csv.gs](https://github.com/moosylog/proofpoint/blob/main/npre_api_csv.gs) | Request and CV file from the endpoint | Google Apps Script |
+| [npre_api_csv.js](https://github.com/moosylog/proofpoint/blob/main/npre_api_csv.gs) | Request and CV file from the endpoint | Google Apps Script |
+
+
 
 Please **★ Star** on the top of this page if you like this page and you want to motivate me to publish more.
 
