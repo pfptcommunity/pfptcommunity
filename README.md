@@ -1,4 +1,4 @@
-![proofpoint](https://www.proofpoint.com/themes/custom/proofpoint/dist/app-drupal/assets/logo-reg.svg | width=100)
+![proofpoint](https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Proofpoint_R_Logo.png/220px-Proofpoint_R_Logo.png)
 
 # Proofpoint API 
 
