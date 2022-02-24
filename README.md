@@ -1,4 +1,4 @@
-![proofpoint](https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Proofpoint_R_Logo.png/220px-Proofpoint_R_Logo.png)
+![proofpoint](https://media-exp1.licdn.com/dms/image/C560BAQH26zFqmfgFTA/company-logo_200_200/0/1585245509760?e=1653523200&v=beta&t=RY_h1xtfpYzAujg3_XTnAFykIOjnAhOWW-IS78DqJKo)
 
 # API code snippets
 
