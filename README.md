@@ -19,7 +19,7 @@ Authenticate and request the VAPs from people endpoint
 | ------------- | ------------- | 
 | [tap_api_private.js](https://github.com/pfptcommunity/api/blob/main/tap_api_private.js) | Javascript / Node.js |
 | [tap_api_private.gs](https://github.com/pfptcommunity/api/blob/main/tap_api_private.gs) | Google Apps Script (GAS)|
-| [tap_api_private.py](https://github.com/moosylog/proofpoint/blob/main/tap_api_private.js) | Python  |
+| [tap_api_private.py](https://github.com/pfptcommunity/api/blob/main/tap_api_private.py) | Python  |
 
 
 <br>
