@@ -12,7 +12,7 @@ Authenticate and request the VAPs from people endpoint
 | ------------- | ------------- | 
 | [tap_api_private.js](https://github.com/pfptcommunity/api/blob/main/tap_api_private.js) | Javascript / Node.js |
 | [tap_api_private.gs](https://github.com/pfptcommunity/api/blob/main/tap_api_private.gs) | Google Apps Script (GAS)|
-| [tap_api_private.py](https://github.com/moosylog/proofpoint/blob/main/tap_api_private.js) | Python (MPouw?) |
+| [tap_api_private.py](https://github.com/moosylog/proofpoint/blob/main/tap_api_private.js) | Python  |
 
 
 <br>
@@ -26,7 +26,7 @@ The API is documented in the NPRE Admin Guide that can be found on the communite
 | ------------- | ------------- | 
 | [npre_api_csv.js](https://github.com/pfptcommunity/api/blob/main/nprs_api_csv.js) | Javascript / Node.js (MMeollor?) |
 | [npre_api_csv.gs](https://github.com/pfptcommunity/api/blob/main/nprs_api_csv.gs) | Google Apps Script |
-| [npre_api_csv.py](https://github.com/pfptcommunity/api/blob/main/nprs_api_csv.gs) | Python (MPouw?) |
+| [npre_api_csv.py](https://github.com/pfptcommunity/api/blob/main/nprs_api_csv.gs) | Python |
 
 
 
