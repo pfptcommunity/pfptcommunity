@@ -1,7 +1,7 @@
 # Proofpoint API code snippets
 
 Proofpoint APIs can be used to manage and gather information from the Proofpoint
-solutions. Below code snippets and reference help you get started with the APIS.
+solutions. Below code snippets and reference help you get started with these lovely APIs.
 
 <br>
 
