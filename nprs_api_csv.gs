@@ -54,8 +54,8 @@ function GetNPRE() {
   
   // ** Response is a pointer to a file
   // ** Fetch the file
-  contents = UrlFetchApp.fetch(response.data.getRiskPosture.file).getContentText();
+  var contents = UrlFetchApp.fetch(response.data.getRiskPosture.file).getContentText();
   Logger.log(contents);
   
-  // ** Convert the CSV file so we can push it to the sheet
-  }
+  // ** contents is your CSV file
+}
