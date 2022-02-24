@@ -4,11 +4,9 @@ Proofpoint APIs can be used to manage and gather information from the Proofpoint
 solutions. Below code snippets and reference help you get started with the APIS.
 
 <br>
-
-Please **★ Star** on the top of this page if you like this page and you want to motivate me to publish more.
+Please **★ Star** on the top of this page if you like this page and you want to motivate us to publish more.
 
 <br>
-
 **TAP**
 Targeted Attack Protection (TAP) documentation is available 
 on the following url: https://help.proofpoint.com/Threat_Insight_Dashboard/API_Documentation
