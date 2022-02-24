@@ -23,15 +23,16 @@ Authenticate and request the VAPs from people endpoint
 Nexus People Risk Explorer allows you to download a csv file usingusing an API call. 
 The API is documented in the NPRE Admin Guide that can be found on the communite website.
 
-| File  | Language | Description |
-| ------------- | ------------- | ------------- |
-| [npre_api_csv.gs](https://github.com/pfptcommunity/api/blob/main/tap_api_private.gs) | Request and CV file from the endpoint | Google Apps Script |
-| [npre_api_csv.js](https://github.com/pfptcommunity/api/blob/main/tap_api_private.gs) | Request and CV file from the endpoint | Google Apps Script |
+| File  | Language | 
+| ------------- | ------------- | 
+| [npre_api_csv.js](https://github.com/pfptcommunity/api/blob/main/nprs_api_csv.js) | Javascript / Node.js |
+| [npre_api_csv.gs](https://github.com/pfptcommunity/api/blob/main/nprs_api_csv.gs) | Google Apps Script |
+
 
 
 <br>
 
-**PSAT**
+**PSAT  (todo)**
 Nexus People Risk Explorer allows you to download a csv file usingusing an API call. 
 The API is documented in the NPRE Admin Guide that can be found on the communite website.
 
