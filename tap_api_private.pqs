@@ -1,0 +1,28 @@
+// ** Excel Power Query Script
+// ** Open Excel / Data / From Web 
+// ** Open the Advanced Editor and paste this script
+// ** Replace ••••••••• with your principal / secret
+
+let
+    principal  = "•••••••••", 
+    secret     = "•••••••••", 
+    uri        = "https://tap-api-v2.proofpoint.com",
+    command    = "/v2/people/vap",
+    paramm      = "?window=90",
+
+    
+    pair = principal & ":" & secret,
+    bytes = Text.ToBinary(pair),
+    encodedCreds = Binary.ToText(bytes, BinaryEncoding.Base64),
+    basicAuthValue = "Basic " & encodedCreds,
+
+    Source = Json.Document(Web.Contents(uri & command & paramm, [Headers=[Authorization=basicAuthValue]])),
+    users = Source[users],
+    #"Converted to Table" = Table.FromList(users, Splitter.SplitByNothing(), null, null, ExtraValues.Error),
+    #"Expanded Column1" = Table.ExpandRecordColumn(#"Converted to Table", "Column1", {"identity", "threatStatistics"}, {"Column1.identity", "Column1.threatStatistics"}),
+    #"Expanded Column1.threatStatistics" = Table.ExpandRecordColumn(#"Expanded Column1", "Column1.threatStatistics", {"attackIndex", "families"}, {"Column1.threatStatistics.attackIndex", "Column1.threatStatistics.families"}),
+    #"Expanded Column1.identity" = Table.ExpandRecordColumn(#"Expanded Column1.threatStatistics", "Column1.identity", {"guid", "customerUserId", "emails", "name", "department", "location", "title", "vip"}, {"Column1.identity.guid", "Column1.identity.customerUserId", "Column1.identity.emails", "Column1.identity.name", "Column1.identity.department", "Column1.identity.location", "Column1.identity.title", "Column1.identity.vip"}),
+    #"Extracted Values" = Table.TransformColumns(#"Expanded Column1.identity", {"Column1.identity.emails", each Text.Combine(List.Transform(_, Text.From)), type text}),
+    #"Reordered Columns" = Table.ReorderColumns(#"Extracted Values",{"Column1.identity.emails", "Column1.threatStatistics.attackIndex", "Column1.identity.vip", "Column1.identity.customerUserId", "Column1.identity.name", "Column1.identity.department", "Column1.identity.location", "Column1.identity.title", "Column1.identity.guid", "Column1.threatStatistics.families"})
+in
+    #"Reordered Columns"
