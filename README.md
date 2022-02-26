@@ -21,6 +21,7 @@ Authenticate and request the VAPs from people endpoint
 | [tap_api_private.gs](https://github.com/pfptcommunity/api/blob/main/tap_api_private.gs) | Google Apps Script (GAS)|
 | [tap_api_private.py](https://github.com/pfptcommunity/api/blob/main/tap_api_private.py) | Python  |
 | [tap_api_private.pqs](https://github.com/pfptcommunity/api/blob/main/tap_api_private.pqs) | Excel Power Query  |
+| [tap_api_private.xlsx](https://github.com/pfptcommunity/api/blob/main/tap_api_private.xlsx) | Excel Sheet cool People (VAP) Query  |
 
 
 <br>
