@@ -58,6 +58,10 @@ http://apidocs.emergingthreats.net
 A datasheet for Emerging Threats is available from this URL:
 https://www.proofpoint.com/us/products/et-intelligence
 
+Admin login console (requires license)
+https://etadmin.proofpoint.com/login
+
+
 | File  | Language | 
 | ------------- | ------------- | 
 | [eti_api.js](https://github.com/pfptcommunity/api/blob/main/eti_api.js) | Javascript / Node.js Request  |
