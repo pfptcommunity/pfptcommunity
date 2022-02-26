@@ -18,10 +18,10 @@ Authenticate and request the VAPs from people endpoint
 | File  | Language | 
 | ------------- | ------------- | 
 | [tap_api_people.xlsx](https://github.com/pfptcommunity/api/raw/main/tap_api_people.xlsx) | Excel Sheet with integrated People (VAP) Query  |
-| [tap_api_private.js](https://github.com/pfptcommunity/api/blob/main/tap_api_private.js) | Javascript / Node.js |
-| [tap_api_private.gs](https://github.com/pfptcommunity/api/blob/main/tap_api_private.gs) | Google Apps Script (GAS)|
-| [tap_api_private.py](https://github.com/pfptcommunity/api/blob/main/tap_api_private.py) | Python  |
-| [tap_api_private.pqs](https://github.com/pfptcommunity/api/blob/main/tap_api_private.pqs) | Power Query Script (M Code) |
+| [tap_api_private.js](https://github.com/pfptcommunity/api/blob/main/tap_api_private.js) | Javascript / Node.js Request |
+| [tap_api_private.gs](https://github.com/pfptcommunity/api/blob/main/tap_api_private.gs) | Google Apps Script (GAS) Request |
+| [tap_api_private.py](https://github.com/pfptcommunity/api/blob/main/tap_api_private.py) | Python Request  |
+| [tap_api_private.pqs](https://github.com/pfptcommunity/api/blob/main/tap_api_private.pqs) | Power Query Script (M Code) Request |
 
 
 
@@ -35,9 +35,9 @@ The API is documented in the NPRE Admin Guide that can be found on the communite
 
 | File  | Language | 
 | ------------- | ------------- | 
-| [npre_api_csv.js](https://github.com/pfptcommunity/api/blob/main/nprs_api_csv.js) | Javascript / Node.js  (todo) |
-| [npre_api_csv.gs](https://github.com/pfptcommunity/api/blob/main/nprs_api_csv.gs) | Google Apps Script |
-| [npre_api_csv.py](https://github.com/pfptcommunity/api/blob/main/nprs_api_csv.py) | Python  (todo)|
+| [npre_api_csv.js](https://github.com/pfptcommunity/api/blob/main/nprs_api_csv.js) | Javascript / Node.js Request  (todo) |
+| [npre_api_csv.gs](https://github.com/pfptcommunity/api/blob/main/nprs_api_csv.gs) | Google Apps Script (GAS) Request |
+| [npre_api_csv.py](https://github.com/pfptcommunity/api/blob/main/nprs_api_csv.py) | Python Request (todo)|
 
 
 
@@ -60,9 +60,9 @@ https://www.proofpoint.com/us/products/et-intelligence
 
 | File  | Language | 
 | ------------- | ------------- | 
-| [eti_api.js](https://github.com/pfptcommunity/api/blob/main/eti_api.js) | Javascript / Node.js  |
-| [eti_api.gs](https://github.com/pfptcommunity/api/blob/main/eti_api.gs) | Google Apps Script |
-| [eti_api.py](https://github.com/pfptcommunity/api/blob/main/eti_api.py) | Python  |
+| [eti_api.js](https://github.com/pfptcommunity/api/blob/main/eti_api.js) | Javascript / Node.js Request  |
+| [eti_api.gs](https://github.com/pfptcommunity/api/blob/main/eti_api.gs) | Google Apps Script (GAS) Request |
+| [eti_api.py](https://github.com/pfptcommunity/api/blob/main/eti_api.py) | Python Request  |
 
 
 <br>
