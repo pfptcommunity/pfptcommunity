@@ -1,4 +1,4 @@
-# Proofpoint Community API samples
+# Proofpoint Community API Samples
 
 Proofpoint APIs can be used to manage and gather information from the Proofpoint
 solutions. Below code snippets and reference help you get started with these lovely APIs.
