@@ -17,11 +17,12 @@ on the following url: https://help.proofpoint.com/Threat_Insight_Dashboard/API_D
 Authenticate and request the VAPs from people endpoint
 | File  | Language | 
 | ------------- | ------------- | 
+| [tap_api_people.xlsx](https://github.com/pfptcommunity/api/raw/main/tap_api_people.xlsx) | Excel Sheet with integrated People (VAP) Query  |
 | [tap_api_private.js](https://github.com/pfptcommunity/api/blob/main/tap_api_private.js) | Javascript / Node.js |
 | [tap_api_private.gs](https://github.com/pfptcommunity/api/blob/main/tap_api_private.gs) | Google Apps Script (GAS)|
 | [tap_api_private.py](https://github.com/pfptcommunity/api/blob/main/tap_api_private.py) | Python  |
 | [tap_api_private.pqs](https://github.com/pfptcommunity/api/blob/main/tap_api_private.pqs) | Power Query Script (M Code) |
-| [tap_api_people.xlsx](https://github.com/pfptcommunity/api/raw/main/tap_api_people.xlsx) | Excel Sheet cool People (VAP) Query  |
+
 
 
 <br>
