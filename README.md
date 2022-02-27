@@ -3,7 +3,7 @@
 
 # Proofpoint Community API Samples
 
-- [TAP%20API](###TAPTAP)
+- [TAP%20API](#TAPTAP)
 
 ### Example 1 Heading
 
