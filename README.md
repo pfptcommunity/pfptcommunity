@@ -50,7 +50,7 @@ The Threat Insight Dashboard (Targeted Attack Protection) provides several diffe
 
 <br>
 
-## Excel
+## TAP API in Excel
 
 Both Microsoft Power BI and Excel can directly fetch JSON data from an REST endpoint. See the [Microsoft doc](https://docs.microsoft.com/en-us/power-query/connectors/web/web) for more information.  Below you can see and download a sample Excel sheet that fetches data from the People endpoint(s).
 
@@ -61,7 +61,7 @@ Both Microsoft Power BI and Excel can directly fetch JSON data from an REST endp
 
 <br>
 
-## code
+## TAP API Code Snippets
 
 Authenticate and request the VAPs from people endpoint
 | Code Snippet | Language | 
