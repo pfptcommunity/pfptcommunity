@@ -18,7 +18,7 @@ on the following url: https://help.proofpoint.com/Threat_Insight_Dashboard/API_D
 
 Both Microsoft Power BI and Excel can directly fetch JSON data from an REST endpoint. See the [Microsoft doc](https://docs.microsoft.com/en-us/power-query/connectors/web/web) for more information.  Below you can see and download a sample Excel sheet that fetches data from the People endpoint(s).
 
-| File  | Language | 
+| Action  | Description | 
 | ------------- | ------------- | 
 | [Watch Video on YouTube](https://youtu.be/7YYsYpm84gE) | Short demonstration of the tap_api_people.xlsx sample sheet |
 | [Download Spreadsheet](https://github.com/pfptcommunity/api/raw/main/tap_api_people.xlsx) | Download the tap_api_people.xlsx sheet   |
@@ -26,7 +26,7 @@ Both Microsoft Power BI and Excel can directly fetch JSON data from an REST endp
 <br>
 
 Authenticate and request the VAPs from people endpoint
-| File  | Language | 
+| Code Snippet | Language | 
 | ------------- | ------------- | 
 | [tap_api_private.js](https://github.com/pfptcommunity/api/blob/main/tap_api_private.js) | Javascript / Node.js Request |
 | [tap_api_private.gs](https://github.com/pfptcommunity/api/blob/main/tap_api_private.gs) | Google Apps Script (GAS) Request |
