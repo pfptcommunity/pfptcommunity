@@ -4,7 +4,7 @@
 # Proofpoint Community API Samples
 
 - [Introduction to REST](#Introduction-to-REST)
-- [Targeted Attack Protection (TAP](#TAP-API)
+- [Targeted Attack Protection (TAP)](#TAP-API)
 - [Nexus People Risk Explorer (NPRE)](#NPRE-API)
 - [Security Awareness Training (PSAT)](#PSAT-API)
 - [Emerging Threats Intelligence (ET)](#ET-API)
@@ -50,6 +50,8 @@ The Threat Insight Dashboard (Targeted Attack Protection) provides several diffe
 
 <br>
 
+## Excel
+
 Both Microsoft Power BI and Excel can directly fetch JSON data from an REST endpoint. See the [Microsoft doc](https://docs.microsoft.com/en-us/power-query/connectors/web/web) for more information.  Below you can see and download a sample Excel sheet that fetches data from the People endpoint(s).
 
 | Action  | Description | 
@@ -58,6 +60,8 @@ Both Microsoft Power BI and Excel can directly fetch JSON data from an REST endp
 | [Download Spreadsheet](https://github.com/pfptcommunity/api/raw/main/tap_api_people.xlsx) | Download the tap_api_people.xlsx sheet   |
 
 <br>
+
+## code
 
 Authenticate and request the VAPs from people endpoint
 | Code Snippet | Language | 
