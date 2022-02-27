@@ -3,8 +3,8 @@
 
 # Proofpoint Community API Samples
 
-- [Introduction to REST](Introduction)
-- [TAP API](#TAP%20API)
+- [Introduction to REST](#Introduction)
+- [TAP API](#TAP-API)
 
 
 ### Example 1 Heading
