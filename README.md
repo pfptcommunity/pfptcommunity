@@ -14,10 +14,16 @@ Please **★ Star** on the top of this page if you like this page and you want t
 Targeted Attack Protection (TAP) documentation is available 
 on the following url: https://help.proofpoint.com/Threat_Insight_Dashboard/API_Documentation
 
+| File  | Language | 
+| ------------- | ------------- | 
+| [YouTube Video](https://youtu.be/7YYsYpm84gE) | YouTube video demonstrating the Excel People demo sheet   |
+| [tap_api_people.xlsx](https://github.com/pfptcommunity/api/raw/main/tap_api_people.xlsx) | Excel Sheet with integrated People (VAP) Query  |
+
+
+
 Authenticate and request the VAPs from people endpoint
 | File  | Language | 
 | ------------- | ------------- | 
-| [tap_api_people.xlsx](https://github.com/pfptcommunity/api/raw/main/tap_api_people.xlsx) | Excel Sheet with integrated People (VAP) Query  |
 | [tap_api_private.js](https://github.com/pfptcommunity/api/blob/main/tap_api_private.js) | Javascript / Node.js Request |
 | [tap_api_private.gs](https://github.com/pfptcommunity/api/blob/main/tap_api_private.gs) | Google Apps Script (GAS) Request |
 | [tap_api_private.py](https://github.com/pfptcommunity/api/blob/main/tap_api_private.py) | Python Request  |
