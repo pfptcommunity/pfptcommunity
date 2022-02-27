@@ -11,8 +11,8 @@ Please **★ Star** on the top of this page if you like this page and you want t
 
 **TAP API**
 
-Targeted Attack Protection (TAP) documentation is available 
-on the following url: https://help.proofpoint.com/Threat_Insight_Dashboard/API_Documentation
+The Threat Insight Dashboard (Targeted Attack Protection) provides several different API endpoints for integration with other products in your security ecosystem.
+[Official Documentation](https://help.proofpoint.com/Threat_Insight_Dashboard/API_Documentation)
 
 <br>
 
