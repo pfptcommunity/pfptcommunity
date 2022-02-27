@@ -42,6 +42,8 @@ Please **★ Star** on the top of this page if you like this page and you want t
 
 <br>
 
+------------
+
 # TAP API
 
 The Threat Insight Dashboard (Targeted Attack Protection) provides several different API endpoints for integration with other products in your security ecosystem.
@@ -92,6 +94,7 @@ Below code snippets will help you to get started with the initial authentication
 
 <br>
 
+------------
 
 # NPRE API
 
@@ -105,9 +108,9 @@ The API is documented in the NPRE Admin Guide that can be found on the communite
 | [npre_api_csv.gs](https://github.com/pfptcommunity/api/blob/main/nprs_api_csv.gs) | Google Apps Script (GAS) Request |
 
 
-
-
 <br>
+
+------------
 
 # PSAT API
 
@@ -115,6 +118,8 @@ Todo
 
 
 <br>
+
+------------
 
 # ET API
 
@@ -135,8 +140,9 @@ https://etadmin.proofpoint.com/login
 | [eti_api.gs](https://github.com/pfptcommunity/api/blob/main/eti_api.gs) | Google Apps Script (GAS) Request |
 
 
-
 <br>
+
+------------
 
 # POD API
 The Proofpoint PoD Logging API documentation is available from this URL:
