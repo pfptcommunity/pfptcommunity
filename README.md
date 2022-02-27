@@ -50,7 +50,7 @@ The Threat Insight Dashboard (Targeted Attack Protection) provides several diffe
 
 <br>
 
-## Using TAP REST API data in Microsoft Excel
+## Using TAP REST API data in Microsoft Excel and Power BI
 
 Both Microsoft Power BI and Excel can directly fetch JSON data from an REST endpoint. See the [Microsoft doc](https://docs.microsoft.com/en-us/power-query/connectors/web/web) for more information.  Below you can see and download a sample Excel sheet that fetches data from the People endpoint(s).
 
@@ -58,6 +58,9 @@ Both Microsoft Power BI and Excel can directly fetch JSON data from an REST endp
 | ------------- | ------------- | 
 | [Watch Video on YouTube](https://youtu.be/7YYsYpm84gE) | Short demonstration of the tap_api_people.xlsx sample sheet |
 | [Download Spreadsheet](https://github.com/pfptcommunity/api/raw/main/tap_api_people.xlsx) | Download the tap_api_people.xlsx sheet   |
+| [M Code script](https://github.com/pfptcommunity/api/blob/main/tap_api_private.pqs) | M Code for Excel or Power BI |
+
+Note: You need to enter the Advanced editor and past the M Code script. The Microsoft wizard does not allow the required Base64 encoding of the API credentials.
 
 <br>
 
@@ -69,7 +72,6 @@ Below code snippets will help you to get started with the initial authentication
 | [tap_api_private.js](https://github.com/pfptcommunity/api/blob/main/tap_api_private.js) | Javascript / Node.js Request |
 | [tap_api_private.py](https://github.com/pfptcommunity/api/blob/main/tap_api_private.py) | Python Request  |
 | [tap_api_private.gs](https://github.com/pfptcommunity/api/blob/main/tap_api_private.gs) | Google Apps Script (GAS) Request |
-| [tap_api_private.pqs](https://github.com/pfptcommunity/api/blob/main/tap_api_private.pqs) | Power Query Script (M Code) Request |
 
 
 
