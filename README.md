@@ -72,8 +72,7 @@ Note:  Open the Microsoft Advanced Editor and past the M Code script. The Micros
 
 ## TAP API Code Snippets
 
-Below code snippets will help you to get started with the initial authentication and get some data from an endpoint.
-The basic structure is:
+The TAP API only uses http get requests. It uses the following structure:
 
 ```
 method                = "GET"
@@ -81,6 +80,7 @@ uri                   = $apipath + $endpoint + $parameter
 headers.Authorization = "Basic " + encode.base64 ( $principal + ":" + $secret )
 ```
 
+Below code snippets will help you to get started with the initial authentication and get some data from an endpoint.
 
 | Code Snippet | Language | 
 | ------------- | ------------- | 
