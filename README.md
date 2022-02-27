@@ -16,8 +16,8 @@ on the following url: https://help.proofpoint.com/Threat_Insight_Dashboard/API_D
 
 | File  | Language | 
 | ------------- | ------------- | 
-| [YouTube Video](https://youtu.be/7YYsYpm84gE) | YouTube video demonstrating the Excel People demo sheet   |
-| [tap_api_people.xlsx](https://github.com/pfptcommunity/api/raw/main/tap_api_people.xlsx) | Excel Sheet with integrated People (VAP) Query  |
+| [YouTube Video](https://youtu.be/7YYsYpm84gE) | YouTube video demonstrating Power Query in Excel People demo sheet   |
+| [Download](https://github.com/pfptcommunity/api/raw/main/tap_api_people.xlsx) | Download the sheet   |
 
 
 
