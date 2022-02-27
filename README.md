@@ -8,7 +8,7 @@
 - [Nexus People Risk Explorer (NPRE)](#NPRE-API)
 - [Security Awareness Training (PSAT)](#PSAT-API)
 - [Emerging Threats Intelligence (ET)](#ET-API)
-- [Protection Server (PPS)](#PPS-API)
+- [Protection On Demand (POD)](#POD-API)
 
 
 ------------
@@ -117,7 +117,7 @@ https://etadmin.proofpoint.com/login
 
 <br>
 
-# PPS API
+# POD API
 The Proofpoint PoD Logging API documentation is available from this URL:
 https://proofpointcommunities.force.com/community/s/article/Proofpoint-on-Demand-Pod-Log-API
 
