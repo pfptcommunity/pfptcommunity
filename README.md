@@ -63,7 +63,7 @@ Both Microsoft Power BI and Excel can directly fetch JSON data from an REST endp
 
 ## TAP API Code Snippets
 
-Authenticate and request the VAPs from people endpoint
+Below code snippets will help you to get started with the initial authentication and get some data from an endpoint.
 | Code Snippet | Language | 
 | ------------- | ------------- | 
 | [tap_api_private.js](https://github.com/pfptcommunity/api/blob/main/tap_api_private.js) | Javascript / Node.js Request |
