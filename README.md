@@ -4,11 +4,11 @@
 # Proofpoint Community API Samples
 
 - [Introduction to REST](#Introduction-to-REST)
-- [TAP API](#TAP-API)
-- [NPRE API](#NPRE-API)
-- [PSAT API](#PSAT-API)
-- [ET API](#ET-API)
-- [POD API](#POD-API)
+- [Targeted Attack Protection (TAP](#TAP-API)
+- [Nexus People Risk Explorer (NPRE)](#NPRE-API)
+- [Security Awareness Training (PSAT)](#PSAT-API)
+- [Emerging Threats Intelligence (ET)](#ET-API)
+- [Protection Server (PPS)](#PPS-API)
 
 
 ------------
@@ -117,7 +117,7 @@ https://etadmin.proofpoint.com/login
 
 <br>
 
-# POD API
+# PPS API
 The Proofpoint PoD Logging API documentation is available from this URL:
 https://proofpointcommunities.force.com/community/s/article/Proofpoint-on-Demand-Pod-Log-API
 
