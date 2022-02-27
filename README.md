@@ -3,7 +3,7 @@
 
 # Proofpoint Community API Samples
 
-- [Introduction to REST](#Introduction-to-REST)
+- [Introduction to REST APIs](#Introduction-to-REST-APIs)
 - [Targeted Attack Protection (TAP)](#TAP-API)
 - [Nexus People Risk Explorer (NPRE)](#NPRE-API)
 - [Security Awareness Training (PSAT)](#PSAT-API)
@@ -14,7 +14,7 @@
 ------------
 
 
-# Introduction to REST
+# Introduction to REST APIs
 
 Representational State Transfer (REST) API is a way for applications to seamlessly communicate and
 share data via HTTPS. An API is a building block of code that is used to send data requests from one
