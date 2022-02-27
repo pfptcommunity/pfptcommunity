@@ -73,11 +73,13 @@ Note:  Open the Microsoft Advanced Editor and past the M Code script. The Micros
 ## TAP API Code Snippets
 
 Below code snippets will help you to get started with the initial authentication and get some data from an endpoint.
+The basic structure is:
 
 ```
-method = "GET"
-key    = encode.base64 ( $principal + ":" + $secret )
-headers.Authorization = "Basic " + $principal + ":" + $secret  .toString('base64')}
+method                = "GET"
+uri                   = $apipath + $endpoint + $parameter
+authkey               = encode.base64 ( $principal + ":" + $secret )
+headers.Authorization = "Basic " + auth
 ```
 
 
