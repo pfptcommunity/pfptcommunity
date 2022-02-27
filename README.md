@@ -5,11 +5,10 @@
 
 - [Introduction to REST](#Introduction-to-REST)
 - [TAP API](#TAP-API)
+- [NPRE API](#NPRE-API)
 
 
-### Example 1 Heading
-
-Example of heading with space
+------------
 
 
 # Introduction to REST
@@ -42,8 +41,6 @@ Please **★ Star** on the top of this page if you like this page and you want t
 
 # TAP API
 
-
-
 The Threat Insight Dashboard (Targeted Attack Protection) provides several different API endpoints for integration with other products in your security ecosystem.
 
 [Official Documentation - Threat Insight Dashboard](https://help.proofpoint.com/Threat_Insight_Dashboard/API_Documentation)
@@ -72,7 +69,7 @@ Authenticate and request the VAPs from people endpoint
 <br>
 
 
-**NPRE API**
+# NPRE API
 
 The Nexus People Risk Explorer API allows you to download a csv file usingusing an API call. 
 The API is documented in the NPRE Admin Guide that can be found on the communite website.
