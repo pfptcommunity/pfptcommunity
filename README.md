@@ -54,6 +54,9 @@ The Threat Insight Dashboard (Targeted Attack Protection) provides several diffe
 
 Both Microsoft Power BI and Excel can directly fetch JSON data from an REST endpoint. See the [Microsoft doc](https://docs.microsoft.com/en-us/power-query/connectors/web/web) for more information.  Below you can see and download a sample Excel sheet that fetches data from the People endpoint(s).
 
+The Amazon S3 REST API uses the standard HTTP Authorization header to pass authentication information. (The name of the standard header is unfortunate because it carries authentication information, not authorization.) Under the Amazon S3 authentication scheme, the Authorization header has the following form:
+
+
 | Action  | Description | 
 | ------------- | ------------- | 
 | [Watch Video on YouTube](https://youtu.be/7YYsYpm84gE) | Short demonstration of the tap_api_people.xlsx sample sheet |
@@ -70,6 +73,14 @@ Note:  Open the Microsoft Advanced Editor and past the M Code script. The Micros
 ## TAP API Code Snippets
 
 Below code snippets will help you to get started with the initial authentication and get some data from an endpoint.
+
+```
+method = "GET"
+key    = encode.base64 ( $principal + ":" + $secret )
+headers.Authorization = "Basic " + $principal + ":" + $secret  .toString('base64')}
+```
+
+
 | Code Snippet | Language | 
 | ------------- | ------------- | 
 | [tap_api_private.js](https://github.com/pfptcommunity/api/blob/main/tap_api_private.js) | Javascript / Node.js Request |
