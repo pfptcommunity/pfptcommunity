@@ -3,7 +3,7 @@
 
 # Proofpoint Community API Samples
 
-- [Introduction to REST](#Introduction)
+- [Introduction to REST](#Introduction-to-REST)
 - [TAP API](#TAP-API)
 
 
@@ -12,7 +12,7 @@
 Example of heading with space
 
 
-# Introduction
+# Introduction to REST
 
 Representational State Transfer (REST) API is a way for applications to seamlessly communicate and
 share data via HTTPS. An API is a building block of code that is used to send data requests from one
