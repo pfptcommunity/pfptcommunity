@@ -19,7 +19,7 @@ on the following url: https://help.proofpoint.com/Threat_Insight_Dashboard/API_D
 | [YouTube Video](https://youtu.be/7YYsYpm84gE) | YouTube video demonstrating Power Query in Excel People demo sheet   |
 | [Download](https://github.com/pfptcommunity/api/raw/main/tap_api_people.xlsx) | Download the sheet   |
 
-
+<br>
 
 Authenticate and request the VAPs from people endpoint
 | File  | Language | 
