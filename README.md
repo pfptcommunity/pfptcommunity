@@ -6,6 +6,9 @@
 - [Introduction to REST](#Introduction-to-REST)
 - [TAP API](#TAP-API)
 - [NPRE API](#NPRE-API)
+- [PSAT API](#PSAT-API)
+- [ET API](#ET-API)
+- [POD API](#POD-API)
 
 
 ------------
@@ -85,14 +88,14 @@ The API is documented in the NPRE Admin Guide that can be found on the communite
 
 <br>
 
-**PSAT API**
+# PSAT API
 
 Todo
 
 
 <br>
 
-**Emerging Threats (ET) Intelligence API**
+# ET API
 
 ET Intelligence API documentation is available from this URL:
 http://apidocs.emergingthreats.net
@@ -114,34 +117,9 @@ https://etadmin.proofpoint.com/login
 
 <br>
 
-**Proofpoint PoD Logging API**
+# POD API
 The Proofpoint PoD Logging API documentation is available from this URL:
 https://proofpointcommunities.force.com/community/s/article/Proofpoint-on-Demand-Pod-Log-API
 
 javascript / node.js client
 https://github.com/lambdac0de/node-proofpoint-podclient/blob/master/client.js
-
-<br>
-
-
-<br>
-
-**What is REST API?**
-
-Representational State Transfer (REST) API is a way for applications to seamlessly communicate and
-share data via HTTPS. An API is a building block of code that is used to send data requests from one
-application to another and deliver data responses back. It’s the messenger who takes a request to the
-system and returns a response from it. The building block contains endpoints, headers, parameters, and
-fields. Therefore, you can use the Proofpoint Results API endpoints to request raw data from the platform
-for use in your business intelligence analysis tools.
-
-
-A familiar example often used to explain APIs involves ordering food at a restaurant. In this scenario, the
-waiter is the API. You give him your food request, he takes your food request to the kitchen, the kitchen
-staff prepares the food, and the waiter returns the food to you. You made a request of the kitchen for
-food and used the waiter to deliver the request and receive a response (that being the food).
-So, back to the Proofpoint Results API and how it works. If a customer wants certain data results (the
-food) from the platform (the kitchen) to use in their business analysis tool, they can use the API (the
-waiter) to deliver the data request and receive the data response (the food).
-
-
