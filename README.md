@@ -3,13 +3,31 @@
 
 # Proofpoint Community API Samples
 
-- [TAP%20API](#TAPTAP)
+- [Introduction to REST](Introduction)
+- [TAP API](TAP%20API)
 
 ### Example 1 Heading
 
 Example of heading with space
 
 
+# Introduction
+
+Representational State Transfer (REST) API is a way for applications to seamlessly communicate and
+share data via HTTPS. An API is a building block of code that is used to send data requests from one
+application to another and deliver data responses back. It’s the messenger who takes a request to the
+system and returns a response from it. The building block contains endpoints, headers, parameters, and
+fields. Therefore, you can use the Proofpoint Results API endpoints to request raw data from the platform
+for use in your business intelligence analysis tools.
+
+
+A familiar example often used to explain APIs involves ordering food at a restaurant. In this scenario, the
+waiter is the API. You give him your food request, he takes your food request to the kitchen, the kitchen
+staff prepares the food, and the waiter returns the food to you. You made a request of the kitchen for
+food and used the waiter to deliver the request and receive a response (that being the food).
+So, back to the Proofpoint Results API and how it works. If a customer wants certain data results (the
+food) from the platform (the kitchen) to use in their business analysis tool, they can use the API (the
+waiter) to deliver the data request and receive the data response (the food).
 
 
 Proofpoint APIs can be used to manage and gather information from the Proofpoint
@@ -21,9 +39,9 @@ Please **★ Star** on the top of this page if you like this page and you want t
 
 <br>
 
-# TAPTAP
+# TAP API
 
-**TAP API**
+
 
 The Threat Insight Dashboard (Targeted Attack Protection) provides several different API endpoints for integration with other products in your security ecosystem.
 
