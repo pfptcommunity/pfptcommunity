@@ -78,8 +78,7 @@ The basic structure is:
 ```
 method                = "GET"
 uri                   = $apipath + $endpoint + $parameter
-authkey               = encode.base64 ( $principal + ":" + $secret )
-headers.Authorization = "Basic " + auth
+headers.Authorization = "Basic " + encode.base64 ( $principal + ":" + $secret )
 ```
 
 
