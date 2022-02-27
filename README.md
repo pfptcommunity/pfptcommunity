@@ -14,6 +14,10 @@ Please **★ Star** on the top of this page if you like this page and you want t
 Targeted Attack Protection (TAP) documentation is available 
 on the following url: https://help.proofpoint.com/Threat_Insight_Dashboard/API_Documentation
 
+<br>
+
+Both Microsoft Power BI and Excel can directly fetch JSON data from an REST endpoint. See the [Microsoft doc](https://docs.microsoft.com/en-us/power-query/connectors/web/web) for more information.  Below you can see and download a sample Excel sheet that fetches data from the People endpoint(s).
+
 | File  | Language | 
 | ------------- | ------------- | 
 | [YouTube Video](https://youtu.be/7YYsYpm84gE) | YouTube video demonstrating Power Query in Excel People demo sheet   |
