@@ -56,7 +56,7 @@ The Threat Insight Dashboard (Targeted Attack Protection) provides several diffe
 
 Both Microsoft Power BI and Excel can directly fetch JSON data from an REST endpoint. See the [Microsoft doc](https://docs.microsoft.com/en-us/power-query/connectors/web/web) for more information.  Below you can see and download a sample Excel sheet that fetches data from the People endpoint(s).
 
-The Amazon S3 REST API uses the standard HTTP Authorization header to pass authentication information. (The name of the standard header is unfortunate because it carries authentication information, not authorization.) Under the Amazon S3 authentication scheme, the Authorization header has the following form:
+The REST API uses the standard HTTP Authorization header to pass authentication information. (The name of the standard header is unfortunate because it carries authentication information, not authorization.) Under the Amazon S3 authentication scheme, the Authorization header has the following form:
 
 
 | Action  | Description | 
@@ -100,6 +100,13 @@ Below code snippets will help you to get started with the initial authentication
 
 The Nexus People Risk Explorer API allows you to download a csv file usingusing an API call. 
 The API is documented in the NPRE Admin Guide that can be found on the communite website.
+
+<br>
+
+## Using the NPRE REST API data in Microsoft Excel and Power BI
+
+Both Microsoft Power BI and Excel can directly fetch JSON data from an REST endpoint. See the [Microsoft doc](https://docs.microsoft.com/en-us/power-query/connectors/web/web) for more information.  Below you can see and download a sample Excel sheet that fetches data from the People endpoint(s).
+
 
 | Action  | Description | 
 | ------------- | ------------- | 
