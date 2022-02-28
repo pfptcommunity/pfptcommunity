@@ -101,6 +101,14 @@ Below code snippets will help you to get started with the initial authentication
 The Nexus People Risk Explorer API allows you to download a csv file usingusing an API call. 
 The API is documented in the NPRE Admin Guide that can be found on the communite website.
 
+| Action  | Description | 
+| ------------- | ------------- | 
+| [Watch Video on YouTube](https://youtu.be/XrUXztNjvwo) | Short demonstration of the npre_api_people.xlsx sample sheet |
+| [Download Spreadsheet](https://github.com/pfptcommunity/api/raw/main/tap_api_people.xlsx) | Download the npre_api_people.xlsx sheet   |
+| [M Code script](https://github.com/pfptcommunity/api/blob/main/npre_api_people.pqs) | M Code for Excel or Power BI |
+
+
+
 | Code Snippet | Language | 
 | ------------- | ------------- | 
 | [npre_api_csv.js](https://github.com/pfptcommunity/api/blob/main/nprs_api_csv.js) | Javascript / Node.js Request  (todo) |
