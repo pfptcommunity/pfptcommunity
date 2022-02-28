@@ -4,7 +4,6 @@ The primary purpose of this PFPT Community GitHub page is to share the integrati
 This content and code snippets is not created, validated or supported by Proofpoint.
 
 Please **★ Star** on the top of this page if you like this page and you want to motivate me to publish more.
-
 <br>
 
 - [Introduction to REST APIs](#Introduction-to-REST-APIs)
