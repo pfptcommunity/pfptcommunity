@@ -1,9 +1,3 @@
-# Tasks
-- PSAT
-- TAP SIEM
-- PPS?
-
-
 # Proofpoint Community API Samples
 
 The primary purpose of this PFPT Community GitHub page is to share the integrations I've created around the Proofpoint products.
