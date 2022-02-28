@@ -1,4 +1,4 @@
-# Proofpoint REST API Samples
+# Proofpoint Data Rocks
 
 The primary purpose of this PFPT Community GitHub page is to share the integrations I've created around the Proofpoint products.
 This content and code snippets is not created, validated or supported by Proofpoint.
