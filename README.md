@@ -108,12 +108,26 @@ The API is documented in the NPRE Admin Guide that can be found on the communite
 | [M Code script](https://github.com/pfptcommunity/api/blob/main/npre_api_csv.pqs) | M Code for Excel or Power BI |
 
 
+<br>
+
+## NPRE API Code Snippets
+
+The TAP API only uses http get requests. It uses the following structure:
+
+```
+method                = "POST"
+request1              = Get the Bearer Token
+request2              = Get the Uri to CSV file using the Bearer Token
+request3              = Get CSV file
+```
+
+Below code snippets will help you to get started with the initial authentication and get some data from an endpoint.
 
 | Code Snippet | Language | 
 | ------------- | ------------- | 
-| [npre_api_csv.js](https://github.com/pfptcommunity/api/blob/main/nprs_api_csv.js) | Javascript / Node.js Request  (todo) |
-| [npre_api_csv.py](https://github.com/pfptcommunity/api/blob/main/nprs_api_csv.py) | Python Request (todo)|
-| [npre_api_csv.gs](https://github.com/pfptcommunity/api/blob/main/nprs_api_csv.gs) | Google Apps Script (GAS) Request |
+| [npre_api_csv.js](https://github.com/pfptcommunity/api/blob/main/npre_api_csv.js) | Javascript / Node.js Request  (todo) |
+| [npre_api_csv.py](https://github.com/pfptcommunity/api/blob/main/npre_api_csv.py) | Python Request (todo)|
+| [npre_api_csv.gs](https://github.com/pfptcommunity/api/blob/main/npre_api_csv.gs) | Google Apps Script (GAS) Request |
 
 
 <br>
