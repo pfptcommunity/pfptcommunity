@@ -112,7 +112,7 @@ The API is documented in the NPRE Admin Guide that can be found on the communite
 
 ## NPRE API Code Snippets
 
-The TAP API only uses http get requests. It uses the following structure:
+The NPRE API uses mulitple requests to finaly get a pointer to a CSV file.
 
 ```
 method                = POST
