@@ -4,11 +4,11 @@
 */
 
 let
-    principal   = Excel.CurrentWorkbook(){[Name="principal"]}[Content]{0}[Column1],
-    secret      = Excel.CurrentWorkbook(){[Name="secret"]}[Content]{0}[Column1],
-    tokenuri    = Excel.CurrentWorkbook(){[Name="tokenuri"]}[Content]{0}[Column1],
-    apiuri      = Excel.CurrentWorkbook(){[Name="apiuri"]}[Content]{0}[Column1],
-    time_series = Excel.CurrentWorkbook(){[Name="time_series"]}[Content]{0}[Column1],
+    principal   = "••••••••",
+    secret      = "••••••••",
+    tokenuri    = "'https://auth.proofpoint.com/v1/token",
+    apiuri      = "'https://api.peoplecentric.proofpoint.com/graphql",
+    time_series = 20220224,   // *** change your timestamp 2022 02 24 // this is converted to text later
 
     // STEP 1: Get the Bearer Token
     token   = GetAccessToken(principal,secret,tokenuri),
