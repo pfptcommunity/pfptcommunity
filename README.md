@@ -35,6 +35,9 @@ So, back to the Proofpoint Results API and how it works. If a customer wants cer
 food) from the platform (the kitchen) to use in their business analysis tool, they can use the API (the
 waiter) to deliver the data request and receive the data response (the food).
 
+What is consuming REST API?
+Similarly, the act of consuming or using a REST API means to eat it all up. In context, it means to eat it, swallow it, and digest it — leaving any others in the pile exposed.
+
 
 Proofpoint APIs can be used to manage and gather information from the Proofpoint
 solutions. Below code snippets and reference help you get started with these lovely APIs.
