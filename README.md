@@ -115,7 +115,7 @@ The API is documented in the NPRE Admin Guide that can be found on the communite
 The TAP API only uses http get requests. It uses the following structure:
 
 ```
-method                = "POST"
+method                = POST
 request1              = Get the Bearer Token
 request2              = Get the Uri to CSV file using the Bearer Token
 request3              = Get CSV file
