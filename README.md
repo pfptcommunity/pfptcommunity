@@ -102,7 +102,7 @@ Below code snippets will help you to get started with the initial authentication
 # NPRE API
 
 The Nexus People Risk Explorer API allows you to download a csv file usingusing an API call. 
-The API is documented in the NPRE Admin Guide that can be found on the communite website.
+The API is documented in the NPRE Admin Guide that can be found on the community website.
 
 <br>
 
