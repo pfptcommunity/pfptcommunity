@@ -52,7 +52,7 @@ The Threat Insight Dashboard (Targeted Attack Protection) provides several diffe
 
 <br>
 
-## Using TAP REST API data in Microsoft Excel and Power BI
+## TAP API - Use with Microsoft Excel and Power BI
 
 Both Microsoft Power BI and Excel can directly fetch JSON data from an REST endpoint. See the [Microsoft doc](https://docs.microsoft.com/en-us/power-query/connectors/web/web) for more information.  Below you can see and download a sample Excel sheet that fetches data from the People endpoint(s).
 
@@ -72,7 +72,7 @@ Note:  If you want to play with Power BI, Paste the M Code script into the Micro
 
 <br>
 
-## TAP API Code Snippets
+## TAP API - Cool Code Snippets
 
 The TAP API only uses http get requests. It uses the following structure:
 
@@ -103,7 +103,7 @@ The API is documented in the NPRE Admin Guide that can be found on the communite
 
 <br>
 
-## Using the NPRE REST API data in Microsoft Excel and Power BI
+## NPRE API - Use with Microsoft Excel and Power BI
 
 Both Microsoft Power BI and Excel can directly fetch JSON data from an REST endpoint. See the [Microsoft doc](https://docs.microsoft.com/en-us/power-query/connectors/web/web) for more information.  Below you can see and download a sample Excel sheet that fetches data using the NPRE endpoint.
 
@@ -117,7 +117,7 @@ Both Microsoft Power BI and Excel can directly fetch JSON data from an REST endp
 
 <br>
 
-## NPRE API Code Snippets
+## NPRE API - Cool Code Snippets
 
 The NPRE API uses mulitple requests to finaly get a pointer to a CSV file.
 
@@ -162,6 +162,7 @@ https://www.proofpoint.com/us/products/et-intelligence
 Admin login console (requires license)
 https://etadmin.proofpoint.com/login
 
+## ET API - Cool Code Snippets
 
 | Code Snippet | Language | 
 | ------------- | ------------- | 
