@@ -104,8 +104,8 @@ The API is documented in the NPRE Admin Guide that can be found on the communite
 | Action  | Description | 
 | ------------- | ------------- | 
 | [Watch Video on YouTube](https://youtu.be/XrUXztNjvwo) | Short demonstration of the npre_api_people.xlsx sample sheet |
-| [Download Spreadsheet](https://github.com/pfptcommunity/api/raw/main/tap_api_people.xlsx) | Download the npre_api_people.xlsx sheet   |
-| [M Code script](https://github.com/pfptcommunity/api/blob/main/npre_api_people.pqs) | M Code for Excel or Power BI |
+| [Download Spreadsheet](https://github.com/pfptcommunity/api/raw/main/npre_api_csv.xlsx) | Download the npre_api_people.xlsx sheet   |
+| [M Code script](https://github.com/pfptcommunity/api/blob/main/npre_api_csv.pqs) | M Code for Excel or Power BI |
 
 
 
