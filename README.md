@@ -1,7 +1,7 @@
 # Proofpoint Data Rocks
 
 The primary purpose of this page is to share the integrations I've created around the Proofpoint products.
-This content and code snippets is not created, validated or supported by Proofpoint.
+This content and code snippets are not created, validated or supported by Proofpoint so use wisely. 
 
 Please **★ Star** on the top of this page if you like this page and you want to motivate me to publish more.
 <br>
