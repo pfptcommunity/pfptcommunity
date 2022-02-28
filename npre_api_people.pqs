@@ -1,0 +1,88 @@
+/** 
+ * Get NPRE DATA
+ * feb 2022 by bvl 
+*/
+
+let
+    principal   = Excel.CurrentWorkbook(){[Name="principal"]}[Content]{0}[Column1],
+    secret      = Excel.CurrentWorkbook(){[Name="secret"]}[Content]{0}[Column1],
+    tokenuri    = Excel.CurrentWorkbook(){[Name="tokenuri"]}[Content]{0}[Column1],
+    apiuri      = Excel.CurrentWorkbook(){[Name="apiuri"]}[Content]{0}[Column1],
+    time_series = Excel.CurrentWorkbook(){[Name="time_series"]}[Content]{0}[Column1],
+
+    // STEP 1: Get the Bearer Token
+    token   = GetAccessToken(principal,secret,tokenuri),
+
+    // STEP 2: Get the CSV Filename Reference
+    fileurl = GetFileName(token,apiuri,time_series),
+    
+    // STEP 3: Load the CSV file
+    // **
+    // ERROR:  Not working due to limitation in Microsoft Power BI and Excel 
+    //         The specified path, file name, or both are too long. The fully qualified file name must be less than 260 characters, and the directory name must be less than 248 characters.
+    /*
+    Source = Csv.Document(File.Contents(fileurl),[Delimiter=",", Columns=98, Encoding=1252, QuoteStyle=QuoteStyle.Csv]),
+    #"Promoted Headers" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"Id", type text}, {"Display Name", type text}, {"Email", type text}, {"Title", type text}, {"Business Function", type text}, {"Seniority", type text}, {"Department", type text}, {"AD Groups", type text}, {"Custom Groups", type text}, {"Overall.VeryAttacked", type logical}, {"Overall.VeryPrivileged", type logical}, {"Overall.VeryVulnerable", type logical}, {"Overall.ImminentTarget", type logical}, {"Overall.SoftTargets", type logical}, {"Overall.LatentTargets", type logical}, {"Overall.MajorTargets", type logical}, {"Overall", Int64.Type}, {"Overall.Attacked", Int64.Type}, {"Overall.Attacked.Data", type text}, {"Overall.Privileged", Int64.Type}, {"Overall.Privileged.BusinessAuthority", Int64.Type}, {"Overall.Privileged.BusinessAuthority.Seniority", Int64.Type}, {"Overall.Privileged.BusinessAuthority.Seniority.Data", type text}, {"Overall.Privileged.BusinessAuthority.VIP", Int64.Type}, {"Overall.Privileged.BusinessAuthority.VIP.Data", type text}, {"Overall.Privileged.BusinessFunctions", Int64.Type}, {"Overall.Privileged.BusinessFunctions.Data", type text}, {"Overall.Privileged.CyberArk", Int64.Type}, {"Overall.Privileged.CyberArk.User", Int64.Type}, {"Overall.Privileged.CyberArk.User.Data", type text}, {"Overall.Privileged.PeopleManagement", Int64.Type}, {"Overall.Privileged.PeopleManagement.Data", type text}, {"Overall.Privileged.SensitiveSystems", Int64.Type}, {"Overall.Privileged.SensitiveSystems.Roles", Int64.Type}, {"Overall.Privileged.SensitiveSystems.Roles.ApplicationAdmin", Int64.Type}, {"Overall.Privileged.SensitiveSystems.Roles.ApplicationAdmin.Data", type text}, {"Overall.Privileged.ADGroups", Int64.Type}, {"Overall.Privileged.ADGroups.Data", type text}, {"Overall.Privileged.CustomGroups", Int64.Type}, {"Overall.Privileged.CustomGroups.Data", type text}, {"Overall.Privileged.Department", Int64.Type}, {"Overall.Privileged.Department.Data", type text}, {"Overall.Privileged.EmailDomains", Int64.Type}, {"Overall.Privileged.EmailDomains.Data", type text}, {"Overall.User_AccountEnabled", Int64.Type}, {"Overall.User_AccountEnabled.Data", type text}, {"Overall.Vulnerable", Int64.Type}, {"Overall.Vulnerable.Behaviour", Int64.Type}, {"Overall.Vulnerable.Behaviour.Awareness", Int64.Type}, {"Overall.Vulnerable.Behaviour.Awareness.EmailSecurity", Int64.Type}, {"Overall.Vulnerable.Behaviour.Awareness.EmailSecurity.PSAT-AvoidDangAttachments", Int64.Type}, {"Overall.Vulnerable.Behaviour.Awareness.EmailSecurity.PSAT-AvoidDangAttachments.Data", type text}, {"Overall.Vulnerable.Behaviour.Awareness.EmailSecurity.PSAT-AvoidDangLinks", Int64.Type}, {"Overall.Vulnerable.Behaviour.Awareness.EmailSecurity.PSAT-AvoidDangLinks.Data", type text}, {"Overall.Vulnerable.Behaviour.Awareness.EmailSecurity.PSAT-IntroToPhishing", Int64.Type}, {"Overall.Vulnerable.Behaviour.Awareness.EmailSecurity.PSAT-IntroToPhishing.Data", type text}, {"Overall.Vulnerable.Behaviour.Awareness.IdentityProtection", Int64.Type}, {"Overall.Vulnerable.Behaviour.Awareness.IdentityProtection.PSAT-IdentComprAccounts", Int64.Type}, {"Overall.Vulnerable.Behaviour.Awareness.IdentityProtection.PSAT-IdentComprAccounts.Data", type text}, {"Overall.Vulnerable.Behaviour.Awareness.IdentityProtection.PSAT-MFA", Int64.Type}, {"Overall.Vulnerable.Behaviour.Awareness.IdentityProtection.PSAT-MFA.Data", type text}, {"Overall.Vulnerable.Behaviour.Awareness.IdentityProtection.PSAT-PasswordManagement", Int64.Type}, {"Overall.Vulnerable.Behaviour.Awareness.IdentityProtection.PSAT-PasswordManagement.Data", type text}, {"Overall.Vulnerable.Behaviour.Awareness.IdentityProtection.PSAT-PasswordPolicy", Int64.Type}, {"Overall.Vulnerable.Behaviour.Awareness.IdentityProtection.PSAT-PasswordPolicy.Data", type text}, {"Overall.Vulnerable.Behaviour.Awareness.PSAT-PhishingSimulation", Int64.Type}, {"Overall.Vulnerable.Behaviour.Awareness.PSAT-PhishingSimulation.Data", type text}, {"Overall.Vulnerable.Behaviour.Awareness.SafeBrowsing", Int64.Type}, {"Overall.Vulnerable.Behaviour.Awareness.SafeBrowsing.PSAT-SafeSocialNet", Int64.Type}, {"Overall.Vulnerable.Behaviour.Awareness.SafeBrowsing.PSAT-SafeSocialNet.Data", type text}, {"Overall.Vulnerable.Behaviour.Awareness.SafeBrowsing.PSAT-SaferWebBrowsing", Int64.Type}, {"Overall.Vulnerable.Behaviour.Awareness.SafeBrowsing.PSAT-SaferWebBrowsing.Data", type text}, {"Overall.Vulnerable.Behaviour.Awareness.SafeBrowsing.PSAT-URLTraining", Int64.Type}, {"Overall.Vulnerable.Behaviour.Awareness.SafeBrowsing.PSAT-URLTraining.Data", type text}, {"Overall.Vulnerable.Behaviour.UsagePattern", Int64.Type}, {"Overall.Vulnerable.Behaviour.UsagePattern.Clickers", Int64.Type}, {"Overall.Vulnerable.Behaviour.UsagePattern.Clickers.Data", type text}, {"Overall.Vulnerable.Behaviour.UsagePattern.AppGov", Int64.Type}, {"Overall.Vulnerable.Behaviour.UsagePattern.AppGov.3PAs", Int64.Type}, {"Overall.Vulnerable.Behaviour.UsagePattern.AppGov.3PAs.Data", type text}, {"Overall.Vulnerable.Behaviour.UsagePattern.AppGov.ShadowIT", Int64.Type}, {"Overall.Vulnerable.Behaviour.UsagePattern.AppGov.ShadowIT.Data", type text}, {"Overall.Vulnerable.Environment", Int64.Type}, {"Overall.Vulnerable.Environment.DistributionList", Int64.Type}, {"Overall.Vulnerable.Environment.DistributionList.Data", type text}, {"Overall.Vulnerable.Environment.Location", Int64.Type}, {"Overall.Vulnerable.Environment.Location.MostCommonLocation", Int64.Type}, {"Overall.Vulnerable.Environment.Location.MostCommonLocation.Data", type text}, {"Overall.Vulnerable.Environment.Location.RareLocation", Int64.Type}, {"Overall.Vulnerable.Environment.Location.RareLocation.Data", type text}, {"Overall.Vulnerable.Environment.Network", Int64.Type}, {"Overall.Vulnerable.Identity", Int64.Type}, {"Overall.Vulnerable.Identity.EmailExposure", Int64.Type}, {"Overall.Vulnerable.Identity.EmailExposure.Data", type text}, {"Overall.Vulnerable.Identity.CredentialsCompromise", Int64.Type}, {"Overall.Vulnerable.Identity.CredentialsCompromise.Data", type text}, {"Overall.Vulnerable.Identity.CloudCompromisedAccount", Int64.Type}, {"Overall.Vulnerable.Identity.CloudCompromisedAccount.Data", type text}})
+in
+    #"Changed Type"
+*/
+
+Source = Csv.Document(Web.Contents(fileurl),[Delimiter=",", Columns=98, Encoding=1252, QuoteStyle=QuoteStyle.Csv]),
+    #"Promoted Headers" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"Id", type text}, {"Display Name", type text}, {"Email", type text}, {"Title", type text}, {"Business Function", type text}, {"Seniority", type text}, {"Department", type text}, {"AD Groups", type text}, {"Custom Groups", type text}, {"Overall.VeryAttacked", type logical}, {"Overall.VeryPrivileged", type logical}, {"Overall.VeryVulnerable", type logical}, {"Overall.ImminentTarget", type logical}, {"Overall.SoftTargets", type logical}, {"Overall.LatentTargets", type logical}, {"Overall.MajorTargets", type logical}, {"Overall", Int64.Type}, {"Overall.Attacked", Int64.Type}, {"Overall.Attacked.Data", type text}, {"Overall.Privileged", Int64.Type}, {"Overall.Privileged.BusinessAuthority", Int64.Type}, {"Overall.Privileged.BusinessAuthority.Seniority", Int64.Type}, {"Overall.Privileged.BusinessAuthority.Seniority.Data", type text}, {"Overall.Privileged.BusinessAuthority.VIP", Int64.Type}, {"Overall.Privileged.BusinessAuthority.VIP.Data", type text}, {"Overall.Privileged.BusinessFunctions", Int64.Type}, {"Overall.Privileged.BusinessFunctions.Data", type text}, {"Overall.Privileged.CyberArk", Int64.Type}, {"Overall.Privileged.CyberArk.User", Int64.Type}, {"Overall.Privileged.CyberArk.User.Data", type text}, {"Overall.Privileged.PeopleManagement", Int64.Type}, {"Overall.Privileged.PeopleManagement.Data", type text}, {"Overall.Privileged.SensitiveSystems", Int64.Type}, {"Overall.Privileged.SensitiveSystems.Roles", Int64.Type}, {"Overall.Privileged.SensitiveSystems.Roles.ApplicationAdmin", Int64.Type}, {"Overall.Privileged.SensitiveSystems.Roles.ApplicationAdmin.Data", type text}, {"Overall.Privileged.ADGroups", Int64.Type}, {"Overall.Privileged.ADGroups.Data", type text}, {"Overall.Privileged.CustomGroups", Int64.Type}, {"Overall.Privileged.CustomGroups.Data", type text}, {"Overall.Privileged.Department", Int64.Type}, {"Overall.Privileged.Department.Data", type text}, {"Overall.Privileged.EmailDomains", Int64.Type}, {"Overall.Privileged.EmailDomains.Data", type text}, {"Overall.User_AccountEnabled", Int64.Type}, {"Overall.User_AccountEnabled.Data", type text}, {"Overall.Vulnerable", Int64.Type}, {"Overall.Vulnerable.Behaviour", Int64.Type}, {"Overall.Vulnerable.Behaviour.Awareness", Int64.Type}, {"Overall.Vulnerable.Behaviour.Awareness.EmailSecurity", Int64.Type}, {"Overall.Vulnerable.Behaviour.Awareness.EmailSecurity.PSAT-AvoidDangAttachments", Int64.Type}, {"Overall.Vulnerable.Behaviour.Awareness.EmailSecurity.PSAT-AvoidDangAttachments.Data", type text}, {"Overall.Vulnerable.Behaviour.Awareness.EmailSecurity.PSAT-AvoidDangLinks", Int64.Type}, {"Overall.Vulnerable.Behaviour.Awareness.EmailSecurity.PSAT-AvoidDangLinks.Data", type text}, {"Overall.Vulnerable.Behaviour.Awareness.EmailSecurity.PSAT-IntroToPhishing", Int64.Type}, {"Overall.Vulnerable.Behaviour.Awareness.EmailSecurity.PSAT-IntroToPhishing.Data", type text}, {"Overall.Vulnerable.Behaviour.Awareness.IdentityProtection", Int64.Type}, {"Overall.Vulnerable.Behaviour.Awareness.IdentityProtection.PSAT-IdentComprAccounts", Int64.Type}, {"Overall.Vulnerable.Behaviour.Awareness.IdentityProtection.PSAT-IdentComprAccounts.Data", type text}, {"Overall.Vulnerable.Behaviour.Awareness.IdentityProtection.PSAT-MFA", Int64.Type}, {"Overall.Vulnerable.Behaviour.Awareness.IdentityProtection.PSAT-MFA.Data", type text}, {"Overall.Vulnerable.Behaviour.Awareness.IdentityProtection.PSAT-PasswordManagement", Int64.Type}, {"Overall.Vulnerable.Behaviour.Awareness.IdentityProtection.PSAT-PasswordManagement.Data", type text}, {"Overall.Vulnerable.Behaviour.Awareness.IdentityProtection.PSAT-PasswordPolicy", Int64.Type}, {"Overall.Vulnerable.Behaviour.Awareness.IdentityProtection.PSAT-PasswordPolicy.Data", type text}, {"Overall.Vulnerable.Behaviour.Awareness.PSAT-PhishingSimulation", Int64.Type}, {"Overall.Vulnerable.Behaviour.Awareness.PSAT-PhishingSimulation.Data", type text}, {"Overall.Vulnerable.Behaviour.Awareness.SafeBrowsing", Int64.Type}, {"Overall.Vulnerable.Behaviour.Awareness.SafeBrowsing.PSAT-SafeSocialNet", Int64.Type}, {"Overall.Vulnerable.Behaviour.Awareness.SafeBrowsing.PSAT-SafeSocialNet.Data", type text}, {"Overall.Vulnerable.Behaviour.Awareness.SafeBrowsing.PSAT-SaferWebBrowsing", Int64.Type}, {"Overall.Vulnerable.Behaviour.Awareness.SafeBrowsing.PSAT-SaferWebBrowsing.Data", type text}, {"Overall.Vulnerable.Behaviour.Awareness.SafeBrowsing.PSAT-URLTraining", Int64.Type}, {"Overall.Vulnerable.Behaviour.Awareness.SafeBrowsing.PSAT-URLTraining.Data", type text}, {"Overall.Vulnerable.Behaviour.UsagePattern", Int64.Type}, {"Overall.Vulnerable.Behaviour.UsagePattern.Clickers", Int64.Type}, {"Overall.Vulnerable.Behaviour.UsagePattern.Clickers.Data", type text}, {"Overall.Vulnerable.Behaviour.UsagePattern.AppGov", Int64.Type}, {"Overall.Vulnerable.Behaviour.UsagePattern.AppGov.3PAs", Int64.Type}, {"Overall.Vulnerable.Behaviour.UsagePattern.AppGov.3PAs.Data", type text}, {"Overall.Vulnerable.Behaviour.UsagePattern.AppGov.ShadowIT", Int64.Type}, {"Overall.Vulnerable.Behaviour.UsagePattern.AppGov.ShadowIT.Data", type text}, {"Overall.Vulnerable.Environment", Int64.Type}, {"Overall.Vulnerable.Environment.DistributionList", Int64.Type}, {"Overall.Vulnerable.Environment.DistributionList.Data", type text}, {"Overall.Vulnerable.Environment.Location", Int64.Type}, {"Overall.Vulnerable.Environment.Location.MostCommonLocation", Int64.Type}, {"Overall.Vulnerable.Environment.Location.MostCommonLocation.Data", type text}, {"Overall.Vulnerable.Environment.Location.RareLocation", Int64.Type}, {"Overall.Vulnerable.Environment.Location.RareLocation.Data", type text}, {"Overall.Vulnerable.Environment.Network", Int64.Type}, {"Overall.Vulnerable.Identity", Int64.Type}, {"Overall.Vulnerable.Identity.EmailExposure", Int64.Type}, {"Overall.Vulnerable.Identity.EmailExposure.Data", type text}, {"Overall.Vulnerable.Identity.CredentialsCompromise", Int64.Type}, {"Overall.Vulnerable.Identity.CredentialsCompromise.Data", type text}, {"Overall.Vulnerable.Identity.CloudCompromisedAccount", Int64.Type}, {"Overall.Vulnerable.Identity.CloudCompromisedAccount.Data", type text}})
+in
+#"Changed Type"
+
+
+********************************************************************************************************************
+FUNCTION GetAccessToken
+********************************************************************************************************************
+
+/** 
+ * GetAccessToken (param1, params2, param3)  [Get the Access Token from endpoint]
+ * @param1  {[string]}  principal            [api key] 
+ * @param2  {[string]}  secret               [api secret]           
+ * @param3  {[string]}  tokenuri             [path, this should be "https://auth.proofpoint.com/v1/token"]           
+ * @return  {[string]}  access_token         [access token]
+*/
+
+(principal,secret,tokenuri) => 
+let
+    Response = Json.Document(
+        Web.Contents(
+             tokenuri, 
+            [
+                Headers= [#"Content-Type"="application/x-www-form-urlencoded"],
+                Content= Text.ToBinary("grant_type=client_credentials&client_id=" & principal & "&client_secret=" &secret )
+            ]
+        )
+    )
+in
+Response[access_token]
+
+
+********************************************************************************************************************
+FUNCTION GetFileName
+********************************************************************************************************************
+
+/** 
+ * GetFileName (token,apiuri,time_series)    [Get the Filename to the CSV file]
+ * @param1  {[string]}  token                [Bearer Access Token] 
+ * @param2  {[string]}  apiuri               [path, this should be "https://api.peoplecentric.proofpoint.com/graphql"]           
+ * @param3  {[string]}  time_series          [time series / date for the query. Example is 20210209"]           
+ * @return  {[string]}  access_token         [file reference]
+*/
+
+(token,apiuri,time_series) => 
+let
+    Response = Json.Document(
+        Web.Contents(
+             apiuri,           
+                [Headers=[#"Content-Type"="application/json", #"Authorization" = "Bearer " & token],
+                Content= Text.ToBinary("{""operationName"":""getRiskPosture"",""variables"":{""time_series"":""" & Number.ToText(time_series) & """},""query"":""query getRiskPosture($time_series: DateTime){getRiskPosture(time_series: $time_series){file}}""}")
+            ]
+        )
+    )
+in
+Response[data][getRiskPosture][file]
