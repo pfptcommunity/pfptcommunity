@@ -143,7 +143,8 @@ Below code snippets will help you to get started with the initial authentication
 
 # PSAT API
 
-Todo
+Proofpoint Security Awareness Training Results API Documentation:
+https://proofpoint.securityeducation.com/api/reporting/documentation/
 
 
 <br>
