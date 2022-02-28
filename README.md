@@ -39,8 +39,8 @@ What is consuming REST API?
 Similarly, the act of consuming or using a REST API means to eat it all up. In context, it means to eat it, swallow it, and digest it — leaving any others in the pile exposed.
 
 
-Proofpoint APIs can be used to manage and gather information from the Proofpoint
-solutions. Below code snippets and reference help you get started with these lovely APIs.
+Proofpoint provides some lovely REST APIs that can be used to gather information.
+Below code snippets and reference will help you getting started.
 
 
 <br>
