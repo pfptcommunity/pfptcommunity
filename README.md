@@ -132,8 +132,8 @@ Below code snippets will help you to get started with the initial authentication
 
 | Code Snippet | Language | 
 | ------------- | ------------- | 
-| [npre_api_csv.js](https://github.com/pfptcommunity/api/blob/main/npre_api_csv.js) | Javascript / Node.js Request  (todo) |
-| [npre_api_csv.py](https://github.com/pfptcommunity/api/blob/main/npre_api_csv.py) | Python Request (todo)|
+| [npre_api_csv.js](https://github.com/pfptcommunity/api/blob/main/npre_api_csv.js) | <i>Javascript / Node.js Request  (todo)</i>  |
+| [npre_api_csv.py](https://github.com/pfptcommunity/api/blob/main/npre_api_csv.py) | <i>Python Request  (todo)</i> |
 | [npre_api_csv.gs](https://github.com/pfptcommunity/api/blob/main/npre_api_csv.gs) | Google Apps Script (GAS) Request |
 
 
