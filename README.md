@@ -7,7 +7,7 @@
 # Proofpoint Community API Samples
 
 The primary purpose of this PFPT Community GitHub page is to share the integrations I've created around the Proofpoint products.
-This content is not created or validated by Proofpoint!
+This content and code snippets is not created, validated or supported by Proofpoint.
 
 - [Introduction to REST APIs](#Introduction-to-REST-APIs)
 - [Targeted Attack Protection (TAP)](#TAP-API)
