@@ -69,7 +69,7 @@ The REST API uses the standard HTTP Authorization header to pass authentication 
 
 
 
-Note:  Open the Microsoft Advanced Editor and past the M Code script. The Microsoft "Get Web Data Wizard" does not allow the required Base64 encoding of the API credentials.
+Note:  If you want to play with Power BI, Paste the M Code script into the Microsoft Advanced Editor. The Microsoft "Get Web Data Wizard" does not support the required Base64 encoding of your API credentials. 
 
 <br>
 
