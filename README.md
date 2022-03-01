@@ -177,6 +177,14 @@ The PSAT Results API contains five endpoints from which you can retrieve and fil
 * Users – returns information about Users
 * Training Enrollments – returns information from the (beta) User Enrollments Report
 
+<br>
+
+## Microsoft Excel or Power BI consuming PSAT API data
+
+| Action  | Description | 
+| ------------- | ------------- | 
+| [Download Spreadsheet](https://github.com/pfptcommunity/api/raw/main/psat_api.xlsx) | Download the psat_api.xlsx sheet FIRST DRAFT  |
+| [M Code script](https://github.com/pfptcommunity/api/blob/main/psat_api_private.pqs) | M Code for Excel or Power BI |
 
 ## Cool PSAT API Code Snippets
 
@@ -185,7 +193,6 @@ The PSAT Results API contains five endpoints from which you can retrieve and fil
 | [psat_api_private.js](https://github.com/pfptcommunity/api/blob/main/psat_api_private.js) | Javascript / Node.js Request  |
 | [psat_api_private.py](https://github.com/pfptcommunity/api/blob/main/psat_api_private.py) | Python Request  |
 | [psat_api_private.gs](https://github.com/pfptcommunity/api/blob/main/psat_api_private.gs) | Google Apps Script (GAS) Request |
-| [psat_api_private.pqs](https://github.com/pfptcommunity/api/blob/main/psat_api_private.pqs) | Microsoft Power BI or Excel (power query) Request |
 
 <br>
 
