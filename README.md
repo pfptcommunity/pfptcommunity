@@ -12,6 +12,7 @@ Please **★ Star** on the top of this page if you like this page and you want t
 - [Security Awareness Training (PSAT)](#PSAT-API)
 - [Emerging Threats Intelligence (ET)](#ET-API)
 - [Protection On Demand (POD)](#POD-API)
+- [Essentials](#ESS-API)
 
 
 ------------
@@ -107,7 +108,9 @@ Below code snippets will help you to get started with the initial authentication
 | [tap_api_private.py](https://github.com/pfptcommunity/api/blob/main/tap_api_private.py) | Python Request  |
 | [tap_api_private.gs](https://github.com/pfptcommunity/api/blob/main/tap_api_private.gs) | Google Apps Script (GAS) Request |
 
-
+Found on Github:
+https://github.com/jfviana/proofpoint-api  powershell wrapper
+https://github.com/lambdac0de/ProofpointTAP powershell wrapper
 
 <br>
 
@@ -185,6 +188,8 @@ The PSAT Results API contains five endpoints from which you can retrieve and fil
 | [psat_api_private.py](https://github.com/pfptcommunity/api/blob/main/psat_api_private.py) | Python Request  |
 | [psat_api_private.gs](https://github.com/pfptcommunity/api/blob/main/psat_api_private.gs) | Google Apps Script (GAS) Request |
 
+https://github.com/regg00/psat-result-api  Python
+
 <br>
 
 ------------
@@ -222,3 +227,10 @@ https://proofpointcommunities.force.com/community/s/article/Proofpoint-on-Demand
 This is a client subscriber to Proofpoint On-demand's (PoD) Log API. The Log API is a websocket service (wss) awaiting connections from clients. You can subscibe to either filter (message) logs or MTA (maillog) logs.
 
 https://github.com/lambdac0de/node-proofpoint-podclient
+
+
+# ESS-API
+See the official API documentation on:
+https://us1.proofpointessentials.com/api/v1/docs/index.php
+
+Example in Python - https://github.com/miearls/proofpoint
