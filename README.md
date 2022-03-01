@@ -38,6 +38,15 @@ waiter) to deliver the data request and receive the data response (the food).
 What is consuming REST API?
 Similarly, the act of consuming or using a REST API means to eat it all up. In context, it means to eat it, swallow it, and digest it — leaving any others in the pile exposed.
 
+JSON stands for JavaScript Object Notation and it is a completely language-independent text format that is mainly used to transmit data between a server and client.
+The structure of a JSON object is derived from JavaScript object notation syntax, meaning that data is organised in key/value pairs separated by commas, with the whole of the object being wrapped by curly braces and arrays being wrapped by square brackets, like so:
+
+```
+{
+ object -
+}
+```
+
 
 Proofpoint provides some lovely REST APIs that can be used to gather information.
 Below code snippets and reference will help you getting started.
