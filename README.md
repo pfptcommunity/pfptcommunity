@@ -231,6 +231,8 @@ This is a client subscriber to Proofpoint On-demand's (PoD) Log API. The Log API
 https://github.com/lambdac0de/node-proofpoint-podclient
 
 
+------------
+
 # ESS-API
 See the official API documentation on:
 https://us1.proofpointessentials.com/api/v1/docs/index.php
