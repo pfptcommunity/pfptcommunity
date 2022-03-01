@@ -55,9 +55,11 @@ The structure of a JSON object is derived from JavaScript object notation syntax
  }
 // * JSON Object Structure Sample
 ```
+REST implements multiple 'methods' for different types of http request, the following are most popular: - GET: Get resource from the server. - POST: Create resource to the server.  You can read more about [4 Most Used REST API Authentication Methods.](https://blog.restcase.com/4-most-used-rest-api-authentication-methods/)
 
 Proofpoint provides some lovely REST APIs that can be used to gather information.
 Below code snippets and reference will help you getting started.
+
 
 
 <br>
