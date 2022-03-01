@@ -117,21 +117,17 @@ Below code snippets will help you to get started with the initial authentication
 
 The Nexus People Risk Explorer API allows you to download a csv file usingusing an API call. 
 The API is documented in the NPRE Admin Guide that can be found on the community website.
-
 <br>
 
 ## Microsoft Excel or Power BI consuming NPRE People/Risk data
 
 Both Microsoft Power BI and Excel can directly fetch JSON data from an REST endpoint. See the [Microsoft doc](https://docs.microsoft.com/en-us/power-query/connectors/web/web) for more information.  Below you can see and download a sample Excel sheet that fetches data using the NPRE endpoint.
 
-
 | Action  | Description | 
 | ------------- | ------------- | 
 | [Watch Video on YouTube](https://youtu.be/XrUXztNjvwo) | Short demonstration of the npre_api_people.xlsx sample sheet |
 | [Download Spreadsheet](https://github.com/pfptcommunity/api/raw/main/npre_api_csv.xlsx) | Download the npre_api_people.xlsx sheet   |
 | [M Code script](https://github.com/pfptcommunity/api/blob/main/npre_api_csv.pqs) | M Code for Excel or Power BI |
-
-
 <br>
 
 ## Cool NPRE API Code Snippets
