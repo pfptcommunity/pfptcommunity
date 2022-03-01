@@ -230,6 +230,4 @@ https://proofpointcommunities.force.com/community/s/article/Proofpoint-on-Demand
 
 This is a client subscriber to Proofpoint On-demand's (PoD) Log API. The Log API is a websocket service (wss) awaiting connections from clients. You can subscibe to either filter (message) logs or MTA (maillog) logs.
 
-note: The PoD Log API documentation does not seem to be publicly available, so I can not reference it here. Reach out to your sales/ account team.
-
 https://github.com/lambdac0de/node-proofpoint-podclient
