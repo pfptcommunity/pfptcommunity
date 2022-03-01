@@ -109,6 +109,7 @@ Below code snippets will help you to get started with the initial authentication
 | [tap_api_private.gs](https://github.com/pfptcommunity/api/blob/main/tap_api_private.gs) | Google Apps Script (GAS) Request |
 
 Found on Github:
+
 https://github.com/jfviana/proofpoint-api  powershell wrapper
 
 https://github.com/lambdac0de/ProofpointTAP powershell wrapper
@@ -234,4 +235,8 @@ https://github.com/lambdac0de/node-proofpoint-podclient
 See the official API documentation on:
 https://us1.proofpointessentials.com/api/v1/docs/index.php
 
-Example in Python - https://github.com/miearls/proofpoint
+Found on Github
+
+https://github.com/miearls/proofpoint python wrapper
+
+https://github.com/singhkamall/ProofPointEssentialsClient  c# wrapper
