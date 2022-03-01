@@ -176,6 +176,7 @@ https://proofpoint.securityeducation.com/api/reporting/documentation/
 | [psat_api_private.js](https://github.com/pfptcommunity/api/blob/main/psat_api_private.js) | Javascript / Node.js Request  |
 | [psat_api_private.py](https://github.com/pfptcommunity/api/blob/main/psat_api_private.py) | Python Request  |
 | [psat_api_private.gs](https://github.com/pfptcommunity/api/blob/main/psat_api_private.gs) | Google Apps Script (GAS) Request |
+| [psat_api_private.pqs](https://github.com/pfptcommunity/api/blob/main/psat_api_private.pqs) | Microsoft Power BI or Excel (power query) Request |
 
 <br>
 
