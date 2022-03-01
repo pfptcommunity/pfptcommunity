@@ -53,7 +53,7 @@ The structure of a JSON object is derived from JavaScript object notation syntax
    "location": "Amsterdam",
    "title": "Problem solver"
  }
-<i> // Sample json object </i>
+// * JSON Object Structure Sample
  
 ```
 
