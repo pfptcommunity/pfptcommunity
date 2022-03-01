@@ -110,6 +110,7 @@ Below code snippets will help you to get started with the initial authentication
 
 Found on Github:
 https://github.com/jfviana/proofpoint-api  powershell wrapper
+
 https://github.com/lambdac0de/ProofpointTAP powershell wrapper
 
 <br>
