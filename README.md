@@ -173,8 +173,8 @@ https://proofpoint.securityeducation.com/api/reporting/documentation/
 
 | Code Snippet | Language | 
 | ------------- | ------------- | 
-| [psat_api_private.js](https://github.com/pfptcommunity/api/blob/main/psat_api_private.gs) | Javascript / Node.js Request  |
-| [psat_api_private.py](https://github.com/pfptcommunity/api/blob/main/psat_api_private.gs) | Python Request  |
+| [psat_api_private.js](https://github.com/pfptcommunity/api/blob/main/psat_api_private.js) | Javascript / Node.js Request  |
+| [psat_api_private.py](https://github.com/pfptcommunity/api/blob/main/psat_api_private.py) | Python Request (todo)  |
 | [psat_api_private.gs](https://github.com/pfptcommunity/api/blob/main/psat_api_private.gs) | Google Apps Script (GAS) Request |
 
 <br>
