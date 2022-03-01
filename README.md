@@ -42,9 +42,18 @@ JSON stands for JavaScript Object Notation and it is a completely language-indep
 The structure of a JSON object is derived from JavaScript object notation syntax, meaning that data is organised in key/value pairs separated by commas, with the whole of the object being wrapped by curly braces and arrays being wrapped by square brackets, like so:
 
 ```
-{
- object -
-}
+ "identity": {
+   "name": "Winston Wolf", 
+   "email": [
+      "thewolf@fixaprob.com",
+      "w.wolf@fixaprob.com",
+      "w.wolf@jmail.com"
+   ],
+   "department": "Operations", 
+   "location": "Amsterdam",
+   "title": "Problem solver"
+ }
+ 
 ```
 
 
