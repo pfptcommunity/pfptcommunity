@@ -1,0 +1,16 @@
+/** 
+ * Get PSAT DATA
+ * feb 2022 by bvl 
+*/
+
+let
+    apikey      = "••••••••",
+    apiurl      = "https://results.eu.securityeducation.com:443",    // ** check as this is the EU url
+    endpoint    = "/api/reporting/v0.1.0/cyberstrength",
+    parameters  = "",
+
+  Source = Json.Document(Web.Contents(apiurl & endpoint & parameters, [Headers=[#"Content-Type"="application/json", #"x-apikey-token" = apikey]]))
+    
+in
+
+Source
