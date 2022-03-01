@@ -54,7 +54,6 @@ The structure of a JSON object is derived from JavaScript object notation syntax
    "title": "Problem solver"
  }
 // * JSON Object Structure Sample
- 
 ```
 
 Proofpoint provides some lovely REST APIs that can be used to gather information.
