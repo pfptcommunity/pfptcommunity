@@ -165,8 +165,17 @@ Below code snippets will help you to get started with the initial authentication
 
 # PSAT API
 
-Proofpoint Security Awareness Training Results API Documentation:
-https://proofpoint.securityeducation.com/api/reporting/documentation/
+Proofpoint Security Awareness Training Results API [Documentation](https://proofpoint.securityeducation.com/api/reporting/documentation/)
+
+
+The PSAT Results API contains five endpoints from which you can retrieve and filter data for your business needs:
+
+* CyberStrength – returns information from CyberStrength
+* PhishAlarm – returns information from PhishAlarm information
+* Phishing – returns information from ThreatSim simulated phishing campaigns
+* Training – returns information from Training assignments
+* Users – returns information about Users
+* Training Enrollments – returns information from the (beta) User Enrollments Report
 
 
 ## Cool PSAT API Code Snippets
