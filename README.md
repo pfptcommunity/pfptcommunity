@@ -96,7 +96,7 @@ The API uses GET requests to retrieve resource representation/information only â
 
 Basic authentication is a simple authentication scheme built into the HTTP protocol. The client sends HTTP requests with the Authorization header that contains the word Basic word followed by a space and a base64-encoded string.
 
-The TAP API only uses http get requests. It uses the following structure:
+The TAP REST APIrequest uses the following request structure:
 
 ```
 method                = "GET"
