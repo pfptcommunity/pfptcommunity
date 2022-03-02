@@ -19,11 +19,11 @@ def getfilename(token, apiuri, time_series):
 
 
 def npre():
-    principal = "••••••••"
-    secret = "••••••••"
-    tokenuri = "https://auth.proofpoint.com/v1/token"
-    apiuri = "https://api.peoplecentric.proofpoint.com/graphql"
-    time_series = "20220224"
+    principal   = "••••••••"
+    secret      = "••••••••"
+    tokenuri    = "https://auth.proofpoint.com/v1/token"
+    apiuri      = "https://api.peoplecentric.proofpoint.com/graphql"
+    time_series = "20220224"                                              # ** Your time series 2022 02 24
 
     # STEP 1: Get the Bearer Token
     token = getaccesstoken(principal, secret, tokenuri)
