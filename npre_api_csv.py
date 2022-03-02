@@ -19,8 +19,8 @@ def getfilename(token, apiuri, time_series):
 
 
 def npre():
-    principal = ""
-    secret = ""
+    principal = "••••••••"
+    secret = "••••••••"
     tokenuri = "https://auth.proofpoint.com/v1/token"
     apiuri = "https://api.peoplecentric.proofpoint.com/graphql"
     time_series = "20220224"
