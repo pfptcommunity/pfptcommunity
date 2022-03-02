@@ -13,7 +13,7 @@ Please **★ Star** on the top of this page if you like this page and you want t
 - [Emerging Threats Intelligence (ET)](#ET-API)
 - [Protection On Demand (POD)](#POD-API)
 - [Essentials](#ESS-API)
-- {Cloud Access Security Broker](#CASB-API)
+- [Cloud Access Security Broker](#CASB-API)
 
 
 ------------
