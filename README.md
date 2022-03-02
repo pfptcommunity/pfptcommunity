@@ -7,12 +7,13 @@ Please **★ Star** on the top of this page if you like this page and you want t
 <br>
 
 - [Introduction to REST APIs](#Introduction-to-REST-APIs)
+
 - [Targeted Attack Protection (TAP)](#TAP-API)
 - [Nexus People Risk Explorer (NPRE)](#NPRE-API)
-- [Security Awareness Training (PSAT)](#PSAT-API)
 - [Emerging Threats Intelligence (ET)](#ET-API)
 - [Protection On Demand (POD)](#POD-API)
 - [Essentials](#ESS-API)
+- [Security Awareness Training (PSAT)](#PSAT-API)
 - [Cloud Access Security Broker (CASB)](#CASB-API)
 
 
