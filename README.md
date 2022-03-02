@@ -7,7 +7,6 @@ Please **★ Star** on the top of this page if you like this page and you want t
 <br>
 
 - [Introduction to REST APIs](#Introduction-to-REST-APIs)
-
 - [Targeted Attack Protection (TAP)](#TAP-API)
 - [Nexus People Risk Explorer (NPRE)](#NPRE-API)
 - [Emerging Threats Intelligence (ET)](#ET-API)
