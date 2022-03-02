@@ -244,7 +244,7 @@ https://github.com/singhkamall/ProofPointEssentialsClient  c# wrapper
 
 
 # CASB-API
-The documentation: https://proofpointcommunities.force.com/community/s/article/Proofpoint-Cloud-App-Security-Broker-API-Guides
+The Proofpoint CASB API documentation is available from this URL: https://proofpointcommunities.force.com/community/s/article/Proofpoint-Cloud-App-Security-Broker-API-Guides
 
 
 
