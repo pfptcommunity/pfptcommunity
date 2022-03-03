@@ -198,11 +198,9 @@ https://github.com/regg00/psat-result-api  Python
 
 # ET API
 
-[ET Intelligence API documentation](http://apidocs.emergingthreats.net)
-
-[Emerging Threats datasheet](https://www.proofpoint.com/us/products/et-intelligence)
-
-[Admin login console](https://etadmin.proofpoint.com/login)
+- [ET Intelligence API documentation](http://apidocs.emergingthreats.net)
+- [Emerging Threats datasheet](https://www.proofpoint.com/us/products/et-intelligence)
+- [Admin login console](https://etadmin.proofpoint.com/login)
 
 
 ## Cool ET API Code Snippets
