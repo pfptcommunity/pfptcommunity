@@ -110,12 +110,12 @@ Below code snippets will help you to get started with the initial authentication
 
 Found on Github:
 
--[Powershell wrapper jfviana](https://github.com/jfviana/proofpoint-api )
--[Powershell wrapper lambdac0de](https://github.com/lambdac0de/ProofpointTAP )
--[Powershell wrapper Midnigh7](https://github.com/Midnigh7/PSProofpoint )
--[Proofpoint TAP API Client for Python](https://github.com/drizzo-tech/proofpoint_tap)
--[Proofpoint DXL Node-RED Client Nodes](https://github.com/Anamico/node-red-contrib-proofpoint)
--[Go-Proofpoint API Client Library](https://github.com/greenpau/go-proofpoint) 
+- [Powershell wrapper jfviana](https://github.com/jfviana/proofpoint-api )
+- [Powershell wrapper lambdac0de](https://github.com/lambdac0de/ProofpointTAP )
+- [Powershell wrapper Midnigh7](https://github.com/Midnigh7/PSProofpoint )
+- [Proofpoint TAP API Client for Python](https://github.com/drizzo-tech/proofpoint_tap)
+- [Proofpoint DXL Node-RED Client Nodes](https://github.com/Anamico/node-red-contrib-proofpoint)
+- [Go-Proofpoint API Client Library](https://github.com/greenpau/go-proofpoint) 
 
 
 
@@ -237,8 +237,8 @@ Proofpoint Emerging Threat Intelligence delivers the most timely and accurate th
 | [eti_api.gs](https://github.com/pfptcommunity/api/blob/main/eti_api.gs) | Google Apps Script (GAS) Request |
 
 <br>
-[Python Wrapper for Proofpoint's Threat Insight API](https://github.com/Derekt2/PyProofpoint)
-[An integration for VMware Carbon Black Cloud and Proofpoint Emerging Threats](https://github.com/cbcommunity/cbc-proofpoint-et-intelligence-reputation-list)
+- [Python Wrapper for Proofpoint's Threat Insight API](https://github.com/Derekt2/PyProofpoint)
+- [An integration for VMware Carbon Black Cloud and Proofpoint Emerging Threats](https://github.com/cbcommunity/cbc-proofpoint-et-intelligence-reputation-list)
 
 
 
@@ -266,9 +266,8 @@ The Proofpoint [Essentials API documentation](https://us1.proofpointessentials.c
 
 Found on Github
 
-[ProofPoint Essentails API](https://github.com/miearls/proofpoint)
-
-[c# wrapper](https://github.com/singhkamall/ProofPointEssentialsClient  )
+- [ProofPoint Essentails API](https://github.com/miearls/proofpoint)
+- [c# wrapper](https://github.com/singhkamall/ProofPointEssentialsClient  )
 
 
 ------------
@@ -281,9 +280,8 @@ The Proofpoint [CASB API documentation](https://proofpointcommunities.force.com/
 # ITM-API
 The Proofpoint ITM API documentation
 
-[Proofpoint ITM API client library for python](https://github.com/drizzo-tech/proofpoint_itm)
-
-[ITM SDK python](https://github.com/yuta519/proofpoint-itm-sdk)
+- [Proofpoint ITM API client library for python](https://github.com/drizzo-tech/proofpoint_itm)
+- [ITM SDK python](https://github.com/yuta519/proofpoint-itm-sdk)
 
 
 ------------
