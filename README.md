@@ -110,11 +110,27 @@ Below code snippets will help you to get started with the initial authentication
 
 Found on Github:
 
-https://github.com/jfviana/proofpoint-api  powershell wrapper
+[Powershell wrapper jfviana](https://github.com/jfviana/proofpoint-api )
+[Powershell wrapper lambdac0de](https://github.com/lambdac0de/ProofpointTAP )
+[Powershell wrapper Midnigh7](https://github.com/Midnigh7/PSProofpoint )
 
-https://github.com/lambdac0de/ProofpointTAP powershell wrapper
+[Proofpoint TAP API Client for Python](https://github.com/drizzo-tech/proofpoint_tap)
+[Proofpoint DXL Node-RED Client Nodes](https://github.com/Anamico/node-red-contrib-proofpoint)
+[Go-Proofpoint API Client Library](https://github.com/greenpau/go-proofpoint) 
+
+
+
 
 <br>
+
+
+------------
+
+TRAP
+
+[This is an integration with Proofpoint's TRAP product and VMware Carbon Black Cloud.](https://github.com/cbcommunity/cbc-proofpoint-malicious-file-detection)
+
+
 
 ------------
 
@@ -195,7 +211,9 @@ Below code snippets will help you to get started with the initial authentication
 | [psat_api_private.py](https://github.com/pfptcommunity/api/blob/main/psat_api_private.py) | Python Request  |
 | [psat_api_private.gs](https://github.com/pfptcommunity/api/blob/main/psat_api_private.gs) | Google Apps Script (GAS) Request |
 
-https://github.com/regg00/psat-result-api  Python
+[Python module to interact with the Proofpoint Security Awareness Training (PSAT) Results API](https://github.com/regg00/psat-result-api)
+
+
 
 <br>
 
@@ -219,14 +237,19 @@ Proofpoint Emerging Threat Intelligence delivers the most timely and accurate th
 | [eti_api.py](https://github.com/pfptcommunity/api/blob/main/eti_api.py) | Python Request  |
 | [eti_api.gs](https://github.com/pfptcommunity/api/blob/main/eti_api.gs) | Google Apps Script (GAS) Request |
 
-
 <br>
+[Python Wrapper for Proofpoint's Threat Insight API](https://github.com/Derekt2/PyProofpoint)
+[An integration for VMware Carbon Black Cloud and Proofpoint Emerging Threats](https://github.com/cbcommunity/cbc-proofpoint-et-intelligence-reputation-list)
+
+
+
 
 ------------
 
 # POD API
 The [Proofpoint on Demand (PoD) Logging API documentation](https://proofpointcommunities.force.com/community/s/article/Proofpoint-on-Demand-Pod-Log-API)
 
+[Node.Js client subscriber for Proofpoint On-demand's (PoD) Log API](https://github.com/lambdac0de/node-proofpoint-podclient)
 
 <br>
 
@@ -241,17 +264,27 @@ https://github.com/lambdac0de/node-proofpoint-podclient
 The Proofpoint [Essentials API documentation](https://us1.proofpointessentials.com/api/v1/docs/index.php)
 
 
+
 Found on Github
 
-https://github.com/miearls/proofpoint python wrapper
+[ProofPoint Essentails API](https://github.com/miearls/proofpoint)
 
-https://github.com/singhkamall/ProofPointEssentialsClient  c# wrapper
+[c# wrapper](https://github.com/singhkamall/ProofPointEssentialsClient  )
 
 
 ------------
 
 # CASB-API
 The Proofpoint [CASB API documentation](https://proofpointcommunities.force.com/community/s/article/Proofpoint-Cloud-App-Security-Broker-API-Guides) 
+
+------------
+
+# ITM-API
+The Proofpoint ITM API documentation
+
+[Proofpoint ITM API client library for python](https://github.com/drizzo-tech/proofpoint_itm)
+
+[ITM SDK python](https://github.com/yuta519/proofpoint-itm-sdk)
 
 
 ------------
