@@ -242,9 +242,13 @@ https://github.com/miearls/proofpoint python wrapper
 https://github.com/singhkamall/ProofPointEssentialsClient  c# wrapper
 
 
+------------
+
 # CASB-API
 The Proofpoint CASB API documentation is available from this URL: https://proofpointcommunities.force.com/community/s/article/Proofpoint-Cloud-App-Security-Broker-API-Guides
 
+
+------------
 
 # Business Intelligence
 
