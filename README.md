@@ -172,7 +172,6 @@ The PSAT Results API contains five endpoints from which you can retrieve and fil
 * Training – returns information from Training assignments
 * Users – returns information about Users
 * Training Enrollments – returns information from the (beta) User Enrollments Report
-
 <br>
 
 ## Microsoft Excel or Power BI consuming PSAT API data
