@@ -250,17 +250,17 @@ The Proofpoint CASB API documentation is available from this URL: https://proofp
 
 Key players and their REST API support
 
-[Microsoft Power BI](https://docs.microsoft.com/en-us/power-query/connectors/) [Build](https://docs.microsoft.com/en-us/rest/api/power-bi/)
+[Microsoft Power BI](https://docs.microsoft.com/en-us/power-query/connectors/) - howto [Build](https://docs.microsoft.com/en-us/rest/api/power-bi/) connector
 
 [Qlik](https://help.qlik.com/en-US/connectors/Subsystems/REST_connector_help/Content/Connectors_REST/REST-connector.htm)
 
-[Tableau (Salesforce)](https://help.tableau.com/current/pro/desktop/en-us/exampleconnections_overview.htm) [Build](https://help.tableau.com/current/api/rest_api/en-us/REST/rest_api.htm)
+[Tableau (Salesforce)](https://help.tableau.com/current/pro/desktop/en-us/exampleconnections_overview.htm) - howto [Build](https://help.tableau.com/current/api/rest_api/en-us/REST/rest_api.htm) connector
 
 [Microstrategy](https://www2.microstrategy.com/producthelp/Current/RESTSDK/Content/topics/REST_API/REST_API.htm)
 
 [Sisence](https://documentation.sisense.com/docs/connecting-to-rest)
 
-[Google Data Studio](https://datastudio.google.com/data)  [Build](https://developers.google.com/datastudio/connector/build)
+[Google Data Studio](https://datastudio.google.com/data) - howto [Build](https://developers.google.com/datastudio/connector/build) connector
 
 
 
