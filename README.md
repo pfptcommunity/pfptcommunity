@@ -9,7 +9,7 @@ Please **★ Star** on the top of this page if you like this page and you want t
 - [Introduction to REST APIs](#Introduction-to-REST-APIs)
 - [Targeted Attack Protection (TAP)](#TAP-API)
 - [Nexus People Risk Explorer (NPRE)](#NPRE-API)
-- [Emerging Threats Intelligence (ET)](#ET-API)
+- [Emerging Threats Intelligence (ETI)](#ETI-API)
 - [Protection On Demand (POD)](#POD-API)
 - [Essentials](#ESS-API)
 - [Security Awareness Training (PSAT)](#PSAT-API)
@@ -196,7 +196,10 @@ https://github.com/regg00/psat-result-api  Python
 
 ------------
 
-# ET API
+# ETI API
+
+Proofpoint Emerging Threat Intelligence delivers the most timely and accurate threat intelligence. Our fully verified intel provides deeper context and integrates seamlessly with your security tools to enhance your decision-making.
+
 
 - [ET Intelligence API documentation](http://apidocs.emergingthreats.net)
 - [Emerging Threats datasheet](https://www.proofpoint.com/us/products/et-intelligence)
