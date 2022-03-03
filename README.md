@@ -108,7 +108,9 @@ Below code snippets will help you to get started with the initial authentication
 | [tap_api_private.py](https://github.com/pfptcommunity/api/blob/main/tap_api_private.py) | Python Request  |
 | [tap_api_private.gs](https://github.com/pfptcommunity/api/blob/main/tap_api_private.gs) | Google Apps Script (GAS) Request |
 
-Found on Github:
+<br>
+
+## TAP GitHub Projects
 
 - [Powershell wrapper jfviana](https://github.com/jfviana/proofpoint-api )
 - [Powershell wrapper lambdac0de](https://github.com/lambdac0de/ProofpointTAP )
@@ -237,6 +239,8 @@ Proofpoint Emerging Threat Intelligence delivers the most timely and accurate th
 | [eti_api.gs](https://github.com/pfptcommunity/api/blob/main/eti_api.gs) | Google Apps Script (GAS) Request |
 
 <br>
+
+## ETI GitHub Projects
 - [Python Wrapper for Proofpoint's Threat Insight API](https://github.com/Derekt2/PyProofpoint)
 - [An integration for VMware Carbon Black Cloud and Proofpoint Emerging Threats](https://github.com/cbcommunity/cbc-proofpoint-et-intelligence-reputation-list)
 
