@@ -219,8 +219,8 @@ https://github.com/regg00/psat-result-api  Python
 ------------
 
 # POD API
-The Proofpoint PoD Logging API documentation is available from this URL:
-https://proofpointcommunities.force.com/community/s/article/Proofpoint-on-Demand-Pod-Log-API
+The [Proofpoint on Demand (PoD) Logging API documentation](https://proofpointcommunities.force.com/community/s/article/Proofpoint-on-Demand-Pod-Log-API)
+
 
 <br>
 
@@ -232,8 +232,8 @@ https://github.com/lambdac0de/node-proofpoint-podclient
 ------------
 
 # ESS-API
-See the official API documentation on:
-https://us1.proofpointessentials.com/api/v1/docs/index.php
+The Proofpoint [Essentials API documentation](https://us1.proofpointessentials.com/api/v1/docs/index.php)
+
 
 Found on Github
 
@@ -245,7 +245,7 @@ https://github.com/singhkamall/ProofPointEssentialsClient  c# wrapper
 ------------
 
 # CASB-API
-The Proofpoint CASB API documentation is available from this URL: https://proofpointcommunities.force.com/community/s/article/Proofpoint-Cloud-App-Security-Broker-API-Guides
+The Proofpoint [CASB API documentation](https://proofpointcommunities.force.com/community/s/article/Proofpoint-Cloud-App-Security-Broker-API-Guides) 
 
 
 ------------
