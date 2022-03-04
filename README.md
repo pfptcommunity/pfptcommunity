@@ -83,9 +83,6 @@ Both Microsoft Power BI and Excel can directly fetch JSON data from an REST endp
 | [View Power BI screenshot](https://github.com/pfptcommunity/api/blob/main/tap_api_powerbi.jpg?raw=true) | Power BI screenshot Advanced Editor |
 
 
-https://youtu.be/cfnkOV6k8H0
-
-
 Howto: Getting started with Power BI. 
 
 - Download and open the pbix sample
