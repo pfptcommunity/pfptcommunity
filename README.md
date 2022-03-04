@@ -1,4 +1,4 @@
-https://youtu.be/cfnkOV6k8H0# Proofpoint Data Rocks
+# Proofpoint Data Rocks
 
 The primary purpose of this page is to share the integrations I've created around the Proofpoint products.
 This content and code snippets are not created, validated or supported by Proofpoint so use wisely. 
