@@ -158,7 +158,9 @@ Both Microsoft Power BI and Excel can directly fetch JSON data from an REST endp
 | Action  | Description | 
 | ------------- | ------------- | 
 | [Excel : YouTube Video](https://youtu.be/XrUXztNjvwo) | Short demonstration of the npre_api_people.xlsx sample sheet |
-| [Excel : Download Sample](https://github.com/pfptcommunity/api/raw/main/npre_api_csv.xlsx) | Download the npre_api_people.xlsx sheet   |
+| [Excel : Download Sample](https://github.com/pfptcommunity/api/raw/main/npre_api_csv.xlsx) | Download the npre_api_people.xlsx sample sheet   |
+| [Power BI : Download Sample](https://github.com/pfptcommunity/api/raw/main/npre_api_csv.pbix) | Download the npre_api_csv.pbix Power BI sample file   |
+
 <br>
 
 ## Cool NPRE API Code Snippets
