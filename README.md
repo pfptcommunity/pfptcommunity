@@ -1,4 +1,4 @@
-# Proofpoint Data Rocks
+https://youtu.be/cfnkOV6k8H0# Proofpoint Data Rocks
 
 The primary purpose of this page is to share the integrations I've created around the Proofpoint products.
 This content and code snippets are not created, validated or supported by Proofpoint so use wisely. 
@@ -76,11 +76,15 @@ Both Microsoft Power BI and Excel can directly fetch JSON data from an REST endp
 
 | Action  | Description | 
 | ------------- | ------------- | 
-| [Watch Video on YouTube](https://youtu.be/7YYsYpm84gE) | Short demonstration of the tap_api_people.xlsx sample sheet |
-| [Download Excel sample](https://github.com/pfptcommunity/api/raw/main/tap_api.xlsx) | Download the tap_api.xlsx sheet   |
-| [Download Power BI sample](https://github.com/pfptcommunity/api/raw/main/tap_api.pbix) | Download the tap_api.pbix sheet   |
-| [M Code script](https://github.com/pfptcommunity/api/blob/main/tap_api_private.pqs) | M Code for Excel or Power BI |
+| [Excel : YouTube Video](https://youtu.be/7YYsYpm84gE) | Short video tap_api_people.xlsx sample sheet |
+| [Excel : Download Sample](https://github.com/pfptcommunity/api/raw/main/tap_api.xlsx) | Download the tap_api.xlsx sheet   |
+| [Power BI : YouTube Video](https://youtu.be/cfnkOV6k8H0) | Short video tap_api_people.xlsx sample Power BI file |
+| [Power BI : Download Sample](https://github.com/pfptcommunity/api/raw/main/tap_api.pbix) | Download the tap_api.pbix sheet   |
 | [View Power BI screenshot](https://github.com/pfptcommunity/api/blob/main/tap_api_powerbi.jpg?raw=true) | Power BI screenshot Advanced Editor |
+
+
+https://youtu.be/cfnkOV6k8H0
+
 
 Howto: Getting started with Power BI. 
 
@@ -115,6 +119,7 @@ Below code snippets will help you to get started with the initial authentication
 | [tap_api_private.js](https://github.com/pfptcommunity/api/blob/main/tap_api_private.js) | Javascript / Node.js Request |
 | [tap_api_private.py](https://github.com/pfptcommunity/api/blob/main/tap_api_private.py) | Python Request  |
 | [tap_api_private.gs](https://github.com/pfptcommunity/api/blob/main/tap_api_private.gs) | Google Apps Script (GAS) Request |
+| [tap_api_private.pqs](https://github.com/pfptcommunity/api/blob/main/tap_api_private.pqs) | M Code for Excel or Power BI |
 
 <br>
 
