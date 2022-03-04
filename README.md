@@ -82,17 +82,20 @@ Both Microsoft Power BI and Excel can directly fetch JSON data from an REST endp
 | [M Code script](https://github.com/pfptcommunity/api/blob/main/tap_api_private.pqs) | M Code for Excel or Power BI |
 | [View Power BI screenshot](https://github.com/pfptcommunity/api/blob/main/tap_api_powerbi.jpg?raw=true) | Power BI screenshot Advanced Editor |
 
+Note: Power BI users. 
+1.Download the pbix sample
 
-Note1:  If you want to play with Power BI, Paste the M Code script into the Microsoft Advanced Editor. The Microsoft "Get Web Data Wizard" does not support the required Base64 encoding of your API credentials. 
+2.click Transform data
 
+3.Select function 'Api call keys'
 
-Note2: Power BI
-1.Transform data
-2.Api call keys
-3.Advanced Editor
+3.Open Advanced Editor
+
 4.Set your API credentials in the script
+
 5.Go back
-6.Refresh
+
+6.click Refresh
 
 <br>
 
