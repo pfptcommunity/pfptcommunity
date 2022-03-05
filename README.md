@@ -1,6 +1,6 @@
 # Proofpoint Data Rocks
 
-This content and code samples on this page are created by the Proofpoint Community are not created, validated or supported by Proofpoint Inc. 
+This content and samples on this page are created by the Proofpoint Community are not created, validated or supported by Proofpoint Inc. 
 
 Please **★ Star** on the top of this page if you like this page and you want to motivate us to publish more.
 <br>
