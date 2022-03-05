@@ -1,9 +1,9 @@
-  # powershell sample
+  # Microsoft PowerShell Sample
   
   $principal  = "•••••••••"
   $secret     = "•••••••••"
   $uri        = "https://tap-api-v2.proofpoint.com"
-	$command    = "/v2/people/vap"
+  $command    = "/v2/people/vap"
   $parameters = "?window=90"
       
   $auth       = $principal + ':' + $secret
