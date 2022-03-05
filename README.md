@@ -250,10 +250,16 @@ Below code snippets will help you to get started with the initial authentication
 
 Proofpoint Emerging Threat Intelligence delivers the most timely and accurate threat intelligence. Our fully verified intel provides deeper context and integrates seamlessly with your security tools to enhance your decision-making.
 
-
 - [ET Intelligence API documentation](http://apidocs.emergingthreats.net)
 - [Emerging Threats datasheet](https://www.proofpoint.com/us/products/et-intelligence)
 - [Admin login console](https://etadmin.proofpoint.com/login)
+
+<br>
+
+| Action  | Description | 
+| ------------- | ------------- | 
+| [Excel : Download Sample](https://github.com/pfptcommunity/api/raw/main/eti_api.xlsx) | Download the eti_api.xlsx sheet DRAFT   |
+
 
 
 ## Cool ET API Code Snippets
