@@ -104,8 +104,6 @@ Basic authentication is a simple authentication scheme built into the HTTP proto
 The TAP REST APIrequest uses the following request structure:
 
 ```
-principal             = api security principal  // ** create your API credentials
-secret                = api secret              // ** in the Proofpoint TAP Dashboard
 method                = get
 uri                   = base api path + endpoint + parameter
 headers.Authorization = "Basic " + encode.base64 ( principal + ":" + secret )
