@@ -12,4 +12,4 @@
  
   $params     = @{"Authorization"="Basic $($authb64)"}
   
-  Invoke-RestMethod -Uri $uri$command$parameters -Method Get -Headers $params -ContentType 'application/json' | ConvertTo-Json 
+  Invoke-RestMethod -Uri $uri$command$parameters -Method Get -Headers $params -ContentType 'application/json' | ConvertTo-Json -InputObject users.identity
