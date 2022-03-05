@@ -269,7 +269,7 @@ Proofpoint Emerging Threat Intelligence delivers the most timely and accurate th
 | [eti_api.js](https://github.com/pfptcommunity/api/blob/main/eti_api.js) | Javascript / Node.js Request  |
 | [eti_api.py](https://github.com/pfptcommunity/api/blob/main/eti_api.py) | Python Request  |
 | [eti_api.gs](https://github.com/pfptcommunity/api/blob/main/eti_api.gs) | Google Apps Script (GAS) Request |
-| [eti_api.c#](https://github.com/pfptcommunity/api/blob/main/eti_api.c#) | C# Sample Request |
+| [eti_api.c#](https://github.com/pfptcommunity/api/blob/main/eti_api.c%23) | C# Sample Request |
 
 <br>
 
