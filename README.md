@@ -1,9 +1,8 @@
 # Proofpoint Data Rocks
 
-The primary purpose of this page is to share the integrations I've created around the Proofpoint products.
-This content and code snippets are not created, validated or supported by Proofpoint so use wisely. 
+This content and code snippets on this page are created by the community are not created, validated or supported by Proofpoint Inc. 
 
-Please **★ Star** on the top of this page if you like this page and you want to motivate me to publish more.
+Please **★ Star** on the top of this page if you like this page and you want to motivate us to publish more.
 <br>
 
 - [Introduction to REST APIs](#Introduction-to-REST-APIs)
