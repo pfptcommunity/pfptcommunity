@@ -206,8 +206,8 @@ Below code snippets will help you to get started with the initial authentication
 
 # PSAT API
 
-Proofpoint Security Awareness Training Results API [Documentation](https://proofpoint.securityeducation.com/api/reporting/documentation/)
-
+Proofpoint Security Awareness Training Results API [Documentation](https://proofpoint.securityeducation.com/api/reporting/documentation/) and [this on proofpointcommunity](
+https://proofpointcommunities.force.com/community/s/article/Reports-API-Results-API-Setup).
 
 The PSAT Results API contains five endpoints from which you can retrieve and filter data for your business needs:
 
