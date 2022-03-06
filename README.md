@@ -117,6 +117,7 @@ Below code snippets will help you to get started with the initial authentication
 | ------------- | ------------- | 
 | [tap_api_private.js](https://github.com/pfptcommunity/api/blob/main/tap_api_private.js) | Javascript / Node.js Request |
 | [tap_api_private.py](https://github.com/pfptcommunity/api/blob/main/tap_api_private.py) | Python Request  |
+| [tap_api_private.cs](https://github.com/pfptcommunity/api/blob/main/tap_api_private.cs) | C# (.net framework) Request   |
 | [tap_api_private.gs](https://github.com/pfptcommunity/api/blob/main/tap_api_private.gs) | Google Apps Script (GAS) Request |
 | [tap_api_private.php](https://github.com/pfptcommunity/api/blob/main/tap_api_private.php) | PHP Request |
 | [tap_api_private.pqs](https://github.com/pfptcommunity/api/blob/main/tap_api_private.pqs) | M Code for Excel or Power BI |
@@ -268,8 +269,9 @@ Proofpoint Emerging Threat Intelligence delivers the most timely and accurate th
 | ------------- | ------------- | 
 | [eti_api.js](https://github.com/pfptcommunity/api/blob/main/eti_api.js) | Javascript / Node.js Request  |
 | [eti_api.py](https://github.com/pfptcommunity/api/blob/main/eti_api.py) | Python Request  |
+| [eti_api.c#](https://github.com/pfptcommunity/api/blob/main/eti_api.c%23) | C# (.net framework) Request |
 | [eti_api.gs](https://github.com/pfptcommunity/api/blob/main/eti_api.gs) | Google Apps Script (GAS) Request |
-| [eti_api.c#](https://github.com/pfptcommunity/api/blob/main/eti_api.c%23) | C# Sample Request |
+
 
 <br>
 
