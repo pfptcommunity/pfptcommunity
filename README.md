@@ -139,7 +139,8 @@ Some projects we found on GitHub:
 - [Go Client Library by greenpau](https://github.com/greenpau/go-proofpoint) 
 - [Javascript Link Decoder](https://github.com/KevinGage/NodeProofpointLinkDecoder)
 - [Django project to find decode urls](https://github.com/qubitslover/proofpoint)
-- [Javascript URL revealer for Gmail chrome extension](https://github.com/qubitslover/proofpoint)
+- [Javascript URL revealer for Gmail chrome extension by qubitslover](https://github.com/qubitslover/proofpoint)
+- [Javascript URL revealer by Manikantapayasam ](https://github.com/Manikantapayasam/proofpoint-decoder)
 - [Python SDK for decoding safeurls from Proofpoint, Microsoft, etc](https://github.com/renisac/safeurl-decoder)
 - [PHP Link Decode](https://github.com/base-theme-class/base-theme-class-proofpoint)
 
