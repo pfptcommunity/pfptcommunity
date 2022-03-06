@@ -118,6 +118,7 @@ Below code snippets will help you to get started with the initial authentication
 | [tap_api_private.js](https://github.com/pfptcommunity/api/blob/main/tap_api_private.js) | Javascript / Node.js Request |
 | [tap_api_private.py](https://github.com/pfptcommunity/api/blob/main/tap_api_private.py) | Python Request  |
 | [tap_api_private.cs](https://github.com/pfptcommunity/api/blob/main/tap_api_private.cs) | C# (.net framework) Request   |
+| [tap_api_private.java](https://github.com/pfptcommunity/api/blob/main/tap_api_private.java) | Java Request    |
 | [tap_api_private.gs](https://github.com/pfptcommunity/api/blob/main/tap_api_private.gs) | Google Apps Script (GAS) Request |
 | [tap_api_private.php](https://github.com/pfptcommunity/api/blob/main/tap_api_private.php) | PHP Request |
 | [tap_api_private.pqs](https://github.com/pfptcommunity/api/blob/main/tap_api_private.pqs) | M Code for Excel or Power BI |
