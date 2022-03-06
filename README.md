@@ -245,6 +245,11 @@ Below code snippets will help you to get started with the initial authentication
 [Python module to interact with the Proofpoint Security Awareness Training (PSAT) Results API](https://github.com/regg00/psat-result-api)
 
 
+- US: results.us.securityeducation.com
+- EU: results.eu.securityeducation.com
+- AP: results.ap.securityeducation.com
+
+
 
 <br>
 
