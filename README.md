@@ -1,6 +1,7 @@
 # Proofpoint Data Rocks
 
 This content and samples on this page are created by the Proofpoint Community are not created, validated or supported by Proofpoint Inc. 
+Out of box (partner) integrations can be found on the [Proofpoint Technology Partners page](https://www.proofpoint.com/us/partners/technology-alliance-partners).
 
 Please **★ Star** on the top of this page if you like this page and you want to motivate us to publish more.
 <br>
