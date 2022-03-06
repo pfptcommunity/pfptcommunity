@@ -128,12 +128,12 @@ Below code snippets will help you to get started with the initial authentication
 
 ## TAP GitHub Projects
 
-- [Powershell wrapper jfviana](https://github.com/jfviana/proofpoint-api )
-- [Powershell wrapper lambdac0de](https://github.com/lambdac0de/ProofpointTAP )
-- [Powershell wrapper Midnigh7](https://github.com/Midnigh7/PSProofpoint )
-- [Proofpoint TAP API Client for Python](https://github.com/drizzo-tech/proofpoint_tap)
-- [Proofpoint DXL Node-RED Client Nodes](https://github.com/Anamico/node-red-contrib-proofpoint)
-- [Go-Proofpoint API Client Library](https://github.com/greenpau/go-proofpoint) 
+- [Powershell wrapper by jfviana](https://github.com/jfviana/proofpoint-api )
+- [Powershell wrapper by lambdac0de](https://github.com/lambdac0de/ProofpointTAP )
+- [Powershell wrapper by Midnigh7](https://github.com/Midnigh7/PSProofpoint )
+- [Python client by drizzo-tech](https://github.com/drizzo-tech/proofpoint_tap)
+- [Node-RED Client by Anamico](https://github.com/Anamico/node-red-contrib-proofpoint)
+- [Go Client Library by greenpau](https://github.com/greenpau/go-proofpoint) 
 
 
 
