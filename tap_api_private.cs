@@ -4,18 +4,11 @@ using System;
 using System.Net;
 using System.Web;
 
-class ListReputation
+class TAPRequest
 {
   public static void Main(string[] args)
   {
-    try
-    {
     Console.WriteLine(makeAPICall());
-    }
-    catch (WebException e)
-    {
-    Console.WriteLine(e.Message);
-    }
   }
 
   static string makeAPICall()
