@@ -135,13 +135,13 @@ Some projects we found on GitHub:
 - [Powershell wrapper by Midnigh7](https://github.com/Midnigh7/PSProofpoint )
 - [Python client by drizzo-tech](https://github.com/drizzo-tech/proofpoint_tap)
 - [Python SIEM API Humio Package](https://github.com/CrowdStrike/Proofpoint-SIEM-API-Humio-Package-Integration)
+- [Python SDK for decoding safeurls from Proofpoint, Microsoft, etc](https://github.com/renisac/safeurl-decoder)
 - [Node-RED Client by Anamico](https://github.com/Anamico/node-red-contrib-proofpoint)
-- [Go Client Library by greenpau](https://github.com/greenpau/go-proofpoint) 
-- [Javascript Link Decoder](https://github.com/KevinGage/NodeProofpointLinkDecoder)
-- [Django project to find decode urls](https://github.com/qubitslover/proofpoint)
 - [Javascript URL revealer for Gmail chrome extension by qubitslover](https://github.com/qubitslover/proofpoint)
 - [Javascript URL revealer by Manikantapayasam ](https://github.com/Manikantapayasam/proofpoint-decoder)
-- [Python SDK for decoding safeurls from Proofpoint, Microsoft, etc](https://github.com/renisac/safeurl-decoder)
+- [Javascript Link Decoder](https://github.com/KevinGage/NodeProofpointLinkDecoder)
+- [Django project to find decode urls](https://github.com/qubitslover/proofpoint)
+- [Go Client Library by greenpau](https://github.com/greenpau/go-proofpoint) 
 - [PHP Link Decode](https://github.com/base-theme-class/base-theme-class-proofpoint)
 
 
