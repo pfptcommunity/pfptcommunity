@@ -242,13 +242,19 @@ Below code snippets will help you to get started with the initial authentication
 | [psat_api_private.py](https://github.com/pfptcommunity/api/blob/main/psat_api_private.py) | Python Request  |
 | [psat_api_private.gs](https://github.com/pfptcommunity/api/blob/main/psat_api_private.gs) | Google Apps Script (GAS) Request |
 
+
+```
+US: results.us.securityeducation.com
+EU: results.eu.securityeducation.com
+AP: results.ap.securityeducation.com
+```
+
+
+## GitHub
+
+Found 
+
 [Python module to interact with the Proofpoint Security Awareness Training (PSAT) Results API](https://github.com/regg00/psat-result-api)
-
-
-- US: results.us.securityeducation.com
-- EU: results.eu.securityeducation.com
-- AP: results.ap.securityeducation.com
-
 
 
 <br>
