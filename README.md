@@ -128,6 +128,8 @@ Below code snippets will help you to get started with the initial authentication
 
 ## TAP GitHub Projects
 
+Some projects we found on GitHub:
+
 - [Powershell wrapper by jfviana](https://github.com/jfviana/proofpoint-api )
 - [Powershell wrapper by lambdac0de](https://github.com/lambdac0de/ProofpointTAP )
 - [Powershell wrapper by Midnigh7](https://github.com/Midnigh7/PSProofpoint )
