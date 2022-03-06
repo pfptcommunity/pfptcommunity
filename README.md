@@ -311,8 +311,8 @@ The API is available across all stacks. As a reference point, you can get to the
 
 Found on Github
 
-- [ProofPoint Essentails API](https://github.com/miearls/proofpoint)
-- [c# wrapper](https://github.com/singhkamall/ProofPointEssentialsClient  )
+- [Python wrapper by miearls](https://github.com/miearls/proofpoint)
+- [c# wrapper by singhkamall](https://github.com/singhkamall/ProofPointEssentialsClient  )
 
 
 ------------
