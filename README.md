@@ -302,6 +302,11 @@ https://github.com/lambdac0de/node-proofpoint-podclient
 # ESS-API
 The Proofpoint [Essentials API documentation](https://us1.proofpointessentials.com/api/v1/docs/index.php)
 
+The API is available across all stacks. As a reference point, you can get to the API documentation here:
+
+-[API Overview])https://us1.proofpointessentials.com/api/v1/docs/index.php)
+-[Proofpoint Essentials Interface API v1](https://us1.proofpointessentials.com/api/v1/docs/specification.php)
+
 
 
 Found on Github
