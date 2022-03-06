@@ -2,11 +2,21 @@
 
 String principal = "•••••••••";
 String secret    = "•••••••••";
-String encodedData = DatatypeConverter.printBase64Binary((clientId + ":" + clientSecret).getBytes("UTF-8"));
-String authorizationHeaderString = "Authorization: Basic " + encodedData;
+String endata    = DatatypeConverter.printBase64Binary((clientId + ":" + clientSecret).getBytes("UTF-8"));
+String headr     = "Authorization: Basic " + endata;
 
-String uri       = "https://tap-api-v2.proofpoint.com";
+String base       = "https://tap-api-v2.proofpoint.com";
 String command   = "/v2/people/vap";
 String parameter = "?window=90";
 
-// do http request uri + command + parameter @ Header = authorizationHeaderString
+
+uri = new URL (base, command, parameter);
+
+HttpClient client = HttpClients.custom().build();
+HttpUriRequest request = RequestBuilder.get()
+  .setUri(uri)
+  .setHeader(HttpHeaders.CONTENT_TYPE, "application/json")
+  .setHeader("Authorization", headr)
+  .build();
+
+HttpResponse response = httpclient.execute(request);
