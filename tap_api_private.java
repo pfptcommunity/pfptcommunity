@@ -1,4 +1,3 @@
-// TODO 
 // The javax.xml.bind.DatatypeConverter class can be used to convert byte data into a base 64 encoded string.
 
 String principal = "•••••••••";
