@@ -45,7 +45,7 @@ The structure of a JSON object is derived from JavaScript object notation syntax
    "name": "Winston Wolf", 
    "email": [
       "thewolf@fixaprob.com",
-      "w.wolf@fixaprob.com",
+      "mr.wolf@fixaprob.com",
       "w.wolf@jmail.com"
    ],
    "department": "Operations", 
