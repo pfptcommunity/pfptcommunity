@@ -355,6 +355,11 @@ The Proofpoint ITM API documentation TODO
 - [Proofpoint ITM API client library for python](https://github.com/drizzo-tech/proofpoint_itm)
 - [ITM SDK python](https://github.com/yuta519/proofpoint-itm-sdk)
 
+
+- [Getting started ITM API](https://uim-se-demo.itm-stage.proofpoint.com/v2/apps/portal/getting-started)
+- [Search Github](https://github.com/search?l=JavaScript&q=ObserveIT&type=Repositories)
+
+
 ------------
 
 # Business Intelligence
