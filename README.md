@@ -8,6 +8,7 @@ Please **★ Star** on the top of this page if you like this page and you want t
 
 - [Introduction to REST APIs](#Introduction-to-REST-APIs)
 - [Targeted Attack Protection (TAP)](#TAP-API)
+- [Threat Response Auto-Pull (TRAP)(#TRAP-API)
 - [Nexus People Risk Explorer (NPRE)](#NPRE-API)
 - [Emerging Threats Intelligence (ETI)](#ETI-API)
 - [Protection On Demand (POD)](#POD-API)
@@ -153,7 +154,15 @@ Some projects we found on GitHub:
 - [Microsoft Sentinel](https://docs.microsoft.com/en-us/azure/sentinel/data-connectors-reference#proofpoint-targeted-attack-protection-tap-preview)
 
 
+------------
 
+# TRAP API
+
+Proofpoint Threat Response (Auto Pull)
+
+e.g. CLEAR Dispositions
+
+https://ptr-docs.proofpoint.com/extensibility-guides/ptr-api/#threat-response-api 
 
 ------------
 
