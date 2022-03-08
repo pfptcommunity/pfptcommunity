@@ -158,7 +158,7 @@ Some projects we found on GitHub:
 
 # TRAP API
 
-Proofpoint Threat Response (Auto Pull)
+Threat Response Auto-Pull (TRAP) enables messaging and security administrators to analyze emails and move malicious or unwanted emails to quarantine, after delivery. It follows forwarded mail and distribution lists and creates an auditable activity trail.
 
 e.g. CLEAR Dispositions
 
