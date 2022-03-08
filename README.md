@@ -88,6 +88,7 @@ Both Microsoft Power BI and Excel can directly fetch JSON data from an REST endp
 
 Howto: Getting started with Power BI. 
 
+- I recommend Downloading [Power BI](https://app.powerbi.com) desktop. 
 - Download and open the pbix sample
 - click Transform data
 - Select function 'Api call keys'
