@@ -125,6 +125,7 @@ Below code snippets will help you to get started with the initial authentication
 | [tap_api_private.pqs](https://github.com/pfptcommunity/api/blob/main/tap_api_private.pqs) | M Code for Excel or Power BI |
 | [tap_api_private.ps1](https://github.com/pfptcommunity/api/blob/main/tap_api_private.ps1) | Powershell Request |
 
+
 <br>
 
 ## TAP GitHub Projects
@@ -137,6 +138,7 @@ Some projects we found on GitHub:
 - [Python client by drizzo-tech](https://github.com/drizzo-tech/proofpoint_tap)
 - [Python SIEM API Humio Package](https://github.com/CrowdStrike/Proofpoint-SIEM-API-Humio-Package-Integration)
 - [Python SDK for decoding safeurls from Proofpoint, Microsoft, etc](https://github.com/renisac/safeurl-decoder)
+- [Python VMware Carbon Black Cloud Endpoint Standard or Enterprise EDR](https://github.com/cbcommunity/cbc-proofpoint-malicous-file-detection)
 - [Node-RED Client by Anamico](https://github.com/Anamico/node-red-contrib-proofpoint)
 - [Javascript URL revealer for Gmail chrome extension by qubitslover](https://github.com/qubitslover/proofpoint)
 - [Javascript URL revealer by Manikantapayasam ](https://github.com/Manikantapayasam/proofpoint-decoder)
@@ -147,13 +149,8 @@ Some projects we found on GitHub:
 
 
 <br>
+- [Microsoft Sentinel](https://docs.microsoft.com/en-us/azure/sentinel/data-connectors-reference#proofpoint-targeted-attack-protection-tap-preview)
 
-
-------------
-
-TRAP
-
-[This is an integration with Proofpoint's TRAP product and VMware Carbon Black Cloud.](https://github.com/cbcommunity/cbc-proofpoint-malicious-file-detection)
 
 
 
@@ -355,9 +352,14 @@ The Proofpoint ITM API documentation TODO
 - [Proofpoint ITM API client library for python](https://github.com/drizzo-tech/proofpoint_itm)
 - [ITM SDK python](https://github.com/yuta519/proofpoint-itm-sdk)
 
-
 - [Getting started ITM API](https://uim-se-demo.itm-stage.proofpoint.com/v2/apps/portal/getting-started)
 - [Search Github](https://github.com/search?l=JavaScript&q=ObserveIT&type=Repositories)
+
+https://documentation.observeit.com/saas/threat_library/threat_library_items.htm
+
+https://documentation.observeit.com/configuration_guide/integration_custom.htm
+
+
 
 
 ------------
