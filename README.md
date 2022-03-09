@@ -7,6 +7,9 @@ Please **★ Star** on the top of this page if you like this page and you want t
 <br>
 
 - [Introduction to REST APIs](#Introduction-to-REST-APIs)
+- [Use cases](#Introduction-to-REST-APIs)
+
+
 - [Targeted Attack Protection (TAP)](#TAP-API)
 - [Threat Response Auto-Pull (TRAP)](#TRAP-API)
 - [Nexus People Risk Explorer (NPRE)](#NPRE-API)
