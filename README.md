@@ -71,7 +71,14 @@ Below code snippets and reference will help you getting started.
 
 # Use cases
 
-dd
+## Risk / Security Dashboards
+xx todo
+
+## Identity Governance / Consumer IAM
+xx todo
+
+## SIEM / UBAE
+xx todo
 
 <br>
 
