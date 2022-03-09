@@ -83,7 +83,7 @@ We have create several Power BI and Excel examples on howto consume data directl
 Identity governance is about making sure each person has exactly the access they need to do their jobs without causing risk to the company. The Proofpoint Very Attacked Person (VAP) data can be easily integrated with your IGA solution to enhance the IGA dataset for decission making.
 IGA calculates risk scores for users based on authorizations/access. It makes a lot of sense to enrich the data with VAP data.
 See:
-- [Targeted Attack Protection (TAP)](#TAP-API)
+- [TAP People API](#TAP-API)
 - [Nexus People Risk Explorer (NPRE)](#NPRE-API)
 
 Key players: Sailpoint, Saviynt, One Identity, Microfocus (NetIQ), Omada
