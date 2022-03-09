@@ -7,7 +7,7 @@ Please **★ Star** on the top of this page if you like this page and you want t
 <br>
 
 - [Introduction to REST APIs](#Introduction-to-REST-APIs)
-- [Use cases](#Introduction-to-REST-APIs)
+- [Use Cases](#Use-cases)
 
 <br>
 
@@ -65,6 +65,13 @@ Proofpoint provides some lovely REST APIs that can be used to gather information
 Below code snippets and reference will help you getting started.
 
 
+<br>
+
+------------
+
+#Use cases
+
+dd
 
 <br>
 
