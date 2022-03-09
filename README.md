@@ -73,7 +73,7 @@ Below code snippets and reference will help you getting started.
 
 To shift to data-driven security decision making start with the right data.
 
-## Risk / Security Dashboards
+## Risk Dashboards with BI
 
 We have create several Power BI and Excel examples on howto consume data directly from these tool. [read more](https://www.helpnetsecurity.com/2022/02/22/organizations-leverage-data/)
 
@@ -81,11 +81,14 @@ We have create several Power BI and Excel examples on howto consume data directl
 ## Identity Governance / Consumer IAM
 
 Identity governance is about making sure each person has exactly the access they need to do their jobs without causing risk to the company. The Proofpoint Very Attacked Person (VAP) data can be easily integrated with your IGA solution to enhance the IGA dataset for decission making.
+IGA calculates risk scores for users based on authorizations/access. It makes a lot of sense to enrich the data with VAP data.
+
 Key players: Sailpoint, Saviynt, One Identity, Microfocus (NetIQ), Omada
 
 
-## SIEM / UBAE
+## SIEM / UBA / UBEA
 xx todo
+Risk scores are calculated for each user in UB tools.
 
 <br>
 
