@@ -73,9 +73,9 @@ Below code snippets and reference will help you getting started.
 
 To shift to data-driven security decision making start with the right data.
 
-## Risk Dashboards with BI
+## Risk Dashboards with BI tools
 
-We have create several Power BI and Excel examples on howto consume data directly from these tool. [read more](https://www.helpnetsecurity.com/2022/02/22/organizations-leverage-data/). An example can be found in the [TAP Chapter](#TAP-API).
+We have create several Power BI and Excel examples on howto consume data directly from these business tools. [read more](https://www.helpnetsecurity.com/2022/02/22/organizations-leverage-data/). An example can be found in the [TAP Chapter](#TAP-API).
 
 
 ## Identity Governance / Consumer IAM
