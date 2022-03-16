@@ -117,6 +117,7 @@ Both Microsoft Power BI and Excel can directly fetch JSON data from an REST endp
 | [Power BI : YouTube Video](https://youtu.be/cfnkOV6k8H0) | Short video tap_api_people.xlsx sample Power BI file |
 | [Power BI : Download Sample](https://github.com/pfptcommunity/api/raw/main/tap_api.pbix) | Download the tap_api.pbix sheet   |
 | [Power BI : Screenshot](https://github.com/pfptcommunity/api/blob/main/tap_api_powerbi.jpg?raw=true) | Power BI screenshot Advanced Editor |
+| [GSheet : YouTube Video](https://youtu.be/7YYsYpm84gE) | Short video tap_api google sheets sample |
 | [GSheet : Download Sample](https://docs.google.com/spreadsheets/d/16RPVdlQW6HPaNfN9Kt3Ou7diybsUyz1peIinfAUQJpE/copy) | Download the sheet/script  |
 
 
