@@ -114,10 +114,10 @@ Both Microsoft Power BI and Excel can directly fetch JSON data from an REST endp
 | Action  | Description | 
 | ------------- | ------------- | 
 | [Excel : YouTube Video](https://youtu.be/7YYsYpm84gE) | Short video tap_api_people.xlsx sample sheet |
-| [Excel : Download Sample](https://github.com/pfptcommunity/api/raw/main/tap_api.xlsx) | Download the tap_api.xlsx sheet   |
+| [Excel : Download Sample](https://github.com/pfptcommunity/pfptcommunity/raw/main/tap_api.xlsx) | Download the tap_api.xlsx sheet   |
 | [Power BI : YouTube Video](https://youtu.be/cfnkOV6k8H0) | Short video tap_api_people.xlsx sample Power BI file |
-| [Power BI : Download Sample](https://github.com/pfptcommunity/api/raw/main/tap_api.pbix) | Download the tap_api.pbix sheet   |
-| [Power BI : Screenshot](https://github.com/pfptcommunity/api/blob/main/tap_api_powerbi.jpg?raw=true) | Power BI screenshot Advanced Editor |
+| [Power BI : Download Sample](https://github.com/pfptcommunity/pfptcommunity/raw/main/tap_api.pbix) | Download the tap_api.pbix sheet   |
+| [Power BI : Screenshot](https://github.com/pfptcommunity/pfptcommunity/blob/main/tap_api_powerbi.jpg?raw=true) | Power BI screenshot Advanced Editor |
 | [GSheet : YouTube Video](https://youtu.be/8k-j2_Pjopw) | Short video tap_api google sheets sample |
 | [GSheet : Download Sample](https://docs.google.com/spreadsheets/d/16RPVdlQW6HPaNfN9Kt3Ou7diybsUyz1peIinfAUQJpE/copy) | Download the sheet/script  |
 
@@ -154,14 +154,14 @@ Below code snippets will help you to get started with the initial authentication
 
 | Code Snippet | Language | 
 | ------------- | ------------- | 
-| [tap_api_private.js](https://github.com/pfptcommunity/api/blob/main/tap_api_private.js) | Javascript / Node.js Request |
-| [tap_api_private.py](https://github.com/pfptcommunity/api/blob/main/tap_api_private.py) | Python Request  |
-| [tap_api_private.cs](https://github.com/pfptcommunity/api/blob/main/tap_api_private.cs) | C# (.net framework) Request   |
-| [tap_api_private.java](https://github.com/pfptcommunity/api/blob/main/tap_api_private.java) | Java Request    |
-| [tap_api_private.gs](https://github.com/pfptcommunity/api/blob/main/tap_api_private.gs) | Google Apps Script (GAS) Request |
-| [tap_api_private.php](https://github.com/pfptcommunity/api/blob/main/tap_api_private.php) | PHP Request |
-| [tap_api_private.pqs](https://github.com/pfptcommunity/api/blob/main/tap_api_private.pqs) | M Code for Excel or Power BI |
-| [tap_api_private.ps1](https://github.com/pfptcommunity/api/blob/main/tap_api_private.ps1) | Powershell Request |
+| [tap_api_private.js](https://github.com/pfptcommunity/pfptcommunity/blob/main/tap_api_private.js) | Javascript / Node.js Request |
+| [tap_api_private.py](https://github.com/pfptcommunity/pfptcommunity/blob/main/tap_api_private.py) | Python Request  |
+| [tap_api_private.cs](https://github.com/pfptcommunity/pfptcommunity/blob/main/tap_api_private.cs) | C# (.net framework) Request   |
+| [tap_api_private.java](https://github.com/pfptcommunity/pfptcommunity/blob/main/tap_api_private.java) | Java Request    |
+| [tap_api_private.gs](https://github.com/pfptcommunity/pfptcommunity/blob/main/tap_api_private.gs) | Google Apps Script (GAS) Request |
+| [tap_api_private.php](https://github.com/pfptcommunity/pfptcommunity/blob/main/tap_api_private.php) | PHP Request |
+| [tap_api_private.pqs](https://github.com/pfptcommunity/pfptcommunity/blob/main/tap_api_private.pqs) | M Code for Excel or Power BI |
+| [tap_api_private.ps1](https://github.com/pfptcommunity/pfptcommunity/blob/main/tap_api_private.ps1) | Powershell Request |
 
 
 <br>
@@ -215,8 +215,8 @@ Both Microsoft Power BI and Excel can directly fetch JSON data from an REST endp
 | Action  | Description | 
 | ------------- | ------------- | 
 | [Excel : YouTube Video](https://youtu.be/XrUXztNjvwo) | Short demonstration of the npre_api_people.xlsx sample sheet |
-| [Excel : Download Sample](https://github.com/pfptcommunity/api/raw/main/npre_api_csv.xlsx) | Download the npre_api_people.xlsx sample sheet   |
-| [Power BI : Download Sample](https://github.com/pfptcommunity/api/raw/main/npre_api_csv.pbix) | Download the npre_api_csv.pbix Power BI sample file   |
+| [Excel : Download Sample](https://github.com/pfptcommunity/pfptcommunity/raw/main/npre_api_csv.xlsx) | Download the npre_api_people.xlsx sample sheet   |
+| [Power BI : Download Sample](https://github.com/pfptcommunity/pfptcommunity/raw/main/npre_api_csv.pbix) | Download the npre_api_csv.pbix Power BI sample file   |
 
 
 Howto: Getting started with Power BI. 
@@ -247,10 +247,10 @@ Below code snippets will help you to get started with the initial authentication
 
 | Code Snippet | Language | 
 | ------------- | ------------- | 
-| [npre_api_csv.js](https://github.com/pfptcommunity/api/blob/main/npre_api_csv.js) | <i>Javascript / Node.js Request  (coming soon)</i>  |
-| [npre_api_csv.py](https://github.com/pfptcommunity/api/blob/main/npre_api_csv.py) | Python Request  |
-| [npre_api_csv.gs](https://github.com/pfptcommunity/api/blob/main/npre_api_csv.gs) | Google Apps Script (GAS) Request |
-| [npre_api_csv.pqs](https://github.com/pfptcommunity/api/blob/main/npre_api_csv.pqs) | M Code for Excel or Power BI |
+| [npre_api_csv.js](https://github.com/pfptcommunity/pfptcommunity/blob/main/npre_api_csv.js) | <i>Javascript / Node.js Request  (coming soon)</i>  |
+| [npre_api_csv.py](https://github.com/pfptcommunity/pfptcommunity/blob/main/npre_api_csv.py) | Python Request  |
+| [npre_api_csv.gs](https://github.com/pfptcommunity/pfptcommunity/blob/main/npre_api_csv.gs) | Google Apps Script (GAS) Request |
+| [npre_api_csv.pqs](https://github.com/pfptcommunity/pfptcommunity/blob/main/npre_api_csv.pqs) | M Code for Excel or Power BI |
 
 <br>
 
@@ -258,7 +258,7 @@ Below code snippets will help you to get started with the initial authentication
 
 # PSAT API
 
-Proofpoint Security Awareness Training Results API [Documentation](https://proofpoint.securityeducation.com/api/reporting/documentation/) and [this on proofpointcommunity](
+Proofpoint Security Awareness Training Results API [Documentation](https://proofpoint.securityeducation.com/pfptcommunity/reporting/documentation/) and [this on proofpointcommunity](
 https://proofpointcommunities.force.com/community/s/article/Reports-API-Results-API-Setup).
 
 The PSAT Results API contains five endpoints from which you can retrieve and filter data for your business needs:
@@ -275,8 +275,8 @@ The PSAT Results API contains five endpoints from which you can retrieve and fil
 
 | Action  | Description | 
 | ------------- | ------------- | 
-| [Download Spreadsheet](https://github.com/pfptcommunity/api/raw/main/psat_api.xlsx) | Download the psat_api.xlsx sheet FIRST DRAFT  |
-| [M Code script](https://github.com/pfptcommunity/api/blob/main/psat_api_private.pqs) | M Code for Excel or Power BI |
+| [Download Spreadsheet](https://github.com/pfptcommunity/pfptcommunity/raw/main/psat_api.xlsx) | Download the psat_api.xlsx sheet FIRST DRAFT  |
+| [M Code script](https://github.com/pfptcommunity/pfptcommunity/blob/main/psat_api_private.pqs) | M Code for Excel or Power BI |
 
 
 <br>
@@ -288,9 +288,9 @@ Below code snippets will help you to get started with the initial authentication
 
 | Code Snippet | Language | 
 | ------------- | ------------- | 
-| [psat_api_private.js](https://github.com/pfptcommunity/api/blob/main/psat_api_private.js) | Javascript / Node.js Request  |
-| [psat_api_private.py](https://github.com/pfptcommunity/api/blob/main/psat_api_private.py) | Python Request  |
-| [psat_api_private.gs](https://github.com/pfptcommunity/api/blob/main/psat_api_private.gs) | Google Apps Script (GAS) Request |
+| [psat_api_private.js](https://github.com/pfptcommunity/pfptcommunity/blob/main/psat_api_private.js) | Javascript / Node.js Request  |
+| [psat_api_private.py](https://github.com/pfptcommunity/pfptcommunity/blob/main/psat_api_private.py) | Python Request  |
+| [psat_api_private.gs](https://github.com/pfptcommunity/pfptcommunity/blob/main/psat_api_private.gs) | Google Apps Script (GAS) Request |
 
 
 ```
@@ -323,7 +323,7 @@ Proofpoint Emerging Threat Intelligence delivers the most timely and accurate th
 
 | Action  | Description | 
 | ------------- | ------------- | 
-| [Excel : Download Sample](https://github.com/pfptcommunity/api/raw/main/eti_api.xlsx) | Download the eti_api.xlsx sheet DRAFT   |
+| [Excel : Download Sample](https://github.com/pfptcommunity/pfptcommunity/raw/main/eti_api.xlsx) | Download the eti_api.xlsx sheet DRAFT   |
 
 
 
@@ -331,10 +331,10 @@ Proofpoint Emerging Threat Intelligence delivers the most timely and accurate th
 
 | Code Snippet | Language | 
 | ------------- | ------------- | 
-| [eti_api.js](https://github.com/pfptcommunity/api/blob/main/eti_api.js) | Javascript / Node.js Request  |
-| [eti_api.py](https://github.com/pfptcommunity/api/blob/main/eti_api.py) | Python Request  |
-| [eti_api.cs](https://github.com/pfptcommunity/api/blob/main/eti_api.cs) | C# (.net framework) Request |
-| [eti_api.gs](https://github.com/pfptcommunity/api/blob/main/eti_api.gs) | Google Apps Script (GAS) Request |
+| [eti_api.js](https://github.com/pfptcommunity/pfptcommunity/blob/main/eti_api.js) | Javascript / Node.js Request  |
+| [eti_api.py](https://github.com/pfptcommunity/pfptcommunity/blob/main/eti_api.py) | Python Request  |
+| [eti_api.cs](https://github.com/pfptcommunity/pfptcommunity/blob/main/eti_api.cs) | C# (.net framework) Request |
+| [eti_api.gs](https://github.com/pfptcommunity/pfptcommunity/blob/main/eti_api.gs) | Google Apps Script (GAS) Request |
 
 
 <br>
@@ -363,12 +363,12 @@ https://github.com/lambdac0de/node-proofpoint-podclient
 ------------
 
 # ESS-API
-The Proofpoint [Essentials API documentation](https://us1.proofpointessentials.com/api/v1/docs/index.php)
+The Proofpoint [Essentials API documentation](https://us1.proofpointessentials.com/pfptcommunity/v1/docs/index.php)
 
 The API is available across all stacks. As a reference point, you can get to the API documentation here:
 
-- [API Overview](https://us1.proofpointessentials.com/api/v1/docs/index.php)
-- [Proofpoint Essentials Interface API v1](https://us1.proofpointessentials.com/api/v1/docs/specification.php)
+- [API Overview](https://us1.proofpointessentials.com/pfptcommunity/v1/docs/index.php)
+- [Proofpoint Essentials Interface API v1](https://us1.proofpointessentials.com/pfptcommunity/v1/docs/specification.php)
 
 
 
@@ -415,11 +415,11 @@ https://documentation.observeit.com/configuration_guide/integration_custom.htm
 
 Key players and their REST API support
 
-[Microsoft Power BI](https://docs.microsoft.com/en-us/power-query/connectors/) - howto [Build](https://docs.microsoft.com/en-us/rest/api/power-bi/) connector
+[Microsoft Power BI](https://docs.microsoft.com/en-us/power-query/connectors/) - howto [Build](https://docs.microsoft.com/en-us/rest/pfptcommunity/power-bi/) connector
 
 [Qlik](https://help.qlik.com/en-US/connectors/Subsystems/REST_connector_help/Content/Connectors_REST/REST-connector.htm)
 
-[Tableau (Salesforce)](https://help.tableau.com/current/pro/desktop/en-us/exampleconnections_overview.htm) - howto [Build](https://help.tableau.com/current/api/rest_api/en-us/REST/rest_api.htm) connector
+[Tableau (Salesforce)](https://help.tableau.com/current/pro/desktop/en-us/exampleconnections_overview.htm) - howto [Build](https://help.tableau.com/current/pfptcommunity/rest_api/en-us/REST/rest_api.htm) connector
 
 [Microstrategy](https://www2.microstrategy.com/producthelp/Current/RESTSDK/Content/topics/REST_API/REST_API.htm)
 
