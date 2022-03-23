@@ -383,6 +383,21 @@ Found on Github
 # CASB-API
 The Proofpoint [CASB API documentation](https://proofpointcommunities.force.com/community/s/article/Proofpoint-Cloud-App-Security-Broker-API-Guides) 
 
+The CASB API uses the following request structure:
+
+```
+method                = POST
+request1              = Get the Bearer Token with your API id(key)/secret
+request2              = Get the Data from the endpoint
+```
+
+Some of the commands that are supported by the api:
+
+- Alerts
+- Metadata Lookup
+- Events API
+
+
 ------------
 
 # META-API
