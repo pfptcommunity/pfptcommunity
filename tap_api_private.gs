@@ -1,5 +1,5 @@
 // ** proofpoint tap api private request example
-// ** feb 2022 by moosylog
+// ** feb 2022 by B
 
 function PFPT_People(){
   var req ={
