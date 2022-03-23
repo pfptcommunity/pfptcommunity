@@ -1,3 +1,5 @@
 # Proofpoint Data Rocks
 
-Please use https://github.com/pfptcommunity/ to look at the README
+We moved the README file to the default location!
+<br>
+Please use:  https://github.com/pfptcommunity/ 
