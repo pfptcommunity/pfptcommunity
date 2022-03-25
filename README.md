@@ -77,7 +77,9 @@ To shift to data-driven security decision making start with the right data.
 
 ## Risk Dashboards with BI tools
 
-We have created several Power BI and Excel examples on howto consume data directly/natively from these business tools. An example can be found in the [TAP Chapter](#TAP-API).
+Many organization are creating risk metrics that can be monitored from BI tools.
+Key risk indicators from multiple domains can be consolidated in a single pain of glass.
+We have created several Power BI and Excel examples on howto consume proofpoint data directly/natively into BI tools. An example can be found in the [TAP Chapter](#TAP-API).
 
 
 ## Identity Governance / Consumer IAM
@@ -92,7 +94,7 @@ Key players: Sailpoint, Saviynt, One Identity, Microfocus (NetIQ), Omada
 
 
 ## SIEM / UBA / UBEA
-xx todo
+Push events to Security Information and Event Management (SIEM) or User / Entity Behavior Analytics (UBA/UBEA) 
 Risk scores are calculated for each user in UB tools.
 
 <br>
