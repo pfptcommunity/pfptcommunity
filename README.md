@@ -97,6 +97,12 @@ Key players: Sailpoint, Saviynt, One Identity, Microfocus (NetIQ), Omada
 Push events to Security Information and Event Management (SIEM) or User / Entity Behavior Analytics (UBA/UBEA) 
 Risk scores are calculated for each user in UB tools.
 
+
+
+## Other
+Many, many other use cases exist; from network switches to other business applications.
+
+
 <br>
 
 ------------
