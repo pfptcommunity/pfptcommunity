@@ -100,7 +100,9 @@ Risk scores are calculated for each user in UB tools.
 
 
 ## Other
-Many, many other use cases exist; from network switches to other business applications.
+Many, many other use cases exist; from network infrastructure, endpoint.
+CrowdStrike, Okta, Palo Alto Networks, Amazon Web Services, Splunk, IBM, ZScaler, Imperva, CyberArk, Deciso, Sailpoint, VMware Carbon Black.
+See [Proofpoint Technology Partners page](https://www.proofpoint.com/us/partners/technology-alliance-partners).
 
 
 <br>
