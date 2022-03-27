@@ -84,7 +84,7 @@ We have created several Power BI and Excel examples on howto consume proofpoint 
 
 ## Correlation
 
-Pull TAP people data and correlate it with AD.
+Pull data from multiple different source togheter and correlate these. An example could be TAP with AD, Service Management, Asset Management.
 [here](https://community.powerbi.com/t5/Power-Query/Active-Directory-hierarchy-getting-all-users-inside-a-group/td-p/492516)
 
 
