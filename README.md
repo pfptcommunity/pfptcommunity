@@ -82,6 +82,12 @@ Key risk indicators from multiple domains can be consolidated in a single pain o
 We have created several Power BI and Excel examples on howto consume proofpoint data directly/natively into BI tools. An example can be found in the [TAP Chapter](#TAP-API).
 
 
+## Correlation
+
+Pull TAP people data and correlate it with AD.
+[here](https://community.powerbi.com/t5/Power-Query/Active-Directory-hierarchy-getting-all-users-inside-a-group/td-p/492516)
+
+
 ## Identity Governance / Consumer IAM
 
 Identity governance is about making sure each person has exactly the access they need to do their jobs without causing risk to the company. The Proofpoint Very Attacked Person (VAP) data can be easily integrated with your IGA solution to enhance the IGA dataset for decission making.
