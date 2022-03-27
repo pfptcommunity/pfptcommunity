@@ -84,8 +84,8 @@ We have created several Power BI and Excel examples on howto consume proofpoint 
 
 ## Correlation
 
-Pull data from multiple different source togheter and correlate these. An example could be TAP with AD [1](https://community.powerbi.com/t5/Power-Query/Active-Directory-hierarchy-getting-all-users-inside-a-group/td-p/492516) [2](https://www.biinsight.com/power-bi-and-active-directory-for-system-administrators/)
-, Service Management, Asset Management.
+Pull data from multiple different source togheter and correlate these. An example could be TAP with Active Directory [read 1](https://community.powerbi.com/t5/Power-Query/Active-Directory-hierarchy-getting-all-users-inside-a-group/td-p/492516) [read 2](https://www.biinsight.com/power-bi-and-active-directory-for-system-administrators/) [read 3](https://docs.microsoft.com/en-us/power-bi/transform-model/desktop-create-and-manage-relationships)
+
 
 
 ## Identity Governance / Consumer IAM
