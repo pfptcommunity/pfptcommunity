@@ -130,12 +130,12 @@ Both Microsoft Power BI and Excel can directly fetch JSON data from an REST endp
 | Action  | Description | 
 | ------------- | ------------- | 
 | [Excel : YouTube Video](https://youtu.be/7YYsYpm84gE) | Short video tap_api_people.xlsx sample sheet |
-| [Excel : Download Sample](https://github.com/pfptcommunity/pfptcommunity/raw/main/tap_api.xlsx) | Download the tap_api.xlsx sheet   |
+| [Excel : Download the Spreadsheet](https://github.com/pfptcommunity/pfptcommunity/raw/main/tap_api.xlsx) | Download the tap_api.xlsx sheet   |
 | [Power BI : YouTube Video](https://youtu.be/cfnkOV6k8H0) | Short video tap_api_people.xlsx sample Power BI file |
-| [Power BI : Download Sample](https://github.com/pfptcommunity/pfptcommunity/raw/main/tap_api.pbix) | Download the tap_api.pbix sheet   |
+| [Power BI : Download the Power BI file](https://github.com/pfptcommunity/pfptcommunity/raw/main/tap_api.pbix) | Download the tap_api.pbix sheet   |
 | [Power BI : Screenshot](https://github.com/pfptcommunity/pfptcommunity/blob/main/tap_api_powerbi.jpg?raw=true) | Power BI screenshot Advanced Editor |
 | [GSheet : YouTube Video](https://youtu.be/8k-j2_Pjopw) | Short video tap_api google sheets sample |
-| [GSheet : Download Sample](https://docs.google.com/spreadsheets/d/16RPVdlQW6HPaNfN9Kt3Ou7diybsUyz1peIinfAUQJpE/copy) | Download the sheet/script  |
+| [GSheet : Download sheet](https://docs.google.com/spreadsheets/d/16RPVdlQW6HPaNfN9Kt3Ou7diybsUyz1peIinfAUQJpE/copy) | Download the sheet/script  |
 
 
 
