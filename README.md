@@ -227,7 +227,7 @@ The API is documented in the NPRE Admin Guide that can be found on the community
 
 ## Microsoft Excel or Power BI consuming NPRE People/Risk data
 
-Both Microsoft Power BI and Excel can directly fetch JSON data from an REST endpoint. See the [Microsoft doc](https://docs.microsoft.com/en-us/power-query/connectors/web/web) for more information.  Below you can see and download a sample Excel sheet that fetches data using the NPRE endpoint.
+Both Microsoft Power BI and Excel can directly fetch JSON data from an REST endpoint. See the [Microsoft doc](https://docs.microsoft.com/en-us/power-query/connectors/web/web) for more information.  See below some samples that fetches data directly from the NPRE endpoint.
 
 <img src="https://raw.githubusercontent.com/pfptcommunity/pfptcommunity/main/npre_api_pb13.jpg" width=78% height=78%>
 
