@@ -229,13 +229,12 @@ The API is documented in the NPRE Admin Guide that can be found on the community
 
 Both Microsoft Power BI and Excel can directly fetch JSON data from an REST endpoint. See the [Microsoft doc](https://docs.microsoft.com/en-us/power-query/connectors/web/web) for more information.  Below you can see and download a sample Excel sheet that fetches data using the NPRE endpoint.
 
-<img src="https://raw.githubusercontent.com/pfptcommunity/pfptcommunity/main/npre_api_pb13.jpg" width=75% height=57%>
+<img src="https://raw.githubusercontent.com/pfptcommunity/pfptcommunity/main/npre_api_pb13.jpg" width=78% height=78%>
 
 | Action  | Description | 
 | ------------- | ------------- | 
 | [Excel : YouTube Video](https://youtu.be/XrUXztNjvwo) | Short demonstration of the npre_api_people.xlsx sample sheet |
 | [Excel : Download Sample](https://github.com/pfptcommunity/pfptcommunity/raw/main/npre_api_csv.xlsx) | Download the npre_api_people.xlsx sample sheet   |
-| [Power BI : Screenshot](https://raw.githubusercontent.com/pfptcommunity/pfptcommunity/main/npre_api_pb13.jpg) | sample file impression v 1.3 |
 | [Power BI : YouTube Demo Video](https://www.youtube.com/watch?v=1a-XB6fxA6o) | Short demonstration of the npre_api_csv.pbix Power BI sample file |
 | [Power BI : YouTube Howto Video](https://youtu.be/AKuiMyCnamk) | Howto getting started with the npre_api_csv.pbix Power BI sample file |
 | [Power BI : Download Sample](https://github.com/pfptcommunity/pfptcommunity/raw/main/npre_api_csv.pbix) | Download the npre_api_csv.pbix Power BI sample file   |
