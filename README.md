@@ -268,6 +268,7 @@ Below code snippets will help you to get started with the initial authentication
 | [npre_api_csv.pqs](https://github.com/pfptcommunity/pfptcommunity/blob/main/npre_api_csv.pqs) | M Code for Excel or Power BI |
 
 <br>
+<img src="https://raw.githubusercontent.com/pfptcommunity/pfptcommunity/main/npre_api_pb13.jpg" width=50% height=50%>
 
 ------------
 
