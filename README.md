@@ -221,7 +221,8 @@ https://ptr-docs.proofpoint.com/extensibility-guides/ptr-api/#threat-response-ap
 
 # NPRE API
 
-The Nexus People Risk Explorer API allows you to download a csv file usingusing an API call. 
+[Nexus People Risk Explorer](https://www.proofpoint.com/us/products/nexus-people-risk-explorer) (NPRE) gives you a unified view of your people-centric risk across the Proofpoint platform and third-party products.
+The NPRE API allows you to download a csv file usingusing an API call. 
 The API is documented in the NPRE Admin Guide that can be found on the community website.
 <br>
 
