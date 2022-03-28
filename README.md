@@ -229,6 +229,8 @@ The API is documented in the NPRE Admin Guide that can be found on the community
 
 Both Microsoft Power BI and Excel can directly fetch JSON data from an REST endpoint. See the [Microsoft doc](https://docs.microsoft.com/en-us/power-query/connectors/web/web) for more information.  Below you can see and download a sample Excel sheet that fetches data using the NPRE endpoint.
 
+<img src="https://raw.githubusercontent.com/pfptcommunity/pfptcommunity/main/npre_api_pb13.jpg" width=60% height=60%>
+
 | Action  | Description | 
 | ------------- | ------------- | 
 | [Excel : YouTube Video](https://youtu.be/XrUXztNjvwo) | Short demonstration of the npre_api_people.xlsx sample sheet |
@@ -268,7 +270,6 @@ Below code snippets will help you to get started with the initial authentication
 | [npre_api_csv.pqs](https://github.com/pfptcommunity/pfptcommunity/blob/main/npre_api_csv.pqs) | M Code for Excel or Power BI |
 
 <br>
-<img src="https://raw.githubusercontent.com/pfptcommunity/pfptcommunity/main/npre_api_pb13.jpg" width=50% height=50%>
 
 ------------
 
