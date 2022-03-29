@@ -85,7 +85,8 @@ Below image is an example of NPRE data that is directly pulled into Power BI.  T
 
 
 
-* Another use case example: *
+###### Another use case example: 
+
 Some organizations do not (want to) sync all user data to Azure AD and/or Proofpoint TAP. As a result the TAP Dashboard only shows email addresses.
 Power BI (on-prem) can pull data from both sources, Proofpoint TAP and Active Directory on-prem and correlate this into a single pane of glass.
 
