@@ -88,6 +88,8 @@ This is an example of NPRE data that is directly pulled into Power BI.  This exa
 
 Pull data from multiple different source togheter and correlate these. An example could be TAP with Active Directory [read 1](https://community.powerbi.com/t5/Power-Query/Active-Directory-hierarchy-getting-all-users-inside-a-group/td-p/492516) [read 2](https://www.biinsight.com/power-bi-and-active-directory-for-system-administrators/) [read 3](https://docs.microsoft.com/en-us/power-bi/transform-model/desktop-create-and-manage-relationships)
 
+<img src="https://raw.githubusercontent.com/pfptcommunity/pfptcommunity/main/usecas_adsync.jpg" width=50% height=50%>
+
 
 
 ## Identity Governance / Consumer IAM
