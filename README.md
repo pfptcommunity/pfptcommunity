@@ -79,7 +79,9 @@ To shift to data-driven security decision making start with the right data.
 
 Many organization are creating risk metrics that can be monitored from BI tools.
 Key risk indicators from multiple domains can be consolidated in a single pain of glass.
-We have created several Power BI and Excel examples on howto consume proofpoint data directly/natively into BI tools. An example can be found in the [TAP Chapter](#TAP-API).
+We have created several Power BI and Excel examples on howto consume proofpoint data directly/natively into BI tools.
+This is an example of NPRE data that is directly pulled into Power BI.  This example can be easily adjusted or extended to include other risk indicators for your organization. 
+<img src="https://raw.githubusercontent.com/pfptcommunity/pfptcommunity/main/npre_api_pb13.jpg" width=78% height=78%>
 
 
 ## Correlation
