@@ -100,7 +100,7 @@ On-prem BI Tooling is very good in collecting data from multiple sources, correl
 
 ## Identity Governance and other IAM
 
-Identity governance is about making sure each person has exactly the access they need to do their jobs without causing risk to the company. The Proofpoint Very Attacked Person (VAP) data can be easily integrated with your IGA solution to enhance the IGA dataset for decission making.
+Identity governance is about making sure each person has exactly the access they need to do their jobs without causing risk to the organization. The Proofpoint Very Attacked Person (VAP) data can be easily integrated into your IGA solution to enhance the IGA dataset for decission making.
 IGA calculates risk scores for users based on authorizations/access. It makes a lot of sense to enrich the data with VAP data.
 See:
 - [TAP People API](#TAP-API)
