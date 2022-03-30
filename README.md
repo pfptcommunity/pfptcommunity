@@ -96,7 +96,7 @@ Power BI (on-prem) can pull data from both sources, Proofpoint TAP and Active Di
 
 <br>
 
-## Identity Governance / Consumer IAM
+## Identity Governance and other IAM
 
 Identity governance is about making sure each person has exactly the access they need to do their jobs without causing risk to the company. The Proofpoint Very Attacked Person (VAP) data can be easily integrated with your IGA solution to enhance the IGA dataset for decission making.
 IGA calculates risk scores for users based on authorizations/access. It makes a lot of sense to enrich the data with VAP data.
@@ -104,7 +104,7 @@ See:
 - [TAP People API](#TAP-API)
 - [Nexus People Risk Explorer (NPRE)](#NPRE-API)
 
-Key players: Sailpoint, Saviynt, One Identity, Microfocus (NetIQ), Omada
+IGA vendors: Atos (Evidian), Brainwave, Broadcom (CA), Clear Skye, Forgerock, Hitachi ID, IBM, Micro Focus, Okta, Omada, One Identity (Quest), Sailpoint, SAP, Saviyint, SecZetta.  
 
 <img src="https://raw.githubusercontent.com/pfptcommunity/pfptcommunity/main/usecase_iga.jpg" width=70% height=70%>
 
