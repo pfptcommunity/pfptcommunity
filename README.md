@@ -77,7 +77,7 @@ To shift to data-driven security decision making start with the right data. You 
 
 ## Risk Dashboards with BI tools
 
-Many organization are creating risk metrics that can be monitored from BI tools.
+Many SRM leaders are creating their own organization specific risk metrics and monitor these with their own dashboarding tools.
 Key risk indicators from multiple domains (data silos) can be consolidated into a single pain of glass.
 We have created several Power BI and Excel examples on howto consume proofpoint data directly/natively into BI tools.
 Below image is an example of NPRE data that is directly pulled into Power BI.  This example can be easily adjusted or extended to include other risk indicators for your organization.  See the NPRE or TAP section on this page for more details.
