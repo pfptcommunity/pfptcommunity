@@ -81,7 +81,7 @@ Many organization are creating risk metrics that can be monitored from BI tools.
 Key risk indicators from multiple domains (data silos) can be consolidated into a single pain of glass.
 We have created several Power BI and Excel examples on howto consume proofpoint data directly/natively into BI tools.
 Below image is an example of NPRE data that is directly pulled into Power BI.  This example can be easily adjusted or extended to include other risk indicators for your organization.  See the NPRE or TAP section on this page for more details.
-<img src="https://raw.githubusercontent.com/pfptcommunity/pfptcommunity/main/usecase_bi.jpg" width=50% height=50%>
+<img src="https://raw.githubusercontent.com/pfptcommunity/pfptcommunity/main/usecase_bi.jpg" width=60% height=60%>
 
 <br>
 
