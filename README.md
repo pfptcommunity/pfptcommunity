@@ -73,7 +73,7 @@ Below code snippets and reference will help you getting started.
 
 # Use cases
 
-To shift to data-driven security decision making start with the right data.
+To shift to data-driven security decision making start with the right data. You can think of many, many, many use cases to integrate the cool proofpoint data with other security/risk domains. The Proofpoint data (VAPS) is gold for Security and risk management (SRM) leaders.
 
 ## Risk Dashboards with BI tools
 
