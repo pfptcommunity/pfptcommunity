@@ -106,7 +106,7 @@ See:
 
 Key players: Sailpoint, Saviynt, One Identity, Microfocus (NetIQ), Omada
 
-<img src="https://raw.githubusercontent.com/pfptcommunity/pfptcommunity/main/usecase_adsync.jpg" width=50% height=50%>
+<img src="https://raw.githubusercontent.com/pfptcommunity/pfptcommunity/main/usecase_iga.jpg" width=60% height=60%>
 
 <br>
 
