@@ -92,7 +92,7 @@ Power BI (on-prem) can pull data from both sources, Proofpoint TAP and Active Di
 
 [read 1](https://community.powerbi.com/t5/Power-Query/Active-Directory-hierarchy-getting-all-users-inside-a-group/td-p/492516) - [read 2](https://www.biinsight.com/power-bi-and-active-directory-for-system-administrators/) - [read 3](https://docs.microsoft.com/en-us/power-bi/transform-model/desktop-create-and-manage-relationships)
 
-<img src="https://raw.githubusercontent.com/pfptcommunity/pfptcommunity/main/usecase_adsync.jpg" width=50% height=50%>
+<img src="https://raw.githubusercontent.com/pfptcommunity/pfptcommunity/main/usecase_adsync.jpg" width=55% height=55%>
 
 <br>
 
