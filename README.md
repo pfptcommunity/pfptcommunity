@@ -41,7 +41,7 @@ So, back to the Proofpoint Results API and how it works. If a customer wants cer
 food) from the platform (the kitchen) to use in their business analysis tool, they can use the API (the
 waiter) to deliver the data request and receive the data response (the food).
 
-What is consuming REST API?
+What is consuming a REST API?
 Similarly, the act of consuming or using a REST API means to eat it all up. In context, it means to eat it, swallow it, and digest it — leaving any others in the pile exposed.
 
 JSON stands for JavaScript Object Notation and it is a completely language-independent text format that is mainly used to transmit data between a server and client.
@@ -78,7 +78,7 @@ To shift to data-driven security decision making start with the right data. You 
 ## Risk Dashboards with BI tools
 
 Many SRM leaders are creating their own organization specific risk metrics and monitor these with their own dashboarding tools.
-Key risk indicators from multiple domains (data silos) can be consolidated into a single pain of glass.
+Key risk indicators from multiple domains (data silos) can be consolidated into a single pane of glass.
 We have created several Power BI and Excel examples on howto consume proofpoint data directly/natively into BI tools.
 Below image is an example of NPRE data that is directly pulled into Power BI.  This example can be easily adjusted or extended to include other risk indicators for your organization.  See the NPRE or TAP section on this page for more details.
 
@@ -100,7 +100,7 @@ On-prem BI Tooling is very good in collecting data from multiple sources, correl
 
 ## Identity Governance and other IAM
 
-Identity governance is about making sure each person has exactly the access they need to do their jobs without causing risk to the organization. The Proofpoint Very Attacked Person (VAP) data can be easily integrated into your IGA solution to enhance the IGA dataset for decission making.
+Identity governance is about making sure each person has exactly the access they need to do their jobs without causing risk to the organization. The Proofpoint Very Attacked Person (VAP) data can be easily integrated into your IGA solution to enhance the IGA dataset for decision making.
 IGA calculates risk scores for users based on authorizations/access. It makes a lot of sense to enrich the data with VAP data.
 See:
 - [TAP People API](#TAP-API)
@@ -112,8 +112,8 @@ IGA vendors: Atos (Evidian), Brainwave, Broadcom (CA), Clear Skye, Forgerock, Hi
 
 <br>
 
-## SIEM / UBA / UBEA
-Push events to Security Information and Event Management (SIEM) or User / Entity Behavior Analytics (UBA/UBEA) 
+## SIEM / UBA / UEBA
+Push events to Security Information and Event Management (SIEM) or User / Entity Behavior Analytics (UBA/UEBA) 
 Risk scores are calculated for each user in UB tools.
 
 
@@ -236,7 +236,7 @@ https://ptr-docs.proofpoint.com/extensibility-guides/ptr-api/#threat-response-ap
 # NPRE API
 
 [Nexus People Risk Explorer](https://www.proofpoint.com/us/products/nexus-people-risk-explorer) (NPRE) gives you a unified view of your people-centric risk across the Proofpoint platform and third-party products.
-The NPRE API allows you to download a csv file usingusing an API call. 
+The NPRE API allows you to download a csv file using an API call. 
 The API is documented in the NPRE Admin Guide that can be found on the community website.
 <br>
 
