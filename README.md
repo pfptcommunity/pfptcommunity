@@ -136,20 +136,20 @@ The Threat Insight Dashboard (Targeted Attack Protection) provides several diffe
 
 <br>
 
-## Microsoft Excel or BI tools consuming TAP API data
+## Spreadsheet or BI tools consuming TAP API data
 
-Several BI tools, like Microsoft Power BI and/or Excel can directly fetch JSON data from an REST endpoint. See the [Microsoft doc](https://docs.microsoft.com/en-us/power-query/connectors/web/web) for more information.  Below you can see and download a sample Excel sheet that fetches data from the People endpoint(s).
+Several BI and spreadsheet tools, like Microsoft Power BI and/or Excel or Google's toolset can directly fetch JSON data from an REST endpoint. See the [Microsoft doc](https://docs.microsoft.com/en-us/power-query/connectors/web/web) for more information.  Below you can see and download a sample Excel sheet that fetches data from the People endpoint(s).
 
 | Action  | Description | 
 | ------------- | ------------- | 
-| [Excel : YouTube Video](https://youtu.be/7YYsYpm84gE) | Short video tap_api_people.xlsx sample sheet |
-| [Excel : Download the Spreadsheet](https://github.com/pfptcommunity/pfptcommunity/raw/main/tap_api.xlsx) | Download the tap_api.xlsx sheet   |
+| [MS Excel : YouTube Video](https://youtu.be/7YYsYpm84gE) | Short video tap_api_people.xlsx sample sheet |
+| [MS Excel : Download the Spreadsheet](https://github.com/pfptcommunity/pfptcommunity/raw/main/tap_api.xlsx) | Download the tap_api.xlsx sheet   |
+| [MS Power BI : YouTube Video](https://youtu.be/cfnkOV6k8H0) | Short video tap_api_people.xlsx sample Power BI file |
+| [MS Power BI : Download the Power BI file](https://github.com/pfptcommunity/pfptcommunity/raw/main/tap_api.pbix) | Download the tap_api.pbix sheet   |
+| [MS Power BI : Screenshot](https://github.com/pfptcommunity/pfptcommunity/blob/main/tap_api_powerbi.jpg?raw=true) | Power BI screenshot Advanced Editor |
 | [Google Data Studio : YouTube Video](https://youtu.be/4-f6s09WGkI) | Short video Google Data Studio VAP Connector |
-| [Power BI : YouTube Video](https://youtu.be/cfnkOV6k8H0) | Short video tap_api_people.xlsx sample Power BI file |
-| [Power BI : Download the Power BI file](https://github.com/pfptcommunity/pfptcommunity/raw/main/tap_api.pbix) | Download the tap_api.pbix sheet   |
-| [Power BI : Screenshot](https://github.com/pfptcommunity/pfptcommunity/blob/main/tap_api_powerbi.jpg?raw=true) | Power BI screenshot Advanced Editor |
-| [GSheet : YouTube Video](https://youtu.be/8k-j2_Pjopw) | Short video tap_api google sheets sample |
-| [GSheet : Download sheet](https://docs.google.com/spreadsheets/d/16RPVdlQW6HPaNfN9Kt3Ou7diybsUyz1peIinfAUQJpE/copy) | Download the sheet/script  |
+| [Google Sheets : YouTube Video](https://youtu.be/8k-j2_Pjopw) | Short video tap_api google sheets sample |
+| [Google Sheets : Download sheet](https://docs.google.com/spreadsheets/d/16RPVdlQW6HPaNfN9Kt3Ou7diybsUyz1peIinfAUQJpE/copy) | Download the sheet/script  |
 
 
 
@@ -240,20 +240,20 @@ The NPRE API allows you to download a csv file using an API call.
 The API is documented in the NPRE Admin Guide that can be found on the community website.
 <br>
 
-## Microsoft Excel or Power BI consuming NPRE People/Risk data
+## Spreadsheet or BI tools consuming NPRE People/Risk data
 
-Both Microsoft Power BI and Excel can directly fetch JSON data from an REST endpoint. See the [Microsoft doc](https://docs.microsoft.com/en-us/power-query/connectors/web/web) for more information.  See below some samples that fetches data directly from the NPRE endpoint.
+everal BI and spreadsheet tools, like Microsoft Power BI and/or Excel or Google's toolset can directly fetch JSON data from an REST endpoint. See the [Microsoft doc](https://docs.microsoft.com/en-us/power-query/connectors/web/web) for more information.  See below some samples that fetches data directly from the NPRE endpoint.
 
 <img src="https://raw.githubusercontent.com/pfptcommunity/pfptcommunity/main/npre_api_pb13.jpg" width=78% height=78%>
 
 | Action  | Description | 
 | ------------- | ------------- | 
-| [Excel : YouTube Video](https://youtu.be/XrUXztNjvwo) | Short demonstration of the npre_api_people.xlsx sample sheet |
-| [Excel : Download spreadsheet](https://github.com/pfptcommunity/pfptcommunity/raw/main/npre_api_csv.xlsx) | Download the npre_api_people.xlsx sample sheet   |
+| [MS Excel : YouTube Video](https://youtu.be/XrUXztNjvwo) | Short demonstration of the npre_api_people.xlsx sample sheet |
+| [MS Excel : Download spreadsheet](https://github.com/pfptcommunity/pfptcommunity/raw/main/npre_api_csv.xlsx) | Download the npre_api_people.xlsx sample sheet   |
+| [MS Power BI : YouTube Demo Video](https://youtu.be/gWChHj-VKKU) | Short demonstration of the npre_api_csv.pbix Power BI sample file |
+| [MS Power BI : YouTube Howto Video](https://youtu.be/AKuiMyCnamk) | Howto getting started with the npre_api_csv.pbix Power BI sample file |
+| [MS Power BI : Download pbix file](https://github.com/pfptcommunity/pfptcommunity/raw/main/npre_api_csv.pbix) | Download the npre_api_csv.pbix Power BI sample file   |
 | [Google Data Studio : YouTube Demo Video](https://www.youtube.com/watch?v=rv-oRbwZOCo) | Short demonstration of GDS pulling data from NPRE |
-| [Power BI : YouTube Demo Video](https://youtu.be/gWChHj-VKKU) | Short demonstration of the npre_api_csv.pbix Power BI sample file |
-| [Power BI : YouTube Howto Video](https://youtu.be/AKuiMyCnamk) | Howto getting started with the npre_api_csv.pbix Power BI sample file |
-| [Power BI : Download pbix file](https://github.com/pfptcommunity/pfptcommunity/raw/main/npre_api_csv.pbix) | Download the npre_api_csv.pbix Power BI sample file   |
 
 
 Howto: Getting started with Power BI. 
