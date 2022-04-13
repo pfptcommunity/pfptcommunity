@@ -192,7 +192,7 @@ Below code snippets will help you to get started with the initial authentication
 | [tap_api_private.php](https://github.com/pfptcommunity/pfptcommunity/blob/main/tap_api_private.php) | PHP Request |
 | [tap_api_private.pqs](https://github.com/pfptcommunity/pfptcommunity/blob/main/tap_api_private.pqs) | M Code for Excel or Power BI |
 | [tap_api_private.ps1](https://github.com/pfptcommunity/pfptcommunity/blob/main/tap_api_private.ps1) | Powershell Request |
-| [gscript](https://script.google.com/home/projects/1wBko_bTIrf-5ugVIOa5ypdJA1OEezUHyEbsVDX6Ntg2uIQ3DvWu3yGJL/edit)  | Google Data Studion Connector Source |
+| [gscript](https://script.google.com/home/projects/1wBko_bTIrf-5ugVIOa5ypdJA1OEezUHyEbsVDX6Ntg2uIQ3DvWu3yGJL/edit)  | Google Data Studion Connector VAPs Source |
 
 
 <br>
