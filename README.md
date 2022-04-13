@@ -87,7 +87,7 @@ Below image is an example of NPRE data that is directly pulled into Power BI.  T
 
 <br>
 
-###### Another use case example: 
+###### Blending data from multiple sources 
 
 Some organizations do not (want to) sync all user data to Azure AD and/or Proofpoint TAP. As a result the TAP Dashboard only shows email addresses.
 On-prem BI Tooling is very good in collecting data from multiple sources, correlate the data and present it in a friendly way. With these tools, one can collect data from both Proofpoint TAP and Active Directory on-prem and present this in a single pane of glass.
