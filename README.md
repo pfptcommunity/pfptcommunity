@@ -376,6 +376,7 @@ Proofpoint Emerging Threat Intelligence delivers the most timely and accurate th
 ## ETI GitHub Projects
 - [Python Wrapper for Proofpoint's Threat Insight API](https://github.com/Derekt2/PyProofpoint)
 - [An integration for VMware Carbon Black Cloud and Proofpoint Emerging Threats](https://github.com/cbcommunity/cbc-proofpoint-et-intelligence-reputation-list)
+- [IPscraper query IPs for the latest data Jason Ford](https://github.com/jasonsford/IPScraper/blob/main/IPScraper.py)
 
 
 
