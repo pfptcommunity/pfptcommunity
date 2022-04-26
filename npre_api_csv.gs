@@ -1,5 +1,6 @@
 function GetNPRE() {  
-
+ 
+  
 /** 
  * GetAccessToken (param1, params2, param3)  [Get the Access Token from endpoint]
  * @param1  {[string]}  principal            [api key] 
@@ -20,6 +21,8 @@ function GetNPRE() {
   }
 
   
+
+
 
 /** 
  * GetFileName (token,apiuri,time_series)    [Get the Filename to the CSV file]
@@ -49,10 +52,11 @@ function GetNPRE() {
   
   
 // ** MAIN   
+  const now    = new Date();
   const req    = {
       principal   :  '••••••••',
       secret      :  '••••••••',
-      timeseries  :  '20220224',   // *** change your timestamp 2022 02 24
+      timeseries  :  now.getFullYear()+'0'+(now.getMonth()+1).toString()+now.getDate(),   // *** change your timestamp 2022 02 24
       tokenuri    :  'https://auth.proofpoint.com/v1/token',
       apiuri      :  'https://api.peoplecentric.proofpoint.com/graphql'
   }
