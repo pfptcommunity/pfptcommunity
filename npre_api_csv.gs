@@ -17,8 +17,8 @@ function GetNPRE() {
   const response = GetFileName(req.tok.access_token, req.apiuri,req.timeseries);
   
   // ** Read the csv file
-  const contents = UrlFetchApp.fetch(response.data.getRiskPosture.file).getContentText();
-  Logger.log(contents);
+  const npredata = UrlFetchApp.fetch(response.data.getRiskPosture.file).getContentText();
+  Logger.log(npredata);
 
 
 
