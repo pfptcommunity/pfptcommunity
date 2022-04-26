@@ -1,6 +1,6 @@
 function GetNPRE() {  
   
-  // ** Private Request requires a Bearer token
+  // ** GetAccessToken - retrieves a bearer token
   // ** This will fetch the token
   function GetAccessToken(key,secret,uri){
     var params    = {
