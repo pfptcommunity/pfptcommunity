@@ -1,7 +1,3 @@
-// * todo
-// method                = POST
-// request1              = Get the Bearer Token
-// request2              = Get the Uri to CSV file using the Bearer Token
-// request3              = Get CSV file
 
-
+// Google Script is based on javascript, see:
+// https://github.com/pfptcommunity/pfptcommunity/blob/main/npre_api_csv.gs
