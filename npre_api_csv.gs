@@ -5,7 +5,7 @@ function GetNPRE() {
         req    = {
           principal   :  '••••••••',
           secret      :  '••••••••',
-          timeseries  :  now.getFullYear()+'0'+(now.getMonth()+1).toString()+now.getDate(),   // *** change your timestamp 2022 02 24
+          timeseries  :  now.getFullYear()+'0'+(now.getMonth()+1).toString()+now.getDate(),  
           tokenuri    :  'https://auth.proofpoint.com/v1/token',
           apiuri      :  'https://api.peoplecentric.proofpoint.com/graphql'
         };
