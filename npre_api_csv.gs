@@ -1,7 +1,12 @@
 function GetNPRE() {  
-  
-  // ** GetAccessToken - retrieves a bearer token
-  // ** This will fetch the token
+
+/** 
+ * GetAccessToken (param1, params2, param3)  [Get the Access Token from endpoint]
+ * @param1  {[string]}  principal            [api key] 
+ * @param2  {[string]}  secret               [api secret]           
+ * @param3  {[string]}  tokenuri             [path, this should be "https://auth.proofpoint.com/v1/token"]           
+ * @return  {[string]}  access_token         [access token]
+*/
   function GetAccessToken(key,secret,uri){
     var params    = {
           method             : 'POST',
@@ -15,9 +20,15 @@ function GetNPRE() {
   }
 
   
-  // ** Private Request for NPRS GraphAPI
-  // ** using the Bearer token
-  function PrivateRequest(token,uri,ts){
+
+/** 
+ * GetFileName (token,apiuri,time_series)    [Get the Filename to the CSV file]
+ * @param1  {[string]}  token                [Bearer Access Token] 
+ * @param2  {[string]}  apiuri               [path, this should be "https://api.peoplecentric.proofpoint.com/graphql"]           
+ * @param3  {[string]}  time_series          [time series / date for the query. Example is 20210209"]           
+ * @return  {[string]}  access_token         [file reference]
+*/
+  function GetFileName(token,uri,ts){
     const my_payload  = {
           'operationName': 'getRiskPosture',
           'variables'    : {'time_series': ts.toString()},
@@ -37,7 +48,7 @@ function GetNPRE() {
   }
   
   
-  
+// ** MAIN   
   const req    = {
       principal   :  '••••••••',
       secret      :  '••••••••',
@@ -46,16 +57,14 @@ function GetNPRE() {
       apiuri      :  'https://api.peoplecentric.proofpoint.com/graphql'
   }
   
-  // ** Get Bearer Token
+  // ** Get the Bearer Token
   req.tok = GetAccessToken(req.principal, req.secret,req.tokenuri);
   
-  // ** Do API request with Bearer Token
-  var response = PrivateRequest(req.tok.access_token, req.apiuri,req.timeseries);
+  // ** Get the filename of the csv file
+  var response = GetFileName(req.tok.access_token, req.apiuri,req.timeseries);
   
-  // ** Response is a pointer to a file
-  // ** Fetch the file
+  // ** Read the csv file
   var contents = UrlFetchApp.fetch(response.data.getRiskPosture.file).getContentText();
   Logger.log(contents);
-  
-  // ** contents is your CSV file
+
 }
