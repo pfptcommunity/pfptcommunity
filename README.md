@@ -204,7 +204,7 @@ Some projects we found on GitHub:
 - [Powershell wrapper by jfviana](https://github.com/jfviana/proofpoint-api )
 - [Powershell wrapper by lambdac0de](https://github.com/lambdac0de/ProofpointTAP )
 - [Powershell wrapper by Midnigh7](https://github.com/Midnigh7/PSProofpoint )
-- [Python client by drizzo-tech](https://github.com/drizzo-tech/proofpoint_tap)
+- [Python client by drizzo-tech ***](https://github.com/drizzo-tech/proofpoint_tap)
 - [Python SIEM API Humio Package](https://github.com/CrowdStrike/Proofpoint-SIEM-API-Humio-Package-Integration)
 - [Python SDK for decoding safeurls from Proofpoint, Microsoft, etc](https://github.com/renisac/safeurl-decoder)
 - [Python VMware Carbon Black Cloud Endpoint Standard or Enterprise EDR](https://github.com/cbcommunity/cbc-proofpoint-malicous-file-detection)
@@ -446,7 +446,7 @@ The Proofpoint META API documentation TODO
 # ITM-API
 The Proofpoint ITM API documentation TODO
 
-- [Proofpoint ITM API client library for python](https://github.com/drizzo-tech/proofpoint_itm)
+- [Python - Drizzo's API client library for python ***](https://github.com/drizzo-tech/proofpoint_itm)
 - [ITM SDK python](https://github.com/yuta519/proofpoint-itm-sdk)
 
 - [Getting started ITM API](https://uim-se-demo.itm-stage.proofpoint.com/v2/apps/portal/getting-started)
