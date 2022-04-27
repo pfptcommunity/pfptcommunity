@@ -12,16 +12,18 @@
  * @return  {[string]}  access_token    [access token]
 */
  async function GetAccessToken(key,secret,uri){
-   const response=await axios.request({
-      method  : 'post',
-      url     : uri,
-      data    : 'grant_type=client_credentials&client_id='&key&'&client_secret='&secret,
+   const response=await axios.post(uri,{
       headers : {
         'Content-Type': 'application/x-www-form-urlencoded'
       },
+      body    :    {
+        grant_type: "client_credentials",
+        client_id: key,
+        client_secret: secret,
+      }
     }) 
-    console.log(response);
-    return JSON.parse(response);
+   console.log(response);
+   return JSON.parse(response);
  }  // ** End GetAccessToken
 
 
