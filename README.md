@@ -19,6 +19,8 @@ Here is a quick link to open this readme in [WIDE MODE](https://github.com/pfptc
   - [Github project](#tap-github-projects)
 - [Threat Response Auto-Pull (TRAP)](#TRAP-API)
 - [Nexus People Risk Explorer (NPRE)](#NPRE-API)
+  - [Spreadsheet or BI Tools](#spreadsheet-or-bi-tools-consuming-npre-peoplerisk-data)
+  - [Code snippets](#cool-npre-api-code-snippets)
 - [Emerging Threats Intelligence (ETI)](#ETI-API)
 - [Protection On Demand (POD)](#POD-API)
 - [Essentials](#ESS-API)
