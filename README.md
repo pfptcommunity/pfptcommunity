@@ -83,6 +83,9 @@ Key risk indicators from multiple domains (data silos) can be consolidated into 
 We have created several Power BI and Excel examples on howto consume proofpoint data directly/natively into BI tools.
 Below image is an example of NPRE data that is directly pulled into Power BI.  This example can be easily adjusted or extended to include other risk indicators for your organization.  See the NPRE or TAP section on this page for more details.
 
+<img src="https://raw.githubusercontent.com/pfptcommunity/pfptcommunity/main/usecase_bi.jpg" width=60% height=60%>
+
+<br>
 Key players BI and their REST API support
 
 [Microsoft Power BI](https://docs.microsoft.com/en-us/power-query/connectors/) - howto [Build](https://docs.microsoft.com/en-us/rest/pfptcommunity/power-bi/) connector
@@ -96,11 +99,6 @@ Key players BI and their REST API support
 [Sisence](https://documentation.sisense.com/docs/connecting-to-rest)
 
 [Google Data Studio](https://datastudio.google.com/data) - howto [Build](https://developers.google.com/datastudio/connector/build) connector
-
-
-
-
-<img src="https://raw.githubusercontent.com/pfptcommunity/pfptcommunity/main/usecase_bi.jpg" width=60% height=60%>
 
 <br>
 
