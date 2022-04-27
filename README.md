@@ -9,10 +9,6 @@ Here is a quick link to open this readme in [WIDE MODE](https://github.com/pfptc
 <br>
 
 - [Introduction to REST APIs](#Introduction-to-REST-APIs)
-- [Use Cases](#Use-cases)
-
-<br>
-
 - [Targeted Attack Protection (TAP)](#TAP-API)
   - [Spreadsheet or BI Tools](#spreadsheet-or-bi-tools-consuming-tap-api-data)
   - [Code snippets](#cool-tap-api-code-snippets)
