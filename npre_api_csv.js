@@ -1,5 +1,5 @@
-// NOT TESTED !!!
-// Google Script is based on javascript, see:
+// NOT TESTED AND NOT FINISHED
+// based on working code:
 // https://github.com/pfptcommunity/pfptcommunity/blob/main/npre_api_csv.gs
 
 
