@@ -17,13 +17,13 @@ Here is a quick link to open this readme in [WIDE MODE](https://github.com/pfptc
   - [Spreadsheet or BI Tools](#spreadsheet-or-bi-tools-consuming-npre-peoplerisk-data)  -  Most Popular
   - [Code snippets](#cool-npre-api-code-snippets)
 - [Threat Response Auto-Pull (TRAP)](#TRAP-API)
-- [Emerging Threats Intelligence (ETI)](#ETI-API)
 - [Protection On Demand (POD)](#POD-API)
 - [Essentials](#ESS-API)
 - [Security Awareness Training (PSAT)](#PSAT-API)
 - [Cloud Access Security Broker (CASB)](#CASB-API)
 - [Meta Networks (META)](#META-API)
 - [Insider Threat Management (ITM)](#ITM-API)
+- [Emerging Threats Intelligence (ETI)](#ETI-API)
 
 
 
@@ -82,6 +82,22 @@ Many SRM leaders are creating their own organization specific risk metrics and m
 Key risk indicators from multiple domains (data silos) can be consolidated into a single pane of glass.
 We have created several Power BI and Excel examples on howto consume proofpoint data directly/natively into BI tools.
 Below image is an example of NPRE data that is directly pulled into Power BI.  This example can be easily adjusted or extended to include other risk indicators for your organization.  See the NPRE or TAP section on this page for more details.
+
+Key players BI and their REST API support
+
+[Microsoft Power BI](https://docs.microsoft.com/en-us/power-query/connectors/) - howto [Build](https://docs.microsoft.com/en-us/rest/pfptcommunity/power-bi/) connector
+
+[Qlik](https://help.qlik.com/en-US/connectors/Subsystems/REST_connector_help/Content/Connectors_REST/REST-connector.htm)
+
+[Tableau (Salesforce)](https://help.tableau.com/current/pro/desktop/en-us/exampleconnections_overview.htm) - howto [Build](https://help.tableau.com/current/pfptcommunity/rest_api/en-us/REST/rest_api.htm) connector
+
+[Microstrategy](https://www2.microstrategy.com/producthelp/Current/RESTSDK/Content/topics/REST_API/REST_API.htm)
+
+[Sisence](https://documentation.sisense.com/docs/connecting-to-rest)
+
+[Google Data Studio](https://datastudio.google.com/data) - howto [Build](https://developers.google.com/datastudio/connector/build) connector
+
+
 
 
 <img src="https://raw.githubusercontent.com/pfptcommunity/pfptcommunity/main/usecase_bi.jpg" width=60% height=60%>
@@ -343,45 +359,6 @@ Found
 
 ------------
 
-# ETI API
-
-Proofpoint Emerging Threat Intelligence delivers the most timely and accurate threat intelligence. Our fully verified intel provides deeper context and integrates seamlessly with your security tools to enhance your decision-making.
-
-- [ET Intelligence API documentation](http://apidocs.emergingthreats.net)
-- [Emerging Threats datasheet](https://www.proofpoint.com/us/products/et-intelligence)
-- [Admin login console](https://etadmin.proofpoint.com/login)
-- [ETpro vs ETopen](https://www.proofpoint.com/sites/default/files/data-sheets/pfpt-us-ds-etpro-vs-etopen-ruleset.pdf)
-
-<br>
-
-| Action  | Description | 
-| ------------- | ------------- | 
-| [Excel : Download Sample](https://github.com/pfptcommunity/pfptcommunity/raw/main/eti_api.xlsx) | Download the eti_api.xlsx sheet DRAFT   |
-
-
-
-## Cool ET API Code Snippets
-
-| Code Snippet | Language | 
-| ------------- | ------------- | 
-| [eti_api.js](https://github.com/pfptcommunity/pfptcommunity/blob/main/eti_api.js) | Javascript / Node.js Request  |
-| [eti_api.py](https://github.com/pfptcommunity/pfptcommunity/blob/main/eti_api.py) | Python Request  |
-| [eti_api.cs](https://github.com/pfptcommunity/pfptcommunity/blob/main/eti_api.cs) | C# (.net framework) Request |
-| [eti_api.gs](https://github.com/pfptcommunity/pfptcommunity/blob/main/eti_api.gs) | Google Apps Script (GAS) Request |
-
-
-<br>
-
-## ETI GitHub Projects
-- [Python Wrapper for Proofpoint's Threat Insight API](https://github.com/Derekt2/PyProofpoint)
-- [An integration for VMware Carbon Black Cloud and Proofpoint Emerging Threats](https://github.com/cbcommunity/cbc-proofpoint-et-intelligence-reputation-list)
-- [IPscraper query IPs for the latest data Jason Ford](https://github.com/jasonsford/IPScraper/blob/main/IPScraper.py)
-
-
-
-
-------------
-
 # POD API
 The [Proofpoint on Demand (PoD) Logging API documentation](https://proofpointcommunities.force.com/community/s/article/Proofpoint-on-Demand-Pod-Log-API)
 
@@ -456,25 +433,42 @@ https://documentation.observeit.com/saas/threat_library/threat_library_items.htm
 https://documentation.observeit.com/configuration_guide/integration_custom.htm
 
 
-
-
 ------------
 
-# Business Intelligence
+# ETI API
 
-Key players and their REST API support
+Proofpoint Emerging Threat Intelligence delivers the most timely and accurate threat intelligence. Our fully verified intel provides deeper context and integrates seamlessly with your security tools to enhance your decision-making.
 
-[Microsoft Power BI](https://docs.microsoft.com/en-us/power-query/connectors/) - howto [Build](https://docs.microsoft.com/en-us/rest/pfptcommunity/power-bi/) connector
+- [ET Intelligence API documentation](http://apidocs.emergingthreats.net)
+- [Emerging Threats datasheet](https://www.proofpoint.com/us/products/et-intelligence)
+- [Admin login console](https://etadmin.proofpoint.com/login)
+- [ETpro vs ETopen](https://www.proofpoint.com/sites/default/files/data-sheets/pfpt-us-ds-etpro-vs-etopen-ruleset.pdf)
 
-[Qlik](https://help.qlik.com/en-US/connectors/Subsystems/REST_connector_help/Content/Connectors_REST/REST-connector.htm)
+<br>
 
-[Tableau (Salesforce)](https://help.tableau.com/current/pro/desktop/en-us/exampleconnections_overview.htm) - howto [Build](https://help.tableau.com/current/pfptcommunity/rest_api/en-us/REST/rest_api.htm) connector
+| Action  | Description | 
+| ------------- | ------------- | 
+| [Excel : Download Sample](https://github.com/pfptcommunity/pfptcommunity/raw/main/eti_api.xlsx) | Download the eti_api.xlsx sheet DRAFT   |
 
-[Microstrategy](https://www2.microstrategy.com/producthelp/Current/RESTSDK/Content/topics/REST_API/REST_API.htm)
 
-[Sisence](https://documentation.sisense.com/docs/connecting-to-rest)
 
-[Google Data Studio](https://datastudio.google.com/data) - howto [Build](https://developers.google.com/datastudio/connector/build) connector
+## Cool ET API Code Snippets
+
+| Code Snippet | Language | 
+| ------------- | ------------- | 
+| [eti_api.js](https://github.com/pfptcommunity/pfptcommunity/blob/main/eti_api.js) | Javascript / Node.js Request  |
+| [eti_api.py](https://github.com/pfptcommunity/pfptcommunity/blob/main/eti_api.py) | Python Request  |
+| [eti_api.cs](https://github.com/pfptcommunity/pfptcommunity/blob/main/eti_api.cs) | C# (.net framework) Request |
+| [eti_api.gs](https://github.com/pfptcommunity/pfptcommunity/blob/main/eti_api.gs) | Google Apps Script (GAS) Request |
+
+
+<br>
+
+## ETI GitHub Projects
+- [Python Wrapper for Proofpoint's Threat Insight API](https://github.com/Derekt2/PyProofpoint)
+- [An integration for VMware Carbon Black Cloud and Proofpoint Emerging Threats](https://github.com/cbcommunity/cbc-proofpoint-et-intelligence-reputation-list)
+- [IPscraper query IPs for the latest data Jason Ford](https://github.com/jasonsford/IPScraper/blob/main/IPScraper.py)
+
 
 
 
