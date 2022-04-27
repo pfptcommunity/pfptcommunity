@@ -1,4 +1,5 @@
 // NOT TESTED AND NOT FINISHED
+// NOT COMPLETED - PLEASE FINISH THIS
 // based on working code:
 // https://github.com/pfptcommunity/pfptcommunity/blob/main/npre_api_csv.gs
 
@@ -6,8 +7,8 @@
 
 /** 
  * GetAccessToken (param1, params2, param3)  [Get the Access Token from endpoint]
- * @param1  {[string]}  key             [api key] 
- * @param2  {[string]}  secr            [api secret]           
+ * @param1  {[string]}  key             [npre api key] 
+ * @param2  {[string]}  secret          [npre api secret]           
  * @param3  {[string]}  uri             [path, this should be "https://auth.proofpoint.com/v1/token"]           
  * @return  {[string]}  access_token    [access token]
 */
@@ -23,7 +24,8 @@
       }
     }) 
    console.log(response);
-   return JSON.parse(response);
+   let response = JSON.parse(response);
+   return response.access_token;
  }  // ** End GetAccessToken
 
 
@@ -68,13 +70,13 @@ const now    = new Date(),
       };
 
 // ** Get the Bearer Token
-req.tok = GetAccessToken(req.principal, req.secret,req.tokenuri);
+let token = GetAccessToken(req.principal, req.secret,req.tokenuri);
 console.log("***********GetAccessToken");
-console.log(req.tok.access_token);
+console.log(token);
 
 
 // ** Get the filename of the csv file
-const response = GetFileName(req.tok.access_token, req.apiuri,req.timeseries);
+const response = GetFileName(token, req.apiuri,req.timeseries);
 console.log("***********GetFileName");
 console.log(response);
 
