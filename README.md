@@ -14,7 +14,7 @@ Here is a quick link to open this readme in [WIDE MODE](https://github.com/pfptc
 <br>
 
 - [Targeted Attack Protection (TAP)](#TAP-API)
--- [Targeted Attack Protection (TAP)](#TAP-API)
+  - [Targeted Attack Protection (TAP)](#TAP-API)
 - [Threat Response Auto-Pull (TRAP)](#TRAP-API)
 - [Nexus People Risk Explorer (NPRE)](#NPRE-API)
 - [Emerging Threats Intelligence (ETI)](#ETI-API)
