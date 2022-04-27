@@ -360,6 +360,8 @@ Found
 # POD API
 The [Proofpoint on Demand (PoD) Logging API documentation](https://proofpointcommunities.force.com/community/s/article/Proofpoint-on-Demand-Pod-Log-API)
 
+[Latest PPS doc](https://proofpointcommunities.force.com/community/s/article/Latest-PPS-Documentation)
+
 <br>
 Github projects:
 
