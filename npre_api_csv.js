@@ -1,29 +1,28 @@
-
+// NOT TESTED !!!
 // Google Script is based on javascript, see:
 // https://github.com/pfptcommunity/pfptcommunity/blob/main/npre_api_csv.gs
 
 
 
-  /** 
-   * GetAccessToken (param1, params2, param3)  [Get the Access Token from endpoint]
-   * @param1  {[string]}  principal            [api key] 
-   * @param2  {[string]}  secret               [api secret]           
-   * @param3  {[string]}  tokenuri             [path, this should be "https://auth.proofpoint.com/v1/token"]           
-   * @return  {[string]}  access_token         [access token]
-  */
+/** 
+ * GetAccessToken (param1, params2, param3)  [Get the Access Token from endpoint]
+ * @param1  {[string]}  key             [api key] 
+ * @param2  {[string]}  secr            [api secret]           
+ * @param3  {[string]}  uri             [path, this should be "https://auth.proofpoint.com/v1/token"]           
+ * @return  {[string]}  access_token    [access token]
+*/
  async function GetAccessToken(key,secret,uri){
-  const params    = {
-        method             : 'POST',
-        muteHttpExceptions : true,
-        headers : {
-          'Content-Type': 'application/x-www-form-urlencoded',
-        },
-        payload : "grant_type=client_credentials&client_id="+key+"&client_secret="+secret
-  };
-  const response=await axios.get(uri, params);
-  console.log(response);
-  return JSON.parse(response);
-} // ** End GetAccessToken
+   const response=await axios.request({
+      method  : 'post',
+      url     : uri,
+      data    : 'grant_type=client_credentials&client_id='&key&'&client_secret='&secret,
+      headers : {
+        'Content-Type': 'application/x-www-form-urlencoded'
+      },
+    }) 
+    console.log(response);
+    return JSON.parse(response);
+ }  // ** End GetAccessToken
 
 
 /** 
@@ -53,8 +52,8 @@ async function GetFileName(token,uri,ts){
 
 
 
-
-const axios = require('axios'); 
+//const http = require("http");
+const axios = require("axios");
 
 // ** MAIN   
 const now    = new Date(),
@@ -80,6 +79,10 @@ console.log(response);
 // ** Read the csv file
 //  const npredata = //UrlFetchApp.fetch(response.data.getRiskPosture.file).getContentText();
 //  Logger.log(npredata);
+
+
+
+
 
 
 
