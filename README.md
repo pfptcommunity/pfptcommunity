@@ -367,8 +367,6 @@ Github projects:
 
 This is a client subscriber to Proofpoint On-demand's (PoD) Log API. The Log API is a websocket service (wss) awaiting connections from clients. You can subscibe to either filter (message) logs or MTA (maillog) logs.
 
-https://github.com/lambdac0de/node-proofpoint-podclient
-
 
 ------------
 
