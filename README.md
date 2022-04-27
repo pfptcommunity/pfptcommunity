@@ -17,10 +17,10 @@ Here is a quick link to open this readme in [WIDE MODE](https://github.com/pfptc
   - [Spreadsheet or BI Tools](#spreadsheet-or-bi-tools-consuming-tap-api-data)
   - [Code snippets](#cool-tap-api-code-snippets)
   - [Github project](#tap-github-projects)
-- [Threat Response Auto-Pull (TRAP)](#TRAP-API)
 - [Nexus People Risk Explorer (NPRE)](#NPRE-API)
   - [Spreadsheet or BI Tools](#spreadsheet-or-bi-tools-consuming-npre-peoplerisk-data)  -  Most Popular
   - [Code snippets](#cool-npre-api-code-snippets)
+- [Threat Response Auto-Pull (TRAP)](#TRAP-API)
 - [Emerging Threats Intelligence (ETI)](#ETI-API)
 - [Protection On Demand (POD)](#POD-API)
 - [Essentials](#ESS-API)
@@ -229,16 +229,6 @@ Some projects we found on GitHub:
 
 ------------
 
-# TRAP API
-
-Threat Response Auto-Pull (TRAP) enables messaging and security administrators to analyze emails and move malicious or unwanted emails to quarantine, after delivery. It follows forwarded mail and distribution lists and creates an auditable activity trail.
-
-e.g. CLEAR Dispositions
-
-https://ptr-docs.proofpoint.com/extensibility-guides/ptr-api/#threat-response-api 
-
-------------
-
 # NPRE API
 
 [Nexus People Risk Explorer](https://www.proofpoint.com/us/products/nexus-people-risk-explorer) (NPRE) gives you a unified view of your people-centric risk across the Proofpoint platform and third-party products.
@@ -293,7 +283,15 @@ Below code snippets will help you to get started with the initial authentication
 <br>
 
 ------------
+# TRAP API
 
+Threat Response Auto-Pull (TRAP) enables messaging and security administrators to analyze emails and move malicious or unwanted emails to quarantine, after delivery. It follows forwarded mail and distribution lists and creates an auditable activity trail.
+
+e.g. CLEAR Dispositions
+
+https://ptr-docs.proofpoint.com/extensibility-guides/ptr-api/#threat-response-api 
+
+------------
 # PSAT API
 
 Proofpoint Security Awareness Training Results API [Documentation](https://proofpoint.securityeducation.com/pfptcommunity/reporting/documentation/) and [this on proofpointcommunity](
