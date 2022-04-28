@@ -181,6 +181,13 @@ Howto: Getting started with Power BI.
 
 <br>
 
+Excel note:
+
+- Download sheet and pop-in your API credentials
+- Use anonymous access for this Web content
+
+<br>
+
 ## Cool TAP API Code Snippets
 
 The API uses GET requests to retrieve resource representation/information only – and not modify it in any way.
