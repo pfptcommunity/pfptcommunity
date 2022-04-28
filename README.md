@@ -177,13 +177,13 @@ Howto: Getting started with Power BI.
 - Open Advanced Editor
 - Set your API credentials in the script
 - Go back
-- click Refresh
+- Click Refresh
 
 <br>
 
-Excel note:
+Howto: Getting started with Excel sheet. 
 
-- Download the xls sheet and pop-in your API credentials in the settings tab
+- Download and Open the xls sheet and pop-in your API credentials in the settings tab
 - Press Data / Refresh All
 - When asked, select "Use anonymous access for this Web content"
 
