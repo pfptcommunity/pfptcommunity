@@ -183,8 +183,9 @@ Howto: Getting started with Power BI.
 
 Excel note:
 
-- Download sheet and pop-in your API credentials
-- Use anonymous access for this Web content
+- Download the xls sheet and pop-in your API credentials in the settings tab
+- Press Data / Refresh All
+- When asked, select "Use anonymous access for this Web content"
 
 <br>
 
