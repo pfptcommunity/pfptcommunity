@@ -183,7 +183,7 @@ Howto: Getting started with Power BI.
 
 Howto: Getting started with Excel sheet. 
 
-- Download and Open the xls sheet and pop-in your API credentials in the settings tab
+- Download and Open the xlsx sheet and pop-in your API credentials in the Settings tab
 - Press Data / Refresh All
 - When asked, select "Use anonymous access for this Web content"
 
