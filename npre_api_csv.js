@@ -22,7 +22,7 @@ const now    = new Date(),
     console.log(""); 
 
 
-    // ** Call GetFileName to get the Filename
+    // ** Call GetFileName to get the complete path and filename to the CSV file
     try {
         var filepntr = await GetFileName(tokenobj.data.access_token, req.apiuri, req.timeseries);
         if (filepntr.status == false) console.log(filepntr.data.message);
@@ -34,7 +34,7 @@ const now    = new Date(),
     console.log(""); 
 
 
-
+  // ** Try to read the CSV file - please verify this !!!!
   // READ FILE - THIS CAN BE DONE IN SEVERAL DIFFERENT WAYS
   // IN REPLIT.COM I RECEIVE AN ERROR BECAUSE THE PATH IS SO EXTREMELY LONG
   var fs = require("fs");
