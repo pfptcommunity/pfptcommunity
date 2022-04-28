@@ -1,65 +1,5 @@
-// NOT TESTED AND NOT FINISHED
-// NOT COMPLETED - PLEASE FINISH THIS
-// based on working code:
-// https://github.com/pfptcommunity/pfptcommunity/blob/main/npre_api_csv.gs
-
-
-
-/** 
- * GetAccessToken (param1, params2, param3)  [Get the Access Token from endpoint]
- * @param1  {[string]}  key             [npre api key] 
- * @param2  {[string]}  secret          [npre api secret]           
- * @param3  {[string]}  uri             [path, this should be "https://auth.proofpoint.com/v1/token"]           
- * @return  {[string]}  access_token    [access token]
-*/
- async function GetAccessToken(key,secret,uri){
-   const response=await axios.post(uri,{
-      headers : {
-        'Content-Type': 'application/x-www-form-urlencoded'
-      },
-      body    :    {
-        grant_type: "client_credentials",
-        client_id: key,
-        client_secret: secret,
-      }
-    }) 
-   console.log(response);
-   let response = JSON.parse(response);
-   return response.access_token;
- }  // ** End GetAccessToken
-
-
-/** 
- * GetFileName (token,apiuri,time_series)    [Get the Filename to the CSV file]
- * @param1  {[string]}  token                [Bearer Access Token] 
- * @param2  {[string]}  apiuri               [path, this should be "https://api.peoplecentric.proofpoint.com/graphql"]           
- * @param3  {[string]}  time_series          [time series / date for the query. Example is 20210209"]           
- * @return  {[string]}  access_token         [file reference]
-*/
-async function GetFileName(token,uri,ts){
-  const my_payload  = {
-        'operationName': 'getRiskPosture',
-        'variables'    : {'time_series': ts.toString()},
-        'query'        : 'query getRiskPosture($time_series: DateTime){getRiskPosture(time_series: $time_series){file}}'
-      },    
-        params    = {
-          method             : 'POST',
-          muteHttpExceptions : true,
-          headers : {
-            'Content-Type' : 'application/json',
-            'Authorization': 'Bearer ' + token
-          },
-          payload : JSON.stringify(my_payload)
-        };
-  return JSON.parse(await axios.get(uri,params));
-} // ** End GetFileName
-
-
-
-//const http = require("http");
 const axios = require("axios");
 
-// ** MAIN   
 const now    = new Date(),
       req    = {
         principal   :  '••••••••',
@@ -69,24 +9,110 @@ const now    = new Date(),
         apiuri      :  'https://api.peoplecentric.proofpoint.com/graphql'
       };
 
-// ** Get the Bearer Token
-let token = GetAccessToken(req.principal, req.secret,req.tokenuri);
-console.log("***********GetAccessToken");
-console.log(token);
+(async () => {
+    // ** Call GetAccessTokenGet to get the Bearer Token
+	try {
+        var tokenobj =  await GetAccessToken(req.principal, req.secret,req.tokenuri);
+        if (tokenobj.status == false) console.log(tokenobj.data.message);
+    } catch (e) {
+        console.log("Error GetAccessToken: "+e);
+    }
+    console.log("***** Result GetAccessToken *****"); 
+    console.log(tokenobj.data.access_token); 
+    console.log(""); 
 
 
-// ** Get the filename of the csv file
-const response = GetFileName(token, req.apiuri,req.timeseries);
-console.log("***********GetFileName");
-console.log(response);
-
-// ** Read the csv file
-//  const npredata = //UrlFetchApp.fetch(response.data.getRiskPosture.file).getContentText();
-//  Logger.log(npredata);
-
-
-
-
+    // ** Call GetFileName to get the Filename
+    try {
+        var filepntr = await GetFileName(tokenobj.data.access_token, req.apiuri, req.timeseries);
+        if (filepntr.status == false) console.log(filepntr.data.message);
+    } catch (e) {
+        console.log("Error GetFileName: "+e);
+    }
+    console.log("***** Result GetFileName *****"); 
+    console.log(filepntr.data); 
+    console.log(""); 
 
 
+
+  // READ FILE - THIS CAN BE DONE IN SEVERAL DIFFERENT WAYS
+  // IN REPLIT.COM I RECEIVE AN ERROR BECAUSE THE PATH IS SO EXTREMELY LONG
+  var fs = require("fs");
+
+  fs.readFile(filepntr.data, function(err, data){
+    if(err) return console.log(err);
+    console.log(data);
+  });
+
+  console.log("Program ends");
+
+  // END MAIN   
+})();
+
+
+
+
+
+
+/** 
+ * GetFileName (token,apiuri,time_series)   [Get the Filename to the CSV file]
+ * @param1  {[string]}  token               [Bearer Access Token] 
+ * @param2  {[string]}  apiuri              [path, this should be "https://api.peoplecentric.proofpoint.com/graphql"]           
+ * @param3  {[string]}  time_series         [time series / date for the query. Example is 20210209"]           
+ * @return  {[response object]}             [data:  status:  message:]
+ *          {[data:object]}                 [data = filename]
+*/
+async function GetFileName(token,uri,ts){
+  let response  = { data: null, status: true, message: ""};
+  const request = await axios.post (uri,
+    '{"operationName": "getRiskPosture","variables": {"time_series": "'+ts.toString()+'"},"query": "query getRiskPosture($time_series: DateTime){getRiskPosture(time_series: $time_series){file}}"}',
+    {   
+      headers : {
+        'Content-Type' : 'application/json',
+        'Authorization': 'Bearer ' + token
+      }
+    }
+  ).then(function (request) {
+       response.data = request.data.data.getRiskPosture.file;
+  })
+  .catch(function (error) {
+      response.status  = false;
+      response.message = error;
+  });
+   return response;  
+}  // ** End GetFileName
+
+
+
+/** 
+ * GetAccessToken (param1, params2, param3)  [Get the Access Token from endpoint]
+ * @param1  {[string]}  key                 [npre api key] 
+ * @param2  {[string]}  secret              [npre api secret]           
+ * @param3  {[string]}  uri                 [path "https://auth.proofpoint.com/v1/token"]           
+ * @return  {[response object]}             [data:  status:  message:]
+ *          {[data:object]}                 [data = access_token, token_type, expires_in]
+*/
+ async function GetAccessToken(key,secret,uri){
+   const querystring = require('querystring');
+   let response  = { data: null, status: true, message: ""};
+   const request = await axios.post (uri,
+      querystring.stringify( {
+        grant_type: "client_credentials",
+        client_id: key,
+        client_secret: secret,
+      }),
+   {
+      headers : {
+        'Content-Type': 'application/x-www-form-urlencoded'
+      },
+   }
+   ).then(function (request) {
+       response.data = request.data;
+  })
+  .catch(function (error) {
+      response.status  = false;
+      response.message = error;
+  });
+   return response;  
+}
 
