@@ -401,20 +401,6 @@ https://github.com/sgtdolos/Proofpoint/blob/main/isolation_logs.py
 
 
 
-------------
-
-# Isolation
-The [Proofpoint on Demand (PoD) Logging API documentation](https://proofpointcommunities.force.com/community/s/article/Proofpoint-on-Demand-Pod-Log-API)
-
-[Latest PPS doc](https://proofpointcommunities.force.com/community/s/article/Latest-PPS-Documentation)
-
-<br>
-Github projects:
-
-[Node.Js client subscriber for Proofpoint On-demand's (PoD) Log API](https://github.com/lambdac0de/node-proofpoint-podclient)
-
-This is a client subscriber to Proofpoint On-demand's (PoD) Log API. The Log API is a websocket service (wss) awaiting connections from clients. You can subscibe to either filter (message) logs or MTA (maillog) logs.
-
 
 ------------
 
