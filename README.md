@@ -18,6 +18,7 @@ Here is a quick link to open this readme in [WIDE MODE](https://github.com/pfptc
   - [Code snippets](#cool-npre-api-code-snippets)
 - [Threat Response Auto-Pull (TRAP)](#TRAP-API)
 - [Protection On Demand (POD)](#POD-API)
+- [Isolation](#Isolation-Reporting-API)
 - [Essentials](#ESS-API)
 - [Security Awareness Training (PSAT)](#PSAT-API)
 - [Cloud Access Security Broker (CASB)](#CASB-API)
@@ -388,7 +389,13 @@ https://proofpointcommunities.force.com/community/s/article/Proofpoint-Isolation
 API keys and endpoint doc is available in:
 https://proofpointisolation.com/console
 
+https://urlisolation.com/api/reporting/usage-data
+
+https://proofpointisolation.com/api/reporting/usage-data
+
 ## Github
+
+https://github.com/sgtdolos/Proofpoint/blob/main/isolation_logs.py
 
 <br>
 
