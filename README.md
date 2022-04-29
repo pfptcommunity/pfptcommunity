@@ -158,8 +158,8 @@ Several BI and spreadsheet tools, like Microsoft Power BI and/or Excel or Google
 
 | Action  | Description | 
 | ------------- | ------------- | 
-| [MS Excel : YouTube Video](https://youtu.be/1ysMQ68GdCg) | Watch getting started with the tap_api_people.xlsx sample sheet |
-| [MS Excel : YouTube Video](https://youtu.be/1ysMQ68GdCg) | Watch troubleshoot authorizations and understand the tap_api_people.xlsx sample sheet |
+| [MS Excel : YouTube Howto Video](https://youtu.be/1ysMQ68GdCg) | Watch getting started with the tap_api_people.xlsx sample sheet |
+| [MS Excel : YouTube Troubleshoot Video](https://youtu.be/cF82Tub3Yig) | Watch troubleshoot authorizations and understand the tap_api_people.xlsx sample sheet |
 | [MS Excel : Download the Spreadsheet](https://github.com/pfptcommunity/pfptcommunity/raw/main/tap_api.xlsx) | Download the tap_api.xlsx sheet   |
 | [MS Power BI : YouTube Video](https://youtu.be/cfnkOV6k8H0) | Short video tap_api_people.xlsx sample Power BI file |
 | [MS Power BI : Download the Power BI file](https://github.com/pfptcommunity/pfptcommunity/raw/main/tap_api.pbix) | Download the tap_api.pbix sheet   |
