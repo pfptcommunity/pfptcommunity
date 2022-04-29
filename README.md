@@ -362,10 +362,41 @@ Found
 
 
 <br>
-
 ------------
 
 # POD API
+The [Proofpoint on Demand (PoD) Logging API documentation](https://proofpointcommunities.force.com/community/s/article/Proofpoint-on-Demand-Pod-Log-API)
+
+https://proofpointcommunities.force.com/community/s/article/Proofpoint-Isolation-API-Guide
+
+<br>
+Github projects:
+
+[Node.Js client subscriber for Proofpoint On-demand's (PoD) Log API](https://github.com/lambdac0de/node-proofpoint-podclient)
+
+This is a client subscriber to Proofpoint On-demand's (PoD) Log API. The Log API is a websocket service (wss) awaiting connections from clients. You can subscibe to either filter (message) logs or MTA (maillog) logs.
+
+
+
+------------
+
+# Isolation Reporting API
+Reporting API will return the past 30 days of data and must be used regularly if full historical data is needed.
+
+https://proofpointcommunities.force.com/community/s/article/Proofpoint-Isolation-API-Guide
+
+API keys and endpoint doc is available in:
+https://proofpointisolation.com/console
+
+## Github
+
+<br>
+
+
+
+------------
+
+# Isolation
 The [Proofpoint on Demand (PoD) Logging API documentation](https://proofpointcommunities.force.com/community/s/article/Proofpoint-on-Demand-Pod-Log-API)
 
 [Latest PPS doc](https://proofpointcommunities.force.com/community/s/article/Latest-PPS-Documentation)
