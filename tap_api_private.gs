@@ -1,5 +1,6 @@
 // ** proofpoint tap api private request example
-// ** feb 2022 by B
+// ** Google Apps Script 
+// ** feb 2022 by B 
 
 function PFPT_People(){
   var req ={
