@@ -1,6 +1,3 @@
-// Get the Proofpoint Nexus People Risk Explorer Dataset
-// Feb 2022 - by bvl
-
 function GetNPRE() {  
 
   // ** MAIN   
