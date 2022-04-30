@@ -8,6 +8,7 @@ function ETI_Setting(){
   }
 }
 
+
 // * Sample function that will output
 // * the retrieved whois info for a single domain. (disney.com)
 function Whois(){
@@ -37,7 +38,10 @@ function Repcategories(){
   
   response =  ETI_PrivateRequest(req);
   if (response.status == false) { Logger.log("Error: "+response.message); return false; }
-  Logger.log( response.data['response'] );
+  
+  for (r in response.data['response']){
+    Logger.log( response.data['response'][r]['name'] +" = "+ response.data['response'][r]['description'] );
+  }
 }
 
 
