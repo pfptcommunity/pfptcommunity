@@ -1,5 +1,6 @@
-const axios  = require("axios"),
-      now    = new Date(),
+const axios  = require("axios");
+
+const now    = new Date(),
       req    = {
         principal   :  '••••••••',
         secret      :  '••••••••',
