@@ -1,6 +1,5 @@
-const axios = require("axios");
-
-const now    = new Date(),
+const axios  = require("axios"),
+      now    = new Date(),
       req    = {
         principal   :  '••••••••',
         secret      :  '••••••••',
@@ -11,25 +10,17 @@ const now    = new Date(),
 
 (async () => {
     // ** Call GetAccessTokenGet to get the Bearer Token
-    try {
-        var tokenobj =  await GetAccessToken(req.principal, req.secret,req.tokenuri);
-        if (tokenobj.status == false) console.log(tokenobj.data.message);
-    } catch (e) {
-        console.log("Error GetAccessToken: "+e);
-    }
+    var tokenobj =  await GetAccessToken(req.principal, req.secret,req.tokenuri);
     console.log("***** Result GetAccessToken *****"); 
+    if (tokenobj.status == false) { console.log(tokenobj.message); return false; } 
     console.log(tokenobj.data.access_token); 
     console.log(""); 
-
+      
 
     // ** Call GetFileName to get the complete path and filename to the CSV file
-    try {
-        var filepntr = await GetFileName(tokenobj.data.access_token, req.apiuri, req.timeseries);
-        if (filepntr.status == false) console.log(filepntr.data.message);
-    } catch (e) {
-        console.log("Error GetFileName: "+e);
-    }
+    var filepntr = await GetFileName(tokenobj.data.access_token, req.apiuri, req.timeseries);
     console.log("***** Result GetFileName *****"); 
+    if (filepntr.status == false) { console.log(filepntr.message); return false; } 
     console.log(filepntr.data); 
     console.log(""); 
 
@@ -38,9 +29,9 @@ const now    = new Date(),
   // READ FILE - THIS CAN BE DONE IN SEVERAL DIFFERENT WAYS
   // IN REPLIT.COM I RECEIVE AN ERROR BECAUSE THE PATH IS SO EXTREMELY LONG
   var fs = require("fs");
-
+  console.log("***** Result ReadFileName (adjust code) *****"); 
   fs.readFile(filepntr.data, function(err, data){
-    if(err) return console.log(err);
+    // if(err) return console.log(err);
     console.log(data);
   });
 
@@ -50,6 +41,38 @@ const now    = new Date(),
 })();
 
 
+
+/** 
+ * GetAccessToken (param1, params2, param3)  [Get the Access Token from endpoint]
+ * @param1  {[string]}  key                 [npre api key] 
+ * @param2  {[string]}  secret              [npre api secret]           
+ * @param3  {[string]}  uri                 [path "https://auth.proofpoint.com/v1/token"]           
+ * @return  {[response object]}             [data:  status:  message:]
+ *          {[data:object]}                 [data = access_token, token_type, expires_in]
+*/
+ async function GetAccessToken(key,secret,uri){
+   let response  = { data: null, status: true, message: ""};
+   const querystring = require('querystring');
+   const request = await axios.post (uri,
+      querystring.stringify( {
+        grant_type: "client_credentials",
+        client_id: key,
+        client_secret: secret,
+      }),
+   {
+      headers : {
+        'Content-Type': 'application/x-www-form-urlencoded'
+      },
+   }
+   ).then(function (request) {
+      response.data = request.data;
+  })
+  .catch(function (error) {
+      response.status  = false;
+      response.message = error;
+  });
+   return response;  
+}
 
 
 
@@ -83,36 +106,4 @@ async function GetFileName(token,uri,ts){
 }  // ** End GetFileName
 
 
-
-/** 
- * GetAccessToken (param1, params2, param3)  [Get the Access Token from endpoint]
- * @param1  {[string]}  key                 [npre api key] 
- * @param2  {[string]}  secret              [npre api secret]           
- * @param3  {[string]}  uri                 [path "https://auth.proofpoint.com/v1/token"]           
- * @return  {[response object]}             [data:  status:  message:]
- *          {[data:object]}                 [data = access_token, token_type, expires_in]
-*/
- async function GetAccessToken(key,secret,uri){
-   const querystring = require('querystring');
-   let response  = { data: null, status: true, message: ""};
-   const request = await axios.post (uri,
-      querystring.stringify( {
-        grant_type: "client_credentials",
-        client_id: key,
-        client_secret: secret,
-      }),
-   {
-      headers : {
-        'Content-Type': 'application/x-www-form-urlencoded'
-      },
-   }
-   ).then(function (request) {
-       response.data = request.data;
-  })
-  .catch(function (error) {
-      response.status  = false;
-      response.message = error;
-  });
-   return response;  
-}
 
