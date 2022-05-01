@@ -480,7 +480,7 @@ Proofpoint Emerging Threat Intelligence delivers the most timely and accurate th
 | Action  | Description | 
 | ------------- | ------------- | 
 | [Excel : Download Sample](https://github.com/pfptcommunity/pfptcommunity/raw/main/eti_api.xlsx) | Download the eti_api.xlsx sheet DRAFT   |
-| [Gsheet : Video demo](https://youtu.be/DIqYTRCdayA) | Watch Google Sheets sample  |
+| [GSheet : Video demo](https://youtu.be/DIqYTRCdayA) | Watch Google Sheets sample  |
 | [GSheet : Download Sample](https://docs.google.com/spreadsheets/d/1aKHiWXV4ezIv7FPvhfOZrkI8sDZBAQRpHgmIWAduJ8U/copy) | Download Google Sheets sample  |
 
 
