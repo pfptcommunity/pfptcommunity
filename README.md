@@ -470,6 +470,7 @@ https://documentation.observeit.com/configuration_guide/integration_custom.htm
 
 Proofpoint Emerging Threat Intelligence delivers the most timely and accurate threat intelligence. Our fully verified intel provides deeper context and integrates seamlessly with your security tools to enhance your decision-making.
 
+- [Features](https://www.proofpoint.com/sites/default/files/data-sheets/pfpt-us-po-emerging-threats-intelligence-features-usage.pdf)
 - [ET Intelligence API documentation](http://apidocs.emergingthreats.net)
 - [Emerging Threats datasheet](https://www.proofpoint.com/us/products/et-intelligence)
 - [Admin login console](https://etadmin.proofpoint.com/login)
