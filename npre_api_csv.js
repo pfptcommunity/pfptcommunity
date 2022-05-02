@@ -4,7 +4,7 @@ const now    = new Date(),
       req    = {
         principal   :  '••••••••',
         secret      :  '••••••••',
-        timeseries  :  now.getFullYear()+'0'+(now.getMonth()+1).toString()+now.getDate(),  
+        timeseries  :  now.getFullYear() + ("0" + (now.getMonth() + 1)).slice(-2) + ("0" + now.getDate()).slice(-2),
         tokenuri    :  'https://auth.proofpoint.com/v1/token',
         apiuri      :  'https://api.peoplecentric.proofpoint.com/graphql'
       };
@@ -25,18 +25,21 @@ const now    = new Date(),
     console.log(filepntr.data); 
     console.log(""); 
 
+    let outputBuffer
+    try {
+      outputBuffer = await axios.get(filepntr.data)
+    } catch (error) {
+      //do some error handling
+      console.log(error.message)
+      return false
+    }
 
-  // ** Try to read the CSV file - please verify this !!!!
-  // READ FILE - THIS CAN BE DONE IN SEVERAL DIFFERENT WAYS
-  // IN REPLIT.COM I RECEIVE AN ERROR BECAUSE THE PATH IS SO EXTREMELY LONG
-  var fs = require("fs");
-  console.log("***** Result ReadFileName (adjust code) *****"); 
-  fs.readFile(filepntr.data, function(err, data){
-    // if(err) return console.log(err);
-    console.log(data);
-  });
+    const resultObject = csvToObject(outputBuffer.data)
 
-  console.log("Program ends");
+    // show first record
+    console.log(resultObject[1])
+
+    console.log("Program ends");
 
   // END MAIN   
 })();
@@ -106,5 +109,32 @@ async function GetFileName(token,uri,ts){
    return response;  
 }  // ** End GetFileName
 
+
+
+
+/**
+ * csvToObject (token,apiuri,time_series)   [Get the Filename to the CSV file]
+ * @param1  {[string]} csvData              [string containg CSV data]
+ * @return  {[response object]}             [dynamic object based on CSV]
+ *          {[data:object]}                 [data = filename]
+*/
+function csvToObject (csvData)  {
+    const lines = csvData.split('\n')
+    const result = []
+    const headers = lines[0].split(',')
+
+    lines.map(l => {
+        const obj = {}
+        const line = l.split(',')
+
+        headers.map((h, i) => {
+            obj[h] = line[i]
+        })
+
+        result.push(obj)
+    })
+
+    return result
+} // ** End csvToObject
 
 
