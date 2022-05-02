@@ -474,6 +474,7 @@ Proofpoint Emerging Threat Intelligence delivers the most timely and accurate th
 - [ET Intelligence API documentation](http://apidocs.emergingthreats.net)
 - [Emerging Threats datasheet](https://www.proofpoint.com/us/products/et-intelligence)
 - [Admin login console](https://etadmin.proofpoint.com/login)
+- [Threat Intel Portal](https://threatintel.proofpoint.com/)
 - [ETpro vs ETopen](https://www.proofpoint.com/sites/default/files/data-sheets/pfpt-us-ds-etpro-vs-etopen-ruleset.pdf)
 
 <br>
