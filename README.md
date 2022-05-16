@@ -265,7 +265,7 @@ Several BI and spreadsheet tools, like Microsoft Power BI and/or Excel or Google
 | Action  | Description | 
 | ------------- | ------------- | 
 | [MS Excel : YouTube Video](https://youtu.be/XrUXztNjvwo) | Short demonstration of the npre_api_people.xlsx sample sheet |
-| [MS Excel : Download spreadsheet](https://github.com/pfptcommunity/pfptcommunity/raw/main/npre_api_csv.xlsx) | Download the npre_api_people.xlsx sample sheet   |
+| [MS Excel : Download spreadsheet](https://github.com/pfptcommunity/pfptcommunity/raw/main/npre_api_csv v1_2.xlsx) | Download the npre_api_people.xlsx sample   |
 | [MS Power BI : YouTube Demo Video](https://youtu.be/gWChHj-VKKU) | Short demonstration of the npre_api_csv.pbix Power BI sample file |
 | [MS Power BI : YouTube Howto Video](https://youtu.be/AKuiMyCnamk) | Howto getting started with the npre_api_csv.pbix Power BI sample file |
 | [MS Power BI : Download pbix file](https://github.com/pfptcommunity/pfptcommunity/raw/main/npre_api_csv.pbix) | Download the npre_api_csv.pbix Power BI sample file   |
