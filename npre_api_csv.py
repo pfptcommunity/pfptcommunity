@@ -2,6 +2,16 @@ import requests
 import json
 
 
+########### Instructions ###########
+# Go to NPRE Settings page > Connected Applications
+# Click on Add Credentials
+# Insert name and click Generate Service Credentials
+# Copy Service principal to principal variable below.
+# Copy Secret to secret variable below.
+# Set the required date of the file to time_series. example: '20220516'
+# set the path variable below - where would you like the file to be saved. example '/Users/Downloads/' 
+
+
 def getaccesstoken(client_id, client_secret, tokenuri):
     data = {'grant_type': 'client_credentials', 'client_id': client_id, "client_secret": client_secret}
     access_token_response = requests.post(tokenuri, data=data)
@@ -17,13 +27,21 @@ def getfilename(token, apiuri, time_series):
 
     return json.loads(api_call_response.text)
 
+def getfile(csv_url,path):
+    download_path = path + f'risk_posture.csv'
+    print('Downloading to', download_path, '...\n')
+    r = requests.get(csv_url, allow_redirects=True)
+    open(download_path, 'wb').write(r.content)
+    
+
 
 def npre():
     principal   = "••••••••"
     secret      = "••••••••"
     tokenuri    = "https://auth.proofpoint.com/v1/token"
     apiuri      = "https://api.peoplecentric.proofpoint.com/graphql"
-    time_series = "20220224"                                              # ** Your time series 2022 02 24
+    time_series = "20220516"                                              # ** Your time series 2022 02 24
+    path        = "/Users/mkronenfeld/Desktop/"                           # ** where should the file be stored on your machine
 
     # STEP 1: Get the Bearer Token
     token = getaccesstoken(principal, secret, tokenuri)
@@ -32,7 +50,14 @@ def npre():
     fileurl = getfilename(token, apiuri, time_series)
 
     # STEP 3: Print the CSV file url
-    print(fileurl['data']['getRiskPosture']['file'])
+    print(fileurl['data']['getRiskPosture']['file'],'\n')
+    
+    # STEP 4: Download the file from the url
+    getfile(fileurl['data']['getRiskPosture']['file'],path)
+    
+    
+    print('File download successfully completed')
+    
 
 
 if __name__ == '__main__':
