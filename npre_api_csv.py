@@ -40,7 +40,7 @@ def npre():
     secret      = "••••••••"
     tokenuri    = "https://auth.proofpoint.com/v1/token"
     apiuri      = "https://api.peoplecentric.proofpoint.com/graphql"
-    time_series = "20220516"                                              # ** Your time series 2022 02 24
+    time_series = datetime.now().strftime("%Y%m%d")                       # ** Your time series 2022 02 24
     path        = "/Users/mkronenfeld/Desktop/"                           # ** where should the file be stored on your machine
 
     # STEP 1: Get the Bearer Token
