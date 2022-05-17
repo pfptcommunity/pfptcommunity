@@ -300,6 +300,7 @@ Below code snippets will help you to get started with the initial authentication
 | [npre_api_csv_test.py](https://github.com/pfptcommunity/pfptcommunity/blob/main/npre_api_csv_test.py) | Python API Test |
 | [npre_api_csv.gs](https://github.com/pfptcommunity/pfptcommunity/blob/main/npre_api_csv.gs) | Google Apps Script (GAS) Request |
 | [npre_api_csv.pqs](https://github.com/pfptcommunity/pfptcommunity/blob/main/npre_api_csv.pqs) | M Code for Excel or Power BI |
+| [npre_sample.csv](https://raw.githubusercontent.com/pfptcommunity/pfptcommunity/main/npre_sample.csv) | Sample CSV file |
 
 <br>
 
