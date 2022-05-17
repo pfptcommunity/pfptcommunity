@@ -297,7 +297,7 @@ Below code snippets will help you to get started with the initial authentication
 | ------------- | ------------- | 
 | [npre_api_csv.js](https://github.com/pfptcommunity/pfptcommunity/blob/main/npre_api_csv.js) | Javascript / Node.js Request |
 | [npre_api_csv.py](https://github.com/pfptcommunity/pfptcommunity/blob/main/npre_api_csv.py) | Python Request  |
-| [npre_api_csv_test.py](https://github.com/pfptcommunity/pfptcommunity/blob/main/npre_api_csv_test.py) | Python Request Test |
+| [npre_api_csv_test.py](https://github.com/pfptcommunity/pfptcommunity/blob/main/npre_api_csv_test.py) | Python API Test |
 | [npre_api_csv.gs](https://github.com/pfptcommunity/pfptcommunity/blob/main/npre_api_csv.gs) | Google Apps Script (GAS) Request |
 | [npre_api_csv.pqs](https://github.com/pfptcommunity/pfptcommunity/blob/main/npre_api_csv.pqs) | M Code for Excel or Power BI |
 
