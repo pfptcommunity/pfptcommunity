@@ -1,0 +1,218 @@
+Id,Display Name,Email,Title,Business Function,Seniority,Department,AD Groups,Custom Groups,Overall.VeryAttacked,Overall.VeryPrivileged,Overall.VeryVulnerable,Overall.ImminentTarget,Overall.SoftTargets,Overall.LatentTargets,Overall.MajorTargets,Overall,Overall.Attacked,Overall.Attacked.Data,Overall.Privileged,Overall.Privileged.BusinessAuthority,Overall.Privileged.BusinessAuthority.Seniority,Overall.Privileged.BusinessAuthority.Seniority.Data,Overall.Privileged.BusinessAuthority.VIP,Overall.Privileged.BusinessAuthority.VIP.Data,Overall.Privileged.BusinessFunctions,Overall.Privileged.BusinessFunctions.Data,Overall.Privileged.CyberArk,Overall.Privileged.CyberArk.User,Overall.Privileged.CyberArk.User.Data,Overall.Privileged.PeopleManagement,Overall.Privileged.PeopleManagement.Data,Overall.Privileged.SensitiveSystems,Overall.Privileged.SensitiveSystems.Roles,Overall.Privileged.SensitiveSystems.Roles.ApplicationAdmin,Overall.Privileged.SensitiveSystems.Roles.ApplicationAdmin.Data,Overall.Privileged.ADGroups,Overall.Privileged.ADGroups.Data,Overall.Privileged.CustomGroups,Overall.Privileged.CustomGroups.Data,Overall.Privileged.Department,Overall.Privileged.Department.Data,Overall.Privileged.EmailDomains,Overall.Privileged.EmailDomains.Data,Overall.User_AccountEnabled,Overall.User_AccountEnabled.Data,Overall.Vulnerable,Overall.Vulnerable.Behaviour,Overall.Vulnerable.Behaviour.Awareness,Overall.Vulnerable.Behaviour.Awareness.EmailSecurity,Overall.Vulnerable.Behaviour.Awareness.EmailSecurity.PSAT-AvoidDangAttachments,Overall.Vulnerable.Behaviour.Awareness.EmailSecurity.PSAT-AvoidDangAttachments.Data,Overall.Vulnerable.Behaviour.Awareness.EmailSecurity.PSAT-AvoidDangLinks,Overall.Vulnerable.Behaviour.Awareness.EmailSecurity.PSAT-AvoidDangLinks.Data,Overall.Vulnerable.Behaviour.Awareness.EmailSecurity.PSAT-IntroToPhishing,Overall.Vulnerable.Behaviour.Awareness.EmailSecurity.PSAT-IntroToPhishing.Data,Overall.Vulnerable.Behaviour.Awareness.IdentityProtection,Overall.Vulnerable.Behaviour.Awareness.IdentityProtection.PSAT-IdentComprAccounts,Overall.Vulnerable.Behaviour.Awareness.IdentityProtection.PSAT-IdentComprAccounts.Data,Overall.Vulnerable.Behaviour.Awareness.IdentityProtection.PSAT-MFA,Overall.Vulnerable.Behaviour.Awareness.IdentityProtection.PSAT-MFA.Data,Overall.Vulnerable.Behaviour.Awareness.IdentityProtection.PSAT-PasswordManagement,Overall.Vulnerable.Behaviour.Awareness.IdentityProtection.PSAT-PasswordManagement.Data,Overall.Vulnerable.Behaviour.Awareness.IdentityProtection.PSAT-PasswordPolicy,Overall.Vulnerable.Behaviour.Awareness.IdentityProtection.PSAT-PasswordPolicy.Data,Overall.Vulnerable.Behaviour.Awareness.PSAT-PhishingSimulation,Overall.Vulnerable.Behaviour.Awareness.PSAT-PhishingSimulation.Data,Overall.Vulnerable.Behaviour.Awareness.SafeBrowsing,Overall.Vulnerable.Behaviour.Awareness.SafeBrowsing.PSAT-SafeSocialNet,Overall.Vulnerable.Behaviour.Awareness.SafeBrowsing.PSAT-SafeSocialNet.Data,Overall.Vulnerable.Behaviour.Awareness.SafeBrowsing.PSAT-SaferWebBrowsing,Overall.Vulnerable.Behaviour.Awareness.SafeBrowsing.PSAT-SaferWebBrowsing.Data,Overall.Vulnerable.Behaviour.Awareness.SafeBrowsing.PSAT-URLTraining,Overall.Vulnerable.Behaviour.Awareness.SafeBrowsing.PSAT-URLTraining.Data,Overall.Vulnerable.Behaviour.UsagePattern,Overall.Vulnerable.Behaviour.UsagePattern.Clickers,Overall.Vulnerable.Behaviour.UsagePattern.Clickers.Data,Overall.Vulnerable.Behaviour.UsagePattern.AppGov,Overall.Vulnerable.Behaviour.UsagePattern.AppGov.3PAs,Overall.Vulnerable.Behaviour.UsagePattern.AppGov.3PAs.Data,Overall.Vulnerable.Behaviour.UsagePattern.AppGov.ShadowIT,Overall.Vulnerable.Behaviour.UsagePattern.AppGov.ShadowIT.Data,Overall.Vulnerable.Environment,Overall.Vulnerable.Environment.DistributionList,Overall.Vulnerable.Environment.DistributionList.Data,Overall.Vulnerable.Environment.Location,Overall.Vulnerable.Environment.Location.MostCommonLocation,Overall.Vulnerable.Environment.Location.MostCommonLocation.Data,Overall.Vulnerable.Environment.Location.RareLocation,Overall.Vulnerable.Environment.Location.RareLocation.Data,Overall.Vulnerable.Environment.Network,Overall.Vulnerable.Identity,Overall.Vulnerable.Identity.EmailExposure,Overall.Vulnerable.Identity.EmailExposure.Data,Overall.Vulnerable.Identity.CredentialsCompromise,Overall.Vulnerable.Identity.CredentialsCompromise.Data,Overall.Vulnerable.Identity.CloudCompromisedAccount,Overall.Vulnerable.Identity.CloudCompromisedAccount.Data
+008ba0rbudjuww@acme.com,Vivyan Mooney,008ba0rbudjuww@acme.com,Germany - Marketing Manager,Other Functions,Managers,Germany,"AD_1,AD_2,AD_3,AD_4,AD_410,AD_6,AD_8,HDJ_M&A_users",,False,False,False,False,False,False,False,2.064,0.0,None,3.44,2.0,2.0,Automatically detected seniority,0.0,,1.0,Automatically detected business function,0.0,0.0,,0.0,,0.0,0.0,0.0,None,3.0,"AD_3 -- risk 3.0
+AD_4XGroups -- risk None
+AD_6 -- risk None
+AD_8 -- risk None
+ad_groups_test -- risk None
+",0.0,,0.0,,0.0,,0.0,,2.125,2.125,2.125,2.108,1.7,"Assigned date: None  
+Finished date: None 
+Status: None",1.7,"Assigned date: None  
+Finished date: None 
+Status: None",1.7,"Assigned date: None  
+Finished date: None 
+Status: None",2.122,1.7,"Assigned date: None  
+Finished date: None 
+Status: None",1.7,"Assigned date: None  
+Finished date: None 
+Status: None",1.7,"Assigned date: None  
+Finished date: None 
+Status: None",1.7,"Assigned date: None  
+Finished date: None 
+Status: None",1.7,"Participated in 0 campaigns
+Failed 0 campaigns
+",2.108,1.7,"Assigned date: None  
+Finished date: None 
+Status: None",1.7,"Assigned date: None  
+Finished date: None 
+Status: None",1.7,"Assigned date: None  
+Finished date: None 
+Status: None",0.0,0.0,,0.0,0.0,,0.0,,0.0,0.0,,0.0,0.0,,0.0,,0.0,0.0,0.0,,0.0,,0.0,
+00f5k7p6qgd5fg@acme.com,Aphrodite Rodriguez,00f5k7p6qgd5fg@acme.com,Service Representative,Support,Employees,Metro New York Division,"AD_1,AD_10,AD_11,AD_1252,AD_15,AD_178,AD_1989,AD_2,AD_24,AD_2425,AD_28,AD_288,AD_3,AD_3204,AD_4,AD_4520,AD_471,AD_5,AD_527,AD_5490,AD_5494,AD_6,AD_6165,AD_6194,AD_669,AD_8,AD_848,AD_9,AD_961,WFH_Waggl",,True,False,False,False,False,False,False,3.829,4.265,00f5k7p6qgd5fg@acme.com: 1069.8534,6.64,1.0,1.0,Automatically detected seniority,0.0,,3.0,Automatically detected business function,0.0,0.0,,0.0,,0.0,0.0,0.0,None,6.0,"AD_11 -- risk 6.0
+AD_15 -- risk None
+AD_3 -- risk 3.0
+AD_4XGroups -- risk None
+AD_6 -- risk None
+AD_8 -- risk None
+AD_9 -- risk None
+ad_groups_test -- risk None
+",0.0,,0.0,,0.0,,0.0,,2.125,2.125,2.125,2.108,1.7,"Assigned date: None  
+Finished date: None 
+Status: None",1.7,"Assigned date: None  
+Finished date: None 
+Status: None",1.7,"Assigned date: None  
+Finished date: None 
+Status: None",2.122,1.7,"Assigned date: None  
+Finished date: None 
+Status: None",1.7,"Assigned date: None  
+Finished date: None 
+Status: None",1.7,"Assigned date: None  
+Finished date: None 
+Status: None",1.7,"Assigned date: None  
+Finished date: None 
+Status: None",1.7,"Participated in 0 campaigns
+Failed 0 campaigns
+",2.108,1.7,"Assigned date: None  
+Finished date: None 
+Status: None",1.7,"Assigned date: None  
+Finished date: None 
+Status: None",1.7,"Assigned date: None  
+Finished date: None 
+Status: None",0.0,0.0,None,0.0,0.0,,0.0,,0.0,0.0,,0.0,0.0,United States of America,0.0,,0.0,0.0,0.0,,0.0,,0.0,
+00z5nmca8hwfow@acme.com,Tressa Ratliff,00z5nmca8hwfow@acme.com, Payroll Tax Specialist  (A),Finance,Employees,HostingPayroll Tax ,"AD_1,AD_1055,AD_1193,AD_2,AD_233,AD_3,AD_4,AD_47,AD_5,AD_51,AD_6,AD_6194,AD_7,AD_77,AD_8,AD_86,HDJ_M&A_users",,False,True,False,False,False,False,False,3.099,0.0,None,10.0,1.0,1.0,Automatically detected seniority,0.0,,10.0,Automatically detected business function,0.0,0.0,,0.0,,0.0,0.0,0.0,None,3.0,"AD_3 -- risk 3.0
+AD_4XGroups -- risk None
+AD_6 -- risk None
+AD_7 -- risk None
+AD_8 -- risk None
+ad_groups_test -- risk None
+",0.0,,0.0,,0.0,,0.0,,2.125,2.125,2.125,2.108,1.7,"Assigned date: None  
+Finished date: None 
+Status: None",1.7,"Assigned date: None  
+Finished date: None 
+Status: None",1.7,"Assigned date: None  
+Finished date: None 
+Status: None",2.122,1.7,"Assigned date: None  
+Finished date: None 
+Status: None",1.7,"Assigned date: None  
+Finished date: None 
+Status: None",1.7,"Assigned date: None  
+Finished date: None 
+Status: None",1.7,"Assigned date: None  
+Finished date: None 
+Status: None",1.7,"Participated in 0 campaigns
+Failed 0 campaigns
+",2.108,1.7,"Assigned date: None  
+Finished date: None 
+Status: None",1.7,"Assigned date: None  
+Finished date: None 
+Status: None",1.7,"Assigned date: None  
+Finished date: None 
+Status: None",0.0,0.0,,0.0,0.0,,0.0,,0.0,0.0,,0.0,0.0,United States of America,0.0,,0.0,0.0,0.0,,0.0,,0.0,
+01npeq8coyszbw@acme.com,Muinck Strickland,01npeq8coyszbw@acme.com,IT Sr. Service Partner,IT,Employees,"Enterprise Support, Time and Attendance","AD_1,AD_10,AD_1011,AD_1035,AD_1036,AD_1291,AD_13,AD_130,AD_131,AD_132,AD_133,AD_1337,AD_1389,AD_1526,AD_1585,AD_1661,AD_172,AD_176,AD_189,AD_192,AD_2,AD_2066,AD_2071,AD_21,AD_259,AD_266,AD_279,AD_286,AD_3,AD_324,AD_33,AD_345,AD_36,AD_3746,AD_39,AD_4,AD_412,AD_427,AD_428,AD_433,AD_4520,AD_5,AD_512,AD_5787,AD_6,AD_611,AD_6150,AD_6194,AD_637,AD_654,AD_7,AD_710,AD_785,AD_803,AD_9,AD_902,AD_96,AD_963,Iris Releases,WFH_Waggl",,False,True,False,False,False,False,False,3.054,0.0,None,9.64,1.0,1.0,Automatically detected seniority,0.0,,9.0,Automatically detected business function,0.0,0.0,,0.0,,0.0,0.0,0.0,None,3.0,"AD_13 -- risk None
+AD_132 -- risk None
+AD_21 -- risk None
+AD_3 -- risk 3.0
+AD_39 -- risk None
+AD_4XGroups -- risk None
+AD_6 -- risk None
+AD_7 -- risk None
+AD_9 -- risk None
+ad_groups_test -- risk None
+",0.0,,0.0,,0.0,,0.0,,2.125,2.125,2.125,2.108,1.7,"Assigned date: None  
+Finished date: None 
+Status: None",1.7,"Assigned date: None  
+Finished date: None 
+Status: None",1.7,"Assigned date: None  
+Finished date: None 
+Status: None",2.122,1.7,"Assigned date: None  
+Finished date: None 
+Status: None",1.7,"Assigned date: None  
+Finished date: None 
+Status: None",1.7,"Assigned date: None  
+Finished date: None 
+Status: None",1.7,"Assigned date: None  
+Finished date: None 
+Status: None",1.7,"Participated in 0 campaigns
+Failed 0 campaigns
+",2.108,1.7,"Assigned date: None  
+Finished date: None 
+Status: None",1.7,"Assigned date: None  
+Finished date: None 
+Status: None",1.7,"Assigned date: None  
+Finished date: None 
+Status: None",0.0,0.0,,0.0,0.0,,0.0,,0.0,0.0,,0.0,0.0,,0.0,,0.0,0.0,0.0,,0.0,,0.0,
+01pjbpyml1gaaq@acme.com,Sorcha Robles,01pjbpyml1gaaq@acme.com,Account Manager II,Sales,Managers,Agency Health Operations And Service,"AD_1,AD_106,AD_109,AD_113,AD_114,AD_117,AD_12,AD_136,AD_14,AD_147,AD_17,AD_2,AD_21,AD_27,AD_3,AD_3383,AD_35,AD_4,AD_4520,AD_5,AD_5360,AD_581,AD_6,AD_6194,AD_6645,AD_68,AD_7,AD_842,AD_876,AD_9,WFH_Waggl,Zoom Users DL",,False,False,False,False,False,False,False,2.116,0.0,None,3.68,2.0,2.0,Automatically detected seniority,0.0,,3.0,Automatically detected business function,0.0,0.0,,0.0,,0.0,0.0,0.0,None,3.0,"AD_12 -- risk None
+AD_14 -- risk 0.6
+AD_21 -- risk None
+AD_3 -- risk 3.0
+AD_35 -- risk None
+AD_4XGroups -- risk None
+AD_6 -- risk None
+AD_7 -- risk None
+AD_9 -- risk None
+ad_groups_test -- risk None
+",0.0,,0.0,,0.0,,0.0,,2.125,2.125,2.125,2.108,1.7,"Assigned date: None  
+Finished date: None 
+Status: None",1.7,"Assigned date: None  
+Finished date: None 
+Status: None",1.7,"Assigned date: None  
+Finished date: None 
+Status: None",2.122,1.7,"Assigned date: None  
+Finished date: None 
+Status: None",1.7,"Assigned date: None  
+Finished date: None 
+Status: None",1.7,"Assigned date: None  
+Finished date: None 
+Status: None",1.7,"Assigned date: None  
+Finished date: None 
+Status: None",1.7,"Participated in 0 campaigns
+Failed 0 campaigns
+",2.108,1.7,"Assigned date: None  
+Finished date: None 
+Status: None",1.7,"Assigned date: None  
+Finished date: None 
+Status: None",1.7,"Assigned date: None  
+Finished date: None 
+Status: None",0.0,0.0,,0.0,0.0,,0.0,,0.0,0.0,,0.0,0.0,United States of America,0.0,,0.0,0.0,0.0,,0.0,,0.0,
+01pm08zigm2liw@acme.com,Sanjeet Cantrell,01pm08zigm2liw@acme.com,Sales Representative Level I,Sales,Employees,Sales area 970,"AD_1,AD_12,AD_14,AD_17,AD_2,AD_25,AD_3,AD_4,AD_4407,AD_4520,AD_5,AD_6194,AD_655,AD_6645,AD_7,AD_8,AD_9,WFH_Waggl",,False,False,False,False,False,False,False,2.108,0.0,None,3.64,1.0,1.0,Automatically detected seniority,0.0,,3.0,Automatically detected business function,0.0,0.0,,0.0,,0.0,0.0,0.0,None,3.0,"AD_12 -- risk None
+AD_14 -- risk 0.6
+AD_3 -- risk 3.0
+AD_4XGroups -- risk None
+AD_7 -- risk None
+AD_8 -- risk None
+AD_9 -- risk None
+ad_groups_test -- risk None
+",0.0,,0.0,,0.0,,0.0,,2.125,2.125,2.125,2.108,1.7,"Assigned date: None  
+Finished date: None 
+Status: None",1.7,"Assigned date: None  
+Finished date: None 
+Status: None",1.7,"Assigned date: None  
+Finished date: None 
+Status: None",2.122,1.7,"Assigned date: None  
+Finished date: None 
+Status: None",1.7,"Assigned date: None  
+Finished date: None 
+Status: None",1.7,"Assigned date: None  
+Finished date: None 
+Status: None",1.7,"Assigned date: None  
+Finished date: None 
+Status: None",1.7,"Participated in 0 campaigns
+Failed 0 campaigns
+",2.108,1.7,"Assigned date: None  
+Finished date: None 
+Status: None",1.7,"Assigned date: None  
+Finished date: None 
+Status: None",1.7,"Assigned date: None  
+Finished date: None 
+Status: None",0.0,0.0,,0.0,0.0,,0.0,,0.0,0.0,,0.0,0.0,United States of America,0.0,,0.0,0.0,0.0,,0.0,,0.0,
+01s7cmoycxemvw@acme.com,Duncan Vargas,01s7cmoycxemvw@acme.com,Service Associate ,Support,Employees,Greensboro Division,"AD_1,AD_10,AD_15,AD_172,AD_2,AD_20,AD_21,AD_2343,AD_24,AD_3,AD_33,AD_398,AD_4,AD_4520,AD_5,AD_6,AD_6194,AD_7,AD_739,AD_8,AD_9,Employees_Missing_PENS_Info,WFH_Waggl",,False,False,False,False,False,False,False,2.108,0.0,None,3.64,1.0,1.0,Automatically detected seniority,0.0,,3.0,Automatically detected business function,0.0,0.0,,0.0,,0.0,0.0,0.0,None,3.0,"AD_15 -- risk None
+AD_21 -- risk None
+AD_3 -- risk 3.0
+AD_4XGroups -- risk None
+AD_6 -- risk None
+AD_7 -- risk None
+AD_8 -- risk None
+AD_9 -- risk None
+ad_groups_test -- risk None
+",0.0,,0.0,,0.0,,0.0,,2.125,2.125,2.125,2.108,1.7,"Assigned date: None  
+Finished date: None 
+Status: None",1.7,"Assigned date: None  
+Finished date: None 
+Status: None",1.7,"Assigned date: None  
+Finished date: None 
+Status: None",2.122,1.7,"Assigned date: None  
+Finished date: None 
+Status: None",1.7,"Assigned date: None  
+Finished date: None 
+Status: None",1.7,"Assigned date: None  
+Finished date: None 
+Status: None",1.7,"Assigned date: None  
+Finished date: None 
+Status: None",1.7,"Participated in 0 campaigns
+Failed 0 campaigns
+",2.108,1.7,"Assigned date: None  
+Finished date: None 
+Status: None",1.7,"Assigned date: None  
+Finished date: None 
+Status: None",1.7,"Assigned date: None  
+Finished date: None 
+Status: None",0.0,0.0,,0.0,0.0,,0.0,,0.0,0.0,,0.0,0.0,United States of America,0.0,,0.0,0.0,0.0,,0.0,,0.0,
