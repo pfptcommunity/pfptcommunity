@@ -165,7 +165,7 @@ Several BI and spreadsheet tools, like Microsoft Power BI and/or Excel or Google
 | [MS Power BI : Download the Power BI file](https://github.com/pfptcommunity/pfptcommunity/raw/main/tap_api.pbix) | Download the tap_api.pbix sheet   |
 | [MS Power BI : Screenshot](https://github.com/pfptcommunity/pfptcommunity/blob/main/tap_api_powerbi.jpg?raw=true) | Power BI screenshot Advanced Editor |
 | [Google Sheets : YouTube Video](https://youtu.be/8k-j2_Pjopw) | Short video tap_api google sheets sample |
-| [Google Sheets : Download sheet](https://docs.google.com/spreadsheets/d/15qy-uBS3fXl5mJXg8gSp9AC71xZQLCn1_z5kpC0uNiQ/copy) | Download the sheet/script  |
+| [Google Sheets : Download sheet](https://docs.google.com/spreadsheets/d/15qy-uBS3fXl5mJXg8gSp9AC71xZQLCn1_z5kpC0uNiQ/copy) | Download the sheet/script and run |
 | [Google Data Studio : YouTube Video](https://youtu.be/4-f6s09WGkI) | Short video Google Data Studio VAP Connector |
 
 
@@ -217,7 +217,7 @@ Below code snippets will help you to get started with the initial authentication
 | [tap_api_private.php](https://github.com/pfptcommunity/pfptcommunity/blob/main/tap_api_private.php) | PHP Request |
 | [tap_api_private.pqs](https://github.com/pfptcommunity/pfptcommunity/blob/main/tap_api_private.pqs) | M Code for Excel or Power BI |
 | [tap_api_private.ps1](https://github.com/pfptcommunity/pfptcommunity/blob/main/tap_api_private.ps1) | Powershell Request |
-| [gscript](https://script.google.com/home/projects/1wBko_bTIrf-5ugVIOa5ypdJA1OEezUHyEbsVDX6Ntg2uIQ3DvWu3yGJL/edit)  | Google Data Studio Connector VAPs Source |
+| [GDS tap connector](https://script.google.com/home/projects/1wBko_bTIrf-5ugVIOa5ypdJA1OEezUHyEbsVDX6Ntg2uIQ3DvWu3yGJL/edit)  | Google Data Studio Connector VAPs |
 
 
 <br>
@@ -484,9 +484,9 @@ Proofpoint Emerging Threat Intelligence delivers the most timely and accurate th
 
 | Action  | Description | 
 | ------------- | ------------- | 
-| [Excel : Download Sample](https://github.com/pfptcommunity/pfptcommunity/raw/main/eti_api.xlsx) | Download the eti_api.xlsx sheet DRAFT   |
-| [GSheet : Video demo](https://youtu.be/DIqYTRCdayA) | Watch Google Sheets sample  |
-| [GSheet : Download Sample](https://docs.google.com/spreadsheets/d/1aKHiWXV4ezIv7FPvhfOZrkI8sDZBAQRpHgmIWAduJ8U/copy) | Download Google Sheets sample  |
+| [MS Excel : Download Sample](https://github.com/pfptcommunity/pfptcommunity/raw/main/eti_api.xlsx) | Download the eti_api.xlsx sheet DRAFT   |
+| [Google Sheets : Video demo](https://youtu.be/DIqYTRCdayA) | Watch Google Sheets sample  |
+| [Google Sheets : Download Sample](https://docs.google.com/spreadsheets/d/1aKHiWXV4ezIv7FPvhfOZrkI8sDZBAQRpHgmIWAduJ8U/copy) | Download Google Sheets sample  |
 
 
 
