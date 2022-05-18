@@ -269,7 +269,7 @@ Several BI and spreadsheet tools, like Microsoft Power BI and/or Excel or Google
 | [MS Power BI : YouTube Demo Video](https://youtu.be/gWChHj-VKKU) | Short demonstration of the npre_api_csv.pbix Power BI sample file |
 | [MS Power BI : YouTube Howto Video](https://youtu.be/AKuiMyCnamk) | Howto getting started with the npre_api_csv.pbix Power BI sample file |
 | [MS Power BI : Download pbix file](https://github.com/pfptcommunity/pfptcommunity/raw/main/npre_api_csv.pbix) | Download the npre_api_csv.pbix Power BI sample file   |
-| [Google Sheets : copy spreadsheet](https://docs.google.com/spreadsheets/d/10ve_6_VwsasDk20MDIA66osealmmThQ_dJSO3-kqRuE/copy) | Copy sheet/script sample  |
+| [Google Sheets : copy spreadsheet](https://docs.google.com/spreadsheets/d/1jnAiBaKHOfTczWSGt9Ow7aqCw2KCQTLfj0YOlbS3gZ4/copy) | Copy sheet/script sample  |
 | [Google Data Studio : YouTube Demo Video](https://www.youtube.com/watch?v=rv-oRbwZOCo) | Short demonstration of GDS pulling data from NPRE |
 
 
