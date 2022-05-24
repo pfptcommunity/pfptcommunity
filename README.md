@@ -320,6 +320,8 @@ https://ptr-docs.proofpoint.com/extensibility-guides/ptr-api/#threat-response-ap
 Proofpoint Security Awareness Training Results API [Documentation](https://proofpoint.securityeducation.com/pfptcommunity/reporting/documentation/) and [this on proofpointcommunity](
 https://proofpointcommunities.force.com/community/s/article/Reports-API-Results-API-Setup).
 
+[Developer Guide](https://proofpointcommunities.force.com/community/s/article/Reports-API-Developer-Guide)
+
 The PSAT Results API contains five endpoints from which you can retrieve and filter data for your business needs:
 
 * CyberStrength – returns information from CyberStrength
