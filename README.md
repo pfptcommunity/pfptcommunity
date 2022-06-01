@@ -222,6 +222,13 @@ Below code snippets will help you to get started with the initial authentication
 
 <br>
 
+
+| Samples | Language | 
+| ------------- | ------------- | 
+| [xxxx.js](file.js) | my first line of code |
+
+<br>
+
 ## TAP GitHub Projects
 
 Some projects we found on GitHub:
