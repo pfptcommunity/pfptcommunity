@@ -207,7 +207,7 @@ headers.Authorization = "Basic " + encode.base64 ( principal + ":" + secret )
 
 Below code snippets will help you to get started with the initial authentication and get some data from an endpoint.
 
-| Code Snippet (core request) | Language | 
+| Basic Request Samples | Language | 
 | ------------- | ------------- | 
 | [tap_api_private.js](https://github.com/pfptcommunity/pfptcommunity/blob/main/tap_api_private.js) | Javascript / Node.js Request |
 | [tap_api_private.py](https://github.com/pfptcommunity/pfptcommunity/blob/main/tap_api_private.py) | Python Request  |
@@ -223,7 +223,7 @@ Below code snippets will help you to get started with the initial authentication
 <br>
 
 
-| Samples | Language | 
+| Other code Samples | Language | 
 | ------------- | ------------- | 
 | [xxxx.js](file.js) | my first line of code |
 
@@ -301,16 +301,21 @@ request3              = Get CSV file
 
 Below code snippets will help you to get started with the initial authentication and get some data from an endpoint.
 
-| Code Snippet | Language | 
+| Basic Request Samples | Language | 
 | ------------- | ------------- | 
 | [npre_api_csv.js](https://github.com/pfptcommunity/pfptcommunity/blob/main/npre_api_csv.js) | Javascript / Node.js Request |
 | [npre_api_csv.py](https://github.com/pfptcommunity/pfptcommunity/blob/main/npre_api_csv.py) | Python Request  |
-| [npre_api_csv_test.py](https://github.com/pfptcommunity/pfptcommunity/blob/main/npre_api_csv_test.py) | Python test script |
 | [npre_api_csv.gs](https://github.com/pfptcommunity/pfptcommunity/blob/main/npre_api_csv.gs) | Google Apps Script (GAS) Request |
 | [npre_api_csv.pqs](https://github.com/pfptcommunity/pfptcommunity/blob/main/npre_api_csv.pqs) | M Code for Excel or Power BI |
 | [npre_sample.csv](https://raw.githubusercontent.com/pfptcommunity/pfptcommunity/main/npre_sample.csv) | Sample CSV file |
 
+
 <br>
+
+
+| Other code Samples | Language | 
+| ------------- | ------------- | 
+| [npre_api_csv_test.py](https://github.com/pfptcommunity/pfptcommunity/blob/main/npre_api_csv_test.py) | Python test script - output to file |
 
 ------------
 # TRAP API
