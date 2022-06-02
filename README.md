@@ -225,8 +225,7 @@ Below code snippets will help you to get started with the initial authentication
 
 | Useful Code Snippets    | Language | 
 | ------------- | ------------- | 
-| [todo.js](file.js) | add you code here |
-| [tap_api_return_vaps.py](https://github.com/pfptcommunity/pfptcommunity/blob/main/tap_api_return_vaps.py)|
+| [tap_api_return_vaps.py](https://github.com/pfptcommunity/pfptcommunity/blob/main/tap_api_return_vaps.py)| Python with Pandas (analysis)
 
 <br>
 
