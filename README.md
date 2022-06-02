@@ -207,7 +207,7 @@ headers.Authorization = "Basic " + encode.base64 ( principal + ":" + secret )
 
 Below code snippets will help you to get started with the initial authentication and get some data from an endpoint.
 
-| Code Snippet | Language | 
+| Code Snippet (core request) | Language | 
 | ------------- | ------------- | 
 | [tap_api_private.js](https://github.com/pfptcommunity/pfptcommunity/blob/main/tap_api_private.js) | Javascript / Node.js Request |
 | [tap_api_private.py](https://github.com/pfptcommunity/pfptcommunity/blob/main/tap_api_private.py) | Python Request  |
