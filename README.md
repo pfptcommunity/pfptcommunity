@@ -225,7 +225,7 @@ Below code snippets will help you to get started with the initial authentication
 
 | Useful Code Snippets    | Language | 
 | ------------- | ------------- | 
-| [tap_api_return_vaps.py](https://github.com/pfptcommunity/pfptcommunity/blob/main/tap_api_return_vaps.py)| Python with Pandas (analysis)
+| [tap_api_return_vaps.py](https://github.com/pfptcommunity/pfptcommunity/blob/main/tap_api_return_vaps.py)| Python - returns VAPs with Pandas (analysis)
 
 <br>
 
