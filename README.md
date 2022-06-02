@@ -223,7 +223,7 @@ Below code snippets will help you to get started with the initial authentication
 <br>
 
 
-| Other code Samples | Language | 
+| Useful Code Snippets | Language | 
 | ------------- | ------------- | 
 | [xxxx.js](file.js) | my first line of code |
 
