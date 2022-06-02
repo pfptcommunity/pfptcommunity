@@ -223,7 +223,7 @@ Below code snippets will help you to get started with the initial authentication
 <br>
 
 
-| Useful Code Snippets   | Language | 
+| Useful Code Snippets    | Language | 
 | ------------- | ------------- | 
 | [xxxx.js](file.js) | my first line of code |
 
@@ -313,7 +313,7 @@ Below code snippets will help you to get started with the initial authentication
 <br>
 
 
-| Other code Samples | Language | 
+| Useful Code Snippets    | Language | 
 | ------------- | ------------- | 
 | [npre_api_csv_test.py](https://github.com/pfptcommunity/pfptcommunity/blob/main/npre_api_csv_test.py) | Python test script - output to file |
 
