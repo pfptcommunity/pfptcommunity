@@ -237,6 +237,7 @@ Some projects we found on GitHub:
 - [Powershell wrapper by lambdac0de](https://github.com/lambdac0de/ProofpointTAP )
 - [Powershell wrapper by Midnigh7](https://github.com/Midnigh7/PSProofpoint )
 - [Python client by drizzo-tech ***](https://github.com/drizzo-tech/proofpoint_tap)
+- [Python client by Jason Ford ***](https://github.com/jasonsford/pytap)
 - [Python SIEM API Humio Package](https://github.com/CrowdStrike/Proofpoint-SIEM-API-Humio-Package-Integration)
 - [Python SDK for decoding safeurls from Proofpoint, Microsoft, etc](https://github.com/renisac/safeurl-decoder)
 - [Python VMware Carbon Black Cloud Endpoint Standard or Enterprise EDR](https://github.com/cbcommunity/cbc-proofpoint-malicous-file-detection)
