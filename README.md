@@ -241,6 +241,7 @@ Some projects we found on GitHub:
 - [Python SIEM API Humio Package](https://github.com/CrowdStrike/Proofpoint-SIEM-API-Humio-Package-Integration)
 - [Python SDK for decoding safeurls from Proofpoint, Microsoft, etc](https://github.com/renisac/safeurl-decoder)
 - [Python VMware Carbon Black Cloud Endpoint Standard or Enterprise EDR](https://github.com/cbcommunity/cbc-proofpoint-malicous-file-detection)
+- [Python Splunk Soar Connectors](https://github.com/splunk-soar-connectors/proofpoint)
 - [Node-RED Client by Anamico](https://github.com/Anamico/node-red-contrib-proofpoint)
 - [Javascript URL revealer for Gmail chrome extension by qubitslover](https://github.com/qubitslover/proofpoint)
 - [Javascript URL revealer by Manikantapayasam ](https://github.com/Manikantapayasam/proofpoint-decoder)
