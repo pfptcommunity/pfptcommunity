@@ -12,7 +12,7 @@ Here is a quick link to open this readme in [WIDE MODE](https://github.com/pfptc
 - [Targeted Attack Protection (TAP)](#TAP-API)
   - [Spreadsheet or BI Tools](#spreadsheet-or-bi-tools-consuming-tap-api-data)
   - [Code snippets](#cool-tap-api-code-snippets)
-  - [Github project](#tap-github-projects)
+  - [Github projects](#tap-github-projects)
 - [Nexus People Risk Explorer (NPRE)](#NPRE-API)
   - [Spreadsheet or BI Tools](#spreadsheet-or-bi-tools-consuming-npre-peoplerisk-data)  -  Most Popular
   - [Code snippets](#cool-npre-api-code-snippets)
