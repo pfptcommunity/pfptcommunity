@@ -331,7 +331,7 @@ https://ptr-docs.proofpoint.com/extensibility-guides/ptr-api/#threat-response-ap
 ------------
 # PSAT API
 
-Proofpoint Security Awareness Training Results API [Documentation]([https://proofpoint.securityeducation.com/pfptcommunity/reporting/documentation/](https://proofpoint.securityeducation.com/api/reporting/documentation/)) and [this on proofpointcommunity](
+Proofpoint Security Awareness Training [Results API Documentation](https://proofpoint.securityeducation.com/api/reporting/documentation) and [this article on proofpointcommunity](
 https://proofpointcommunities.force.com/community/s/article/Reports-API-Results-API-Setup).
 
 [Developer Guide](https://proofpointcommunities.force.com/community/s/article/Reports-API-Developer-Guide)
