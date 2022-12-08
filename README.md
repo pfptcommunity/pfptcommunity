@@ -4,7 +4,6 @@ The content and samples on this page are created by the pfptcommunity and not cr
 Official Proofpoint, out of box (partner) integrations can be found on the [Proofpoint Technology Partners page](https://www.proofpoint.com/us/partners/technology-alliance-partners).
 
 Please **★ Star** on the top of this page if you like this page!  Did you create something cool, we are **looking for your help**, to extend this page with some cool samples. Please contact us at pfptcommunity@gmail.com if you want to join the pfptcommunity.  
-Here is a quick link to open this readme in [WIDE MODE](https://github.com/pfptcommunity/pfptcommunity/blob/main/README.md)
 
 <br>
 
