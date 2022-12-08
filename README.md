@@ -350,7 +350,7 @@ The PSAT Results API contains five endpoints from which you can retrieve and fil
 
 | Action  | Description | 
 | ------------- | ------------- | 
-| [Download Spreadsheet](https://github.com/pfptcommunity/pfptcommunity/raw/main/psat_api.xlsx) | Download the psat_api.xlsx sheet FIRST DRAFT  |
+| [Download Spreadsheet](https://github.com/pfptcommunity/pfptcommunity/raw/main/psat_api.xlsx) | Download the psat_api.xlsx phishing endpoint  |
 | [M Code script](https://github.com/pfptcommunity/pfptcommunity/blob/main/psat_api_private.pqs) | M Code for Excel or Power BI |
 
 
