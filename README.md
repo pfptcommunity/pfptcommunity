@@ -379,6 +379,7 @@ AP: results.ap.securityeducation.com
 Found 
 
 [Python module to interact with the Proofpoint Security Awareness Training (PSAT) Results API](https://github.com/regg00/psat-result-api)
+[PSAT API via Python by ludvikjerabek](https://github.com/pfptcommunity/psat-api-python)
 
 
 <br>
