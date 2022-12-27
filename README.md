@@ -349,8 +349,8 @@ The PSAT Results API contains five endpoints from which you can retrieve and fil
 
 | Action  | Description | 
 | ------------- | ------------- | 
-| [Download Spreadsheet](https://github.com/pfptcommunity/pfptcommunity/raw/main/psat_api.xlsx) | PSAT Results API Explorer in Excel  |
-| [Howto Spreadsheet](https://www.youtube.com/watch?v=pdNIeKyXtTA) | Video PSAT Results API Explorer in Excel  |
+| [MS Excel : YouTube Howto Video](https://youtu.be/ESdQP5oKyxA) | Video PSAT Results API Explorer in Excel  |
+| [MS Excel : Download the Spreadsheet](https://github.com/pfptcommunity/pfptcommunity/raw/main/psat_api.xlsx) | PSAT Results API Explorer in Excel  |
 | [M Code script](https://github.com/pfptcommunity/pfptcommunity/blob/main/psat_api_private.pqs) | M Code for Excel or Power BI |
 
 
