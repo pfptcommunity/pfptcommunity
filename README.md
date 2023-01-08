@@ -438,7 +438,9 @@ The API is available across all stacks. As a reference point, you can get to the
 Found on Github
 
 - [Python wrapper by miearls](https://github.com/miearls/proofpoint)
+- [Python async-essentials by Simon K](https://github.com/symonk/async-essentials)
 - [c# wrapper by singhkamall](https://github.com/singhkamall/ProofPointEssentialsClient  )
+- 
 
 
 ------------
