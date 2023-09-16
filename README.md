@@ -162,7 +162,7 @@ Several BI and spreadsheet tools, like Microsoft Power BI and/or Excel or Google
 | [MS Excel : Download the Spreadsheet](https://github.com/pfptcommunity/pfptcommunity/raw/main/tap_api.xlsx) | Download the tap_api.xlsx sheet   |
 | [MS Power BI : YouTube Video](https://youtu.be/cfnkOV6k8H0) | Short video tap_api_people.xlsx sample Power BI file |
 | [MS Power BI : Download the Power BI file](https://github.com/pfptcommunity/pfptcommunity/raw/main/tap_api.pbix) | Download the tap_api.pbix sheet   |
-| [MS Power BI : Screenshot](https://github.com/pfptcommunity/pfptcommunity/blob/main/tap_api_powerbi.jpg?raw=true) | Power BI screenshot Advanced Editor |
+| [MS Power BI : Screenshot](https://github.com/pfptcommunity/pfptcommunity/blob/main/tap_api_powerbi.jpg) | Power BI screenshot Advanced Editor |
 | [Google Sheets : YouTube Video](https://youtu.be/8k-j2_Pjopw) | Short video tap_api google sheets sample |
 | [Google Sheets : Download sheet](https://docs.google.com/spreadsheets/d/15qy-uBS3fXl5mJXg8gSp9AC71xZQLCn1_z5kpC0uNiQ/copy) | Download the sheet/script and run |
 | [Google Data Studio : YouTube Video](https://youtu.be/4-f6s09WGkI) | Short video Google Data Studio VAP Connector |
