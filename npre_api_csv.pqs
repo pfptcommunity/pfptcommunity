@@ -9,6 +9,7 @@ let
     tokenuri    = "'https://auth.proofpoint.com/v1/token",
     apiuri      = "'https://api.peoplecentric.proofpoint.com/graphql",
     time_series = 20220224,   // *** change your timestamp 2022 02 24 // this is converted to text later
+    // time_series = DateTime.ToText(DateTime.LocalNow(), "yyyyMMdd"), // Get current date in the desired format  
 
     // STEP 1: Get the Bearer Token
     token   = GetAccessToken(principal,secret,tokenuri),
