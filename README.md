@@ -283,6 +283,7 @@ Several BI and spreadsheet tools, like Microsoft Power BI and/or Excel or Google
 
 Howto: Getting started with Power BI. 
 
+- **Try the Excel version first!** Both use the same Microsoft M-code, so it's good to see that working as well..
 - Open [Power BI](https://app.powerbi.com) and download Power BI desktop. 
 - Download the pbix sample from this page and open it in Power BI
 - Watch the howto video 
